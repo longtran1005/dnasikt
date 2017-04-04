@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="sv-SE" prefix="og: http://ogp.me/ns#" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script type="text/javascript">
+			window.burtApi = window.burtApi || [];
+			window.burtApi.push(function() {
+				window.burtApi.startTracking(function(api) {
+					api.startUnitTracking();
+					api.setTrackingKey('PROQ78NN5NBP', 'produkter.dn.se');
+					api.setDomain('dn.se');
+					api.addCloudKey('INS8GFMRVMI1');
+					api.setCategory('dnasikt.se', 'debatt');
+				});
+			});
+			window.byburt_onServicePlusIdSync = function(id) {
+			    window.burtApi.push(function() {
+			        id && window.burtApi.connect('burt.beacon', 'serviceplus-id', id);
+			        burtApi.annotate('burt.content', 'loggedinbeacon', true);
+			    });
+			};
+					</script>
+
+		<script type="text/javascript" src="http://fusion.dn.se/script.js?ads=dn"></script>
+		<script type="text/javascript" src="http://www.dn.se/oas/fusion_utils.js?v=11"></script>
+		<script>
+		    window.Fusion.adServer = "fusion.dn.se";
+
+		    window.Fusion.usepostscribe=true;
+		    window.Fusion.usecheckads=false;
+		    window.Fusion.parameters["byburt_segments"] = (!!window.byburt_segments.length) ? window.byburt_segments : 'none';
+		    window.Fusion.parameters["cookiesDomain"] = "fusion.dn.se";
+
+		    if( window.innerWidth < 767 ) {
+	    		window.Fusion.mediaZone = "dn.mobil_dn_se.debatt.asikt";
+	        	window.Fusion.layout = "m_asikt";
+	    	}
+	    	else {
+	    		window.Fusion.mediaZone = "dn.dn_se.debatt.asikt";
+	        	window.Fusion.layout = "asikt";
+	    	}
+
+    		/**
+		    if( window.innerWidth < 767 ) {
+		    			    		window.Fusion.mediaZone = "dnse.smallscreens.asikt.sektion.undersektion.artikel";
+		        	window.Fusion.layout = "Small_asikt_artikel";
+		        		    } else {
+		    			    		window.Fusion.mediaZone = "dnse.largescreens.asikt.sektion.undersektion.artikel";
+		        	window.Fusion.layout = "Large_asikt_artikel";
+		        		    }*/
+		    window.Fusion.loadAds();
+		</script>
+
+		
+<!-- This site is optimized with the Yoast WordPress SEO plugin v2.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Om ändå cyklister körde som bilar (på ett bra sätt) - DN.Åsikt</title>
+<meta name="description" content="Bilister och cyklister - sansa er! Inse att situationen faktiskt kan bli bättre med lite vanlig bonnavett: behandla andra som du vill bli behandlad själv. Och ha lite överseende! Hur många misstag gjorde du själv imorse?"/>
+<link rel="canonical" href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/om-anda-cyklister-korde-som-bilar-pa-ett-bra-satt/" />
+<meta property="og:locale" content="sv_SE" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Om ändå cyklister körde som bilar (på ett bra sätt) - DN.Åsikt" />
+<meta property="og:description" content="Bilister och cyklister - sansa er! Inse att situationen faktiskt kan bli bättre med lite vanlig bonnavett: behandla andra som du vill bli behandlad själv. Och ha lite överseende! Hur många misstag gjorde du själv imorse?" />
+<meta property="og:url" content="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/om-anda-cyklister-korde-som-bilar-pa-ett-bra-satt/" />
+<meta property="og:site_name" content="DN.Åsikt" />
+<meta property="article:publisher" content="https://www.facebook.com/dn.asikt" />
+<meta property="og:image" content="http://asikt.dn.se/wp-content/uploads/2015/09/dnasikt_black_200x200.jpg" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Bilister och cyklister - sansa er! Inse att situationen faktiskt kan bli bättre med lite vanlig bonnavett: behandla andra som du vill bli behandlad själv. Och ha lite överseende! Hur många misstag gjorde du själv imorse?"/>
+<meta name="twitter:title" content="Om ändå cyklister körde som bilar (på ett bra sätt) - DN.Åsikt"/>
+<meta name="twitter:site" content="@DNasikt"/>
+<meta name="twitter:domain" content="DN.Åsikt"/>
+<meta name="twitter:image:src" content="http://asikt.dn.se/wp-content/uploads/2015/09/dnasikt_black_200x200.jpg"/>
+<meta name="twitter:creator" content="@DNasikt"/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='q-a-plus-css'  href='http://asikt.dn.se/wp-content/plugins/q-and-a/css/q-a-plus.css?ver=1.0.6.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='lwst-application-style-css'  href='http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/build/css/main.css?ver=1.0' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://asikt.dn.se/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://asikt.dn.se/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3" />
+<link rel='shortlink' href='http://asikt.dn.se/asikt/?p=669' />
+<!-- Q & A -->
+		<noscript><link rel="stylesheet" type="text/css" href="http://asikt.dn.se/wp-content/plugins/q-and-a/css/q-a-plus-noscript.css?ver=1.0.6.2" /></noscript><!-- Q & A -->
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="57x57" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/manifest.json">
+		<link rel="shortcut icon" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/mstile-144x144.png">
+		<meta name="msapplication-config" content="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<!-- // FAVICONS -->
+
+	</head>
+	<body class="single single-asikt postid-669">
+
+<nav class="navbar navbar-fixed-top">
+	<div class="container-fluid container-nav">
+		<div class="navbar-alerts">
+			<div id="alerts"></div>
+		</div>
+		<div class="navbar-header">
+			<a class="navbar-brand" href="http://asikt.dn.se/asikt/"></a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<i class="dnicon-dn_user header-icon"></i>
+				<!--<img src="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/images/icon_user.svg" class="open" /> -->
+				<i class="dnicon-close"></i>
+			</button>
+			<button type="button" class="navbar-toggle">
+				<a href="http://asikt.dn.se/borja-skapa-ditt-inlagg/"><i class="fa fa-pencil-square-o header-icon"></i></a>
+			</button>
+			<button type="button" class="navbar-toggle">
+				<a href="http://asikt.dn.se/om-dn-asikt/"><i class="dnicon-question header-icon"></i></a>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="navbar-right">
+				<form class="navbar-form searchform" role="search" method="get" id="searchform" action="http://asikt.dn.se/asikt/">
+					<div class="form-group">
+						<input type="search" name="s" id="search" class="form-control" value="" placeholder="Sök"/>
+					    <button class="js--toggle-search-input btn btn-naked"><span>Sök</span><i class="dnicon-search header-icon"></i></button>
+					</div>
+	  			</form>
+	  			<ul class="nav navbar-nav">
+	  			
+									<li><a href="https://auth.dn.se?appId=dagensnyheter.se&lc=sv&callback=http%3A%2F%2Fasikt.dn.se%2Fasikt%2Fdebatt%2Fstockholmarna-maste-parkera-bilen%2Fom-anda-cyklister-korde-som-bilar-pa-ett-bra-satt%2F" onclick="dataLayer.push({event: 'customEvent',eventCategory:'Navbar',eventAction:'Login'});">Logga in <i class="dnicon-dn_user header-icon"></i><!-- <img src="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/images/icon_user.svg" class="icon-user" />--></a></li>
+								</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div class="container-fluid container-main">
+	<div class="row">
+		<section class="col-md-10 section-content">
+<div class="row">
+
+	
+
+		
+			<div class='col-sm-12'>
+				<div class='ad-wrapper'>
+					<div class='ad-text'>Annons:</div><div id="AD-Top2-wrapper" class="dnasikt-ad-Top2 hidden-xs">
+			<div id="AD-Top2" data-width="960" data-name="Top2" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-Top2", "Top2", false);
+				</script>
+			</div>
+		</div><div id="AD-m_Top1-wrapper" class="dnasikt-ad-m_Top1 visible-xs">
+			<div id="AD-m_Top1" data-width="320" data-name="m_Top1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-m_Top1", "m_Top1", false);
+				</script>
+			</div>
+		</div>
+				</div>
+			</div>
+	
+	<main class="col-sm-8 col-md-9">
+					
+<article class="conversation">
+
+		<div class="col-md-offset-2">
+		<div class="header double">
+			<span class="label-heading-red">Ett grönare Stockholm</span>
+			<h1 class="conversation-title article">MARIA HOLMSTRÖM: Om ändå cyklister körde som bilar (på ett bra sätt)</h1>
+		</div>
+	</div>
+	
+
+	<div class="col-md-offset-2 conversation-body">
+		<div class="content clearfix">
+			<div>
+				<span class="date">Publicerad: 10 september, 2015</span>
+			</div>
+			<div class="excerpt ff-serif-headline-black">
+				<p>Bilister och cyklister &#8211; sansa er! Inse att situationen faktiskt kan bli bättre med lite vanlig bonnavett: behandla andra som du vill bli behandlad själv. Och ha lite överseende! Hur många misstag gjorde du själv imorse?</p>
+			</div>
+
+			
+				<div class="article-summary clearfix">
+									<div class="vote reply">
+						<h2>Svar till Anneli Önneby</h2>
+						<p>Detta är ett svar på huvudinlägget på debatten "Ett grönare Stockholm". <a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/" class="line link">Till huvudinlägget</a></p>
+					</div>
+				
+					<div class="vote persons">
+						<a href="#vote-person" class="js--anchor_link span-link updown">
+							<span class="question updown text-center">
+								<i class="summary-icon dnicon-question background"></i>
+								<span class="link">Vilka ska svara?</span>
+							</span>
+							<span class="summary updown text-center">
+								<i class="summary-icon dnicon-person"></i>
+								<span class="summary-text">
+																														<span class="count persons">389</span> röstar på
+											<span class="person">Stadens politiker</span>
+																											</span>
+							</span>
+						</a>
+					</div>
+				</div>
+
+			
+
+			<div class="share-wrapper">
+				<div class="share-btn share-facebook">
+					<a class="js--share_this" href="http://www.facebook.com/sharer.php?u=http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/om-anda-cyklister-korde-som-bilar-pa-ett-bra-satt/" data-id="669" data-source="facebook" data-nonce="92e786ff2a">
+						<span class="text">Facebook</span>
+						<span class="count">0</span>
+					</a>
+				</div>
+				<div class="share-btn share-twitter">
+					<a class="js--share_this" href="https://twitter.com/intent/tweet?text=Om ändå cyklister körde som bilar (på ett bra sätt)&url=http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/om-anda-cyklister-korde-som-bilar-pa-ett-bra-satt/" data-id="669" data-source="twitter" data-nonce="92e786ff2a">
+						<span class="text">Twitter</span>
+						<span class="count">0</span>
+					</a>
+				</div>
+				<div class="share-btn share-follow ">
+					<a href="#" class="js--follow_post" data-nonce="8505d4e3a2" data-id="599" data-text="Följer denna debatt">
+						<span class="text">Följ debatt</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+			</div>
+
+			<p>Min bekantskapskrets är full av allehanda halsbrytande historier om cyklister som råkat illa ut och den skyldiges identitet är ofta höljd i mörker. Nästan lika ofta kan man med hårt arbete få fram att skulden inte alltid är helt entydigt.</p>
+<p>Själv har jag varit förskonad från våldsamheter, men jag tror att mycket kan förbättras om alla upphör att kalla sig &#8221;offer&#8221; för biltrafik eller &#8221;den som räddar alla cyklister med hjälp av bromspedalen&#8221;. Låt oss alla köra som  &#8211; BRA bilister, ett släkte som är bundet av en hög med regler som förhindrar de värsta misstagen.</p>
+<p>1) Högerregel, stopp- och väjningsplikt gäller även cyklister.</p>
+<p>2) Cykelbanor ska användas av cyklister, trottoar av fotgängare och vägbana av bilar. Om du någon gång tvingas byta yta ska du vara medveten om att du är i &#8221;fel vatten&#8221; och uppföra dig med tillbörlig respekt.</p>
+<p>Slutligen, om man utgår ifrån att medtrafikanterna faktiskt inte är idioter utan helt vanliga människor som råkade tänka fel, så blir upplevelsen mycket trevligare. Kanske skulle man även få mer förståelse nästa gång man själv klantar sig.</p>  <div class="ad-wrapper"><div class="ad-text">Annons:</div><div id="AD-k2a1-wrapper" class="dnasikt-ad-k2a1 hidden-xs">
+			<div id="AD-k2a1" data-width="500" data-name="k2a1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-k2a1", "k2a1", false);
+				</script>
+			</div>
+		</div><div id="AD-m_Middle1-wrapper" class="dnasikt-ad-m_Middle1 visible-xs">
+			<div id="AD-m_Middle1" data-width="320" data-name="m_Middle1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-m_Middle1", "m_Middle1", false);
+				</script>
+			</div>
+		</div></div>
+		</div>
+
+		<div class="author">
+			<div class="header double">
+				<span class="sub-heading border">Om skribenten</span>
+			</div>
+							<img src="http://2.gravatar.com/avatar/b2c1cb40f3394e5c9d87ee0559dbabb9?s=150&#038;d=mm&#038;r=g" alt="author" class="author-image"/>
+						<div class="author-bio">
+				<span class="author-name">MARIA HOLMSTRÖM</span>
+				Forskare på Göteborgs universitet och förfärad över hur stor skillnaden är mellan den stockholmska och göteborgska trafikkulturen. Hur svårt kan det vara att inte stanna mitt i en korsning?			</div>
+		</div>
+	</div>
+
+	
+	<div class="conversation-list-container">
+		<div class="header double">
+			<span class="sub-heading red">Summering</span>
+			<div class="h2">Ett grönare Stockholm</div>
+		</div>
+		<ul class="conversation-list">
+							<li >
+					<span class="conversation-date date">Publicerad: 7 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/"><span class="author">Anneli Önneby:</span> Stockholmarna måste parkera bilen</a>
+					</h3>
+											<p>Omvandla staden till en grön oas med fler cykelbanor och odlingsmöjligheter och färre körbanor och parkeringsplatser. Politiker: Våga visa vägen framåt, till en grön framtid!</p>
+						<div class="vote-bar-container  ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="63" style="width:63%;"></div>
+				<div class="negative" data-procent="37" style="width:37%;"></div>
+			</div>
+		</div>										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 8 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/innan-bilen-parkeras-maste-stockholmscyklisterna-lara-sig-trafikvett/"><span class="author">Carl Platen:</span> Innan bilen parkeras måste Stockholmscyklisterna lära sig trafikvett</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 8 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/ett-stockholm-bara-till-for-dem-som-bor-innanfor-tullarna/"><span class="author">Magnus Ahlden:</span> Ett stockholm bara till för dem som bor innanför tullarna</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 8 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/parkeringsplatser-anvands-365-dagar-om-aret/"><span class="author">Anders Lindstrom:</span> Parkeringsplatser används 365 dagar om året</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 8 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/carl-platen-hur-mater-vi-trafikvett/"><span class="author">Anneli Önneby:</span> Till Carl Platen: hur mäter vi trafikvett?</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 9 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/trafikvett-ska-inte-matas-utan-utovas/"><span class="author">PER ANDERSSON:</span> Trafikvett ska inte mätas utan utövas</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 9 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/replik-till-anneli-onneby/"><span class="author">Carl Platen:</span> Replik till Anneli Önneby</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 9 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/idag-ar-det-mellan-cyklister-och-gaende-konflikten-finns/"><span class="author">Kent Berg:</span> I dag är det mellan cyklister och gående konflikten finns</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 9 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/magnus-ahlden-vari-ligger-elitismen-i-att-tanka-pa-framtiden/"><span class="author">Anneli Önneby:</span> Till Magnus Ahlden: Vari ligger elitismen i att tänka på framtiden?</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 9 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/okad-cykeltrafik-staller-nya-krav-pa-alla-trafikanter/"><span class="author">Lars Lundberg:</span> Ökad cykeltrafik ställer nya krav på alla trafikanter</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 9 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/lite-hansyn-och-sunt-fornuft/"><span class="author">Roland Karlsson:</span> Lite hänsyn och sunt förnuft</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 9 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/replik-anders-lindstrom-att-bilarna-blir-fler-betyder-inte-att-det-ar-ratt-riktning-att-ga/"><span class="author">Anneli Önneby:</span> Replik: Anders Lindstrom. Att bilarna blir fler betyder inte att det är rätt riktning att gå!</a>
+					</h3>
+										</li>
+							<li class="active">
+					<span class="conversation-date date">Publicerad: 10 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/om-anda-cyklister-korde-som-bilar-pa-ett-bra-satt/"><span class="author">MARIA HOLMSTRÖM:</span> Om ändå cyklister körde som bilar (på ett bra sätt)</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 10 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/det-ar-dags-att-borja-betrakta-cyklister-som-trafik/"><span class="author">Per Rundblom:</span> Det är dags att börja betrakta cyklister som trafik</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 10 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/cyklisterna-sakrare-an-sitt-rykte/"><span class="author">Jonas Jäthing:</span> Cyklisterna säkrare än sitt rykte</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 11 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/bilen-hotar-inte-varan-overlevnad-som-art/"><span class="author">Anders Lindstrom:</span> Bilen hotar inte våran överlevnad som art.</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 11 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/detta-ar-ett-vanligt-storstadsproblem/"><span class="author">Roland Karlsson:</span> Detta är ett vanligt storstadsproblem</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 11 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/markligt-att-bilisters-bristande-hansyn-ska-motivera-cyklister-till-samma-sak/"><span class="author">Kent Berg:</span> Märkligt att bilisters bristande hänsyn ska motivera cyklister till samma sak</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 14 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/replik-pa-kent-bergs-inlagg-om-cykelolyckor/"><span class="author">Jonas Jäthing:</span> Replik på Kent Bergs inlägg om cykelolyckor</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 14 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/vi-kan-inte-fortsatta-konsumera-som-om-vi-hade-sju-jordklot/"><span class="author">Anneli Önneby:</span> Vi kan inte fortsätta konsumera som om vi hade sju jordklot</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 14 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/cykelmotstandare-forstar-inte-orsak-och-verkan/"><span class="author">Martin Wikesjö:</span> Cykelmotståndare förstår inte orsak och verkan</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 16 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/stockholmarna-maste-parkera-bilen/vi-maste-samspela-battre-i-trafiken/"><span class="author">Daniel Helldén:</span> Vi måste samspela bättre i trafiken</a>
+					</h3>
+										</li>
+					</ul>
+
+		<div class="vote-persons" id="vote-person">
+			<div class="header">
+				<h3 class="has-dot">Rösta på vem som ska svara!</h3>
+				<div class="right-side">
+					<button class="js--toggle_information_box" data-rel="person-vote-information">
+						<i class="dnicon-question visible-xs"></i>
+						<span class="hidden-xs">Vad är detta?</span>
+						<i class="dnicon-chevron-down"></i>
+					</button>
+				</div>
+			</div>
+
+			<div class="information-box" id="person-vote-information">
+				<table>
+					<tr>
+						<td class="icon"><i class="fa fa-info-circle large turq"></i></td>
+						<td>Du som läsare kan rösta på vilka personer du tycker ska vara med och svara i denna debatt! Du kan endast rösta på en person men du kan flytta din röst hur många gånger du vill. Flera personer kan läggas till under debattens gång.</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="content">
+				<ul class="list list-person list-vote">
+								
+					<li>
+					<div class="row">
+						<div class="col-sm-10">
+							<span class="person">Stadens politiker</span>
+							<div class="row">
+								<div class="col-sm-2">
+									<span class="votes">389</span>
+								</div>
+								<div class="col-sm-10">
+									<span class="description ff-sans-light">De är ansvariga för stadsplaneringen</span>
+																			<span class="status ff-sans-light waiting">
+																					</span>
+																	</div>
+							</div>
+						</div>
+
+													<div class="right"><a href="" class="js--add_reply_vote add-reply-vote" data-id="46" onclick="dataLayer.push({event: 'customEvent',eventCategory:'Person',eventAction:'Add Vote',eventLabel:'Stadens politiker'});" >Rösta</a></div>
+						
+					</div>
+					</li>
+				
+					<li>
+					<div class="row">
+						<div class="col-sm-10">
+							<span class="person">Daniel Helldén</span>
+							<div class="row">
+								<div class="col-sm-2">
+									<span class="votes">57</span>
+								</div>
+								<div class="col-sm-10">
+									<span class="description ff-sans-light">Trafikborgarråd för miljöpartiet i Stockholms Stad som förhoppningsvis kan förklara några av de trafikutmaningar vi står inför och vad som görs för att anta dem.</span>
+																	</div>
+							</div>
+						</div>
+
+													<div class="right"><a href="" class="js--add_reply_vote add-reply-vote" data-id="47" onclick="dataLayer.push({event: 'customEvent',eventCategory:'Person',eventAction:'Add Vote',eventLabel:'Daniel Helldén'});" >Rösta</a></div>
+						
+					</div>
+					</li>
+								</ul>
+				<div id="add-suggestion">
+											<a href="#" class="btn btn-large btn-dn icon dnicon-plus js--toggle_add_suggestion_form"><span>Föreslå fler personer</span></a>
+						<div class="eller">
+							<span class="text">eller</span>
+							<span class="border"></span>
+						</div>
+						<a href="http://asikt.dn.se/asikt/borja-skapa-ditt-inlagg/?pid=599" onclick="dataLayer.push({event: 'customEvent',eventCategory:'Add reply', eventAction:'Ett grönare Stockholm', eventLabel:'Om ändå cyklister körde som bilar (på ett bra sätt)'});" class="btn icon dnicon-person btn-danger"><span>Jag vill svara själv!</span></a>
+
+				</div>
+				<!-- /add-suggestion -->
+
+
+
+
+
+			</div>
+		</div>
+
+	</div>
+</article>
+
+		
+	</main>
+
+	<aside class="col-sm-4 col-md-3 sidebar">
+			<div id="black-studio-tinymce-2" class="widget widget_black_studio_tinymce"><h4>Om DN.Åsikt</h4><div class="textwidget"><p>Har du ett ämne som du brinner för? Vill du vara med och debattera?</p>
+<p>På DN.Åsikt publiceras varje vecka aktuella, heta och intressanta debatter. I vårt debattforum kan läsare och inbjudna gäster göra sina röster hörda, och få svar på sina åsikter. Alla har dessutom chansen att påverka vem som ska in i debatten.</p>
+<p><a class="btn btn-dn black btn-widget icon-right dnicon-chevron-right" href="/om-dn-asikt/">Om DN.Åsikt</a></p>
+</div></div><div id="dn-ad-2" class="widget widget_dn-ad">            <div class="ad-wrapper">
+                <div class="ad-text">Annons:</div>
+                <div id="AD-k4a1-wrapper" class="dnasikt-ad-k4a1 hidden-xs">
+			<div id="AD-k4a1" data-width="300" data-name="k4a1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-k4a1", "k4a1", false);
+				</script>
+			</div>
+		</div>                <div id="AD-m_Middle2-wrapper" class="dnasikt-ad-m_Middle2 visible-xs">
+			<div id="AD-m_Middle2" data-width="320" data-name="m_Middle2" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-m_Middle2", "m_Middle2", false);
+				</script>
+			</div>
+		</div>            </div>
+        </div><div id="black-studio-tinymce-3" class="widget widget_black_studio_tinymce"><h4>Jag vill skriva på DN.Åsikt</h4><div class="textwidget"><p>Har du en åsikt som du vill publicera och få svar på? Skriv ett debattinlägg, föreslå vem som ska svara – och låt andra läsare vara med och tycka till.</p>
+<p><a class="btn btn-dn black btn-widget icon-right dnicon-chevron-right" href="/borja-skapa-ditt-inlagg/">Jag vill skriva</a></p>
+</div></div><div id="dn-hot-or-not-2" class="widget widget_dn-hot-or-not"><h4>Heta debatter</h4>            <ul class="list widget">
+
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/politikerna-for-ett-krig-mot-svenska-pensionarer/">Leif Södergren</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/politikerna-for-ett-krig-mot-svenska-pensionarer/"><p>Det har sedan länge pågått ett krig mot äldre svenskar. Politiker har liksom mobbare på skolgården luktat sig till en grupp försvarslösa och svaga individer där besparingar kan göras. Till skillnad från andra kulturer där äldre värderas och respekteras, har politiker i Sverige systematiskt odlat ett synsätt där äldre betraktas som en kostnadskrävande belastning för samhället.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="96" style="width:96%;"></div>
+				<div class="negative" data-procent="4" style="width:4%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">0</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">658</span></div>
+		</div>
+                            </li>
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/infor-arbetsklader-till-forskolans-personal/">Camilla Tjernberg</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/infor-arbetsklader-till-forskolans-personal/"><p>Förskolepersonalen är en stor del av våra barns uppväxt och det arbete som de utför är så otroligt värdefullt. De borde ha samma rätt till arbetskläder som övriga kommunala arbetare, till exempel parkförvaltare, badvakter och sophämtare.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="95" style="width:95%;"></div>
+				<div class="negative" data-procent="5" style="width:5%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">0</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">2852</span></div>
+		</div>
+                            </li>
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/havererad-skolskjuts-far-barnen-att-ma-daligt/">Hagberg Nilsson &#38; Christensson Österberg</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/havererad-skolskjuts-far-barnen-att-ma-daligt/"><p>Systemet med skolskjutsar för elever inom särskolan i Stockholm har havererat. Resultatet är barn som mår dåligt och utmattade föräldrar. Men skolskjutsentreprenören Samtrans slår ifrån sig sitt ansvar.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="89" style="width:89%;"></div>
+				<div class="negative" data-procent="11" style="width:11%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">0</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">177</span></div>
+		</div>
+                            </li>
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/stockholm-stad-tar-dod-pa-nattlivet/">Johan Murén</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/stockholm-stad-tar-dod-pa-nattlivet/"><p>Allt fler restauranger, barer, pubar och klubbar hotas att stängas ner, eller har redan tvingats stänga, då grannar ansett sig störda. Det är omöjligt att driva en seriös och långsiktig verksamhet ifall man ständigt riskerar att vräkas eller tvingas att stänga tidigt. Jag vill ha ett levande nöjesliv i Stockholm, ett nöjesliv som tillåts att låta och vara lite besvärligt ibland.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="84" style="width:84%;"></div>
+				<div class="negative" data-procent="16" style="width:16%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">0</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">4322</span></div>
+		</div>
+                            </li>
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/sverige-maste-integrera-inte-bara-forvara-flyktingar/">Åsa Dufbäck</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/sverige-maste-integrera-inte-bara-forvara-flyktingar/"><p>Flyktingarna som kommer till Sverige behöver inte bara tak över huvudet. De behöver flyktingförläggningar och en migrationsminister som jobbar aktivt med att få dem integrerade i samhället.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="94" style="width:94%;"></div>
+				<div class="negative" data-procent="6" style="width:6%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">1</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">7343</span></div>
+		</div>
+                            </li>
+                                            </ul>
+        </div>		
+	
+</aside>
+</div>
+
+
+				</section>
+				<!-- /.section-content -->
+				<div class="col-md-2 visible-md visible-lg banner-content">
+					<div id="fixed-ad" data-spy="affix">
+						<div class="ad-wrapper">
+	<div class="ad-text">Annons:</div>
+	<div id="AD-k5a1-wrapper" class="dnasikt-ad-k5a1 hidden-xs">
+			<div id="AD-k5a1" data-width="250" data-name="k5a1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-k5a1", "k5a1", false);
+				</script>
+			</div>
+		</div></div>
+					</div>
+
+				</div>
+				<!-- /.banner-content -->
+			</div>
+			<!-- /.row -->
+
+			<div class="mobile-sidebar"></div>
+
+		
+		</div> <!-- END CONTAINER MAIN -->
+		<footer class="footer container-fluid container-footer-border"></footer>
+		<footer class="footer container-fluid container-footer">
+			<div class="row">
+				<div class="col-md-10 col-sm-12">
+					<div class="row last-footer-row">
+						<div class="col-md-3 col-sm-3 footer-col">
+							<div id="nav_menu-3" class="widget widget_nav_menu"><h3>DN.Åsikt</h3><div class="menu-dn-asikt-container"><ul id="menu-dn-asikt" class="menu"><li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="http://asikt.dn.se/asikt/om-dn-asikt/">Om DN.Åsikt</a></li>
+<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="http://asikt.dn.se/asikt/borja-skapa-ditt-inlagg/">Skriv på DN.Åsikt</a></li>
+<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="http://asikt.dn.se/asikt/faq/">Vanliga frågor och svar</a></li>
+<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="http://asikt.dn.se/asikt/anvandarvillkor/">Användarvillkor</a></li>
+</ul></div></div>						</div>
+						<div class="col-md-3 col-sm-3 footer-col">
+							<div id="nav_menu-4" class="widget widget_nav_menu"><h3>Våra produkter</h3><div class="menu-vara-produkter-container"><ul id="menu-vara-produkter" class="menu"><li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6"><a href="http://www.dn.se/">DN.se</a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="http://prio.dn.se/prio">DN.Prio</a></li>
+<li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a href="http://dagens.dn.se">eDN.</a></li>
+<li id="menu-item-292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-292"><a href="http://arkivet.dn.se/arkivet">DN.Arkivet</a></li>
+<li id="menu-item-293" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-293"><a href="http://korsord.dn.se/korsord">DN.Korsord</a></li>
+</ul></div></div>						</div>
+						<div class="col-md-3 col-sm-3 footer-col">
+							<div id="nav_menu-5" class="widget widget_nav_menu"><h3>Prenumerera &#038; Annonsera</h3><div class="menu-prenumerera-annonsera-container"><ul id="menu-prenumerera-annonsera" class="menu"><li id="menu-item-294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-294"><a href="http://kund.dn.se/bli-prenumerant/">Prenumerera</a></li>
+<li id="menu-item-295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-295"><a href="http://info.dn.se/annonsera/annonslosningar/prislista-for-dn-se/">Annonsera på DN.se</a></li>
+<li id="menu-item-296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-296"><a href="http://info.dn.se/annonsera/">Annonsera i DN</a></li>
+<li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-297"><a href="http://info.dn.se/annonsera/">Advertise in DN</a></li>
+</ul></div></div>						</div>
+						<div class="col-md-3 col-sm-3 footer-col">
+							<div id="nav_menu-6" class="widget widget_nav_menu"><h3>Kundservice</h3><div class="menu-kundservice-container"><ul id="menu-kundservice" class="menu"><li id="menu-item-298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-298"><a title="Frågor &#038; svar" href="https://kundo.se/org/dagens-nyheter/">Frågor &#038; svar</a></li>
+<li id="menu-item-299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-299"><a title="Mitt konto" href="https://kund.dn.se/mitt-konto/">Mitt konto</a></li>
+<li id="menu-item-300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-300"><a title="Prenumerationsärenden" href="https://kund.dn.se/mitt-konto/">Prenumerationsärenden</a></li>
+<li id="menu-item-301" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-301"><a href="http://info.dn.se/info/">Om DN &#038; DN.se</a></li>
+<li id="menu-item-302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-302"><a href="http://www.dn.se/blogg/dnsebloggen/">Teknisk info</a></li>
+<li id="menu-item-303" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-303"><a href="http://www.dn.se/info/info-hem/cookies-pa-dnse/">Om cookies</a></li>
+</ul></div></div>						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-12 padding-50 footer-text-dot">
+					<div id="black-studio-tinymce-6" class="widget widget_black_studio_tinymce"><div class="textwidget"><p><img class=" size-full wp-image-128 alignright" src="/wp-content/uploads/2015/06/rudolf2.png" alt="rudolf" />Punkten efter Dagens Nyheter har funnits med allt sedan det första numret 23 december 1864. Grundaren Rudolf Wall lär ha satt dit den med tanken att Dagens Nyheter inte bara är ett namn. Det är också en avslutad mening, ett konstaterande av vad som hänt. Därför sätter vi punkt även i vår tid.</p>
+</div></div>				</div>
+				<div class="col-xs-12 padding-50 footer-text-copy">
+					<div id="black-studio-tinymce-7" class="widget widget_black_studio_tinymce"><div class="textwidget"><p>Chefredaktör och ansvarig utgivare: Peter Wolodarski. Vd: Gunilla Herlitz. Redaktionschef: Caspar Opitz. Chef DN.se: Anna Åberg. Administrativ redaktionschef: Fredrik Björnsson. Utrikeschef: Pia Skagermark. Kulturchef: Björn Wiman. Chef ledarre daktionen: Johannes Åman. E-post DN.se: www@dn.se © Dagens Nyheter AB 2014</p>
+</div></div>					<div class="footer-text-copy-logo">
+						<img src="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/images/dagensnyheter.png"/>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Google Tag Manager -->
+		<script>
+		dataLayer=[{product:'DN.Asikt'}];
+		dataLayer.push({event:'pageview',url:"/asikt/debatt/stockholmarna-maste-parkera-bilen/om-anda-cyklister-korde-som-bilar-pa-ett-bra-satt/"});
+		</script>
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P42PCB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-P42PCB');</script>
+		<!-- End Google Tag Manager -->
+		<script type="text/javascript" src="//m.burt.io/p/produkter-dn-se.js">
+		</script>
+
+		<script type='text/javascript' src='http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/jquery.js?ver=4.3'></script>
+<script type='text/javascript' src='http://asikt.dn.se/wp-content/plugins/q-and-a/js/q-a-plus.js?ver=1.0.6.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WordpressGlobalVariables = {"ajaxurl":"http:\/\/asikt.dn.se\/wp-admin\/admin-ajax.php","loginurl":"https:\/\/auth.dn.se?appId=dagensnyheter.se&lc=sv&callback=http%3A%2F%2Fasikt.dn.se%2Fasikt%2Fdebatt%2Fstockholmarna-maste-parkera-bilen%2Fom-anda-cyklister-korde-som-bilar-pa-ett-bra-satt%2F","createaccounturl":"https:\/\/auth.dn.se\/register?appId=dagensnyheter.se&lc=sv&callback=http%3A%2F%2Fasikt.dn.se%2Fasikt%2Fdebatt%2Fstockholmarna-maste-parkera-bilen%2Fom-anda-cyklister-korde-som-bilar-pa-ett-bra-satt%2F"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/build/js/app.min.js?ver=4.3'></script>
+
+	</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk: enhanced
+Database Caching 22/95 queries in 0.070 seconds using disk
+Object Caching 1695/1879 objects using disk
+
+ Served from: dn-asikt.jelastic.elastx.net @ 2015-10-14 14:18:25 by W3 Total Cache -->

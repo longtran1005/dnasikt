@@ -1,0 +1,50 @@
+.navbar-alerts {
+	position: absolute;
+	top: 58px;
+	left: 0;
+	width: 100%;
+	padding: 20px;
+	.container {
+		padding: 15px;
+	}
+	#alerts > div {
+		// border-right: 1px solid #000;
+		// border-bottom: 1px solid #000;
+		// border-left: 1px solid #000;
+		padding: 15px;
+		font-size: 16px;
+		display: none;
+	}
+	#alerts > div > i.fa {
+		margin-right: 10px;
+	}
+	.white {
+		background: #fff;
+		color: #000;
+	}
+	.red {
+		background: $dn-red;
+		color: #fff;
+	}
+	.green {
+		background: #ABE099;
+		color: #fff;
+	}
+	.blue {
+		background: $dn-blue;
+		color: #fff;
+	}
+	.orange {
+		background: $brand-warning;
+		color: #fff;
+	}
+	.turq {
+		background: $dn-turq;
+		color: #fff;
+	}
+
+	a {
+	color: white;
+	text-decoration: underline;
+	}
+}

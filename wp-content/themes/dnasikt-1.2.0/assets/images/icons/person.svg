@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="17px" viewBox="0 0 12 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>person</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Symboler_asikt" sketch:type="MSLayerGroup" transform="translate(0.000000, -1.000000)" fill="#343434">
+            <g id="person" transform="translate(0.000000, 1.000000)" sketch:type="MSShapeGroup">
+                <path d="M8.9,3.9 C8.9,2.03366437 7.52499056,0.5 5.8,0.5 C4.07500944,0.5 2.7,2.03366437 2.7,3.9 C2.7,5.76633563 4.07500944,7.3 5.8,7.3 C7.52499056,7.3 8.9,5.76633563 8.9,3.9 Z M3.7,3.9 C3.7,2.56308408 4.65310986,1.5 5.8,1.5 C6.94689014,1.5 7.9,2.56308408 7.9,3.9 C7.9,5.23691592 6.94689014,6.3 5.8,6.3 C4.65310986,6.3 3.7,5.23691592 3.7,3.9 Z" id="Oval"></path>
+                <path d="M11.1,13.7 C11.1,9.57169664 9.14449604,7.7 5.8,7.7 C2.45550396,7.7 0.5,9.57169664 0.5,13.7 L0.5,16.4 L0.5,16.9 L1,16.9 L10.6,16.9 L11.1,16.9 L11.1,16.4 L11.1,13.7 Z M10.6,15.9 L1,15.9 L1.5,16.4 L1.5,13.7 C1.5,10.1340176 2.99822739,8.7 5.8,8.7 C8.60177261,8.7 10.1,10.1340176 10.1,13.7 L10.1,16.4 L10.6,15.9 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

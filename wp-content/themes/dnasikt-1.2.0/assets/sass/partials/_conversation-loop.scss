@@ -1,0 +1,33 @@
+.author-list {
+		& span:first-child{
+			display: block;
+			color: red;
+		}
+
+		& span:last-child{
+			display: inline-block;
+			border-bottom: 1px solid rgba(black, 0.5);
+			width: 50px;
+			top: -4px;
+			position: relative;
+		}
+
+		& li {
+		display: inline-block;
+		padding-right: 20px;
+		&:before {
+			position: absolute;
+			@extend .ff-dnicon;
+			@extend .dnicon-person;
+			margin: 29px 0 0 -20px;
+			font-size: 18px;
+		}
+		&:first-child:before {
+			color: $dn-red;
+			margin-top: 8px;
+		}
+		&:last-child span:last-child {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,118 @@
+.share-wrapper {
+    @extend .clearfix;
+    margin-bottom: 30px;
+    display: block;
+    @include dnfont(GuardianSans Light);
+
+    // Share buttons
+    $btn-pad: 4px 8px;
+    .share-btn {
+        float: left;
+        display: block;
+        padding: 0 3px;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
+        a {
+            display: block;
+            width: 100%;
+            position: relative;
+            padding: $btn-pad;
+            @include border-radius(4px);
+        }
+
+        &.share-facebook,
+        &.share-twitter  {
+            width: 30%;
+        }
+        &.share-follow  {
+            width: 40%;
+        }
+
+        .count, .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            padding: $btn-pad;
+            @include border-radius(0 4px 4px 0);
+        }
+        // Left icon
+        a:before {
+            @extend .ff-dnicon;
+            position: relative;
+            top: 3px;
+        }
+        @include breakpoint(xsmall) {
+            &.share-facebook .text,
+            &.share-twitter .text {
+                display: none;
+            }
+        }
+        // Facebook
+        &.share-facebook a {
+            color: #fff;
+            background: #3B5998;
+            border: 1px solid darken(#3B5998,06);
+        }
+        &.share-facebook a:hover {
+            text-decoration: none;
+            background: darken(#3B5998,02);
+        }
+        &.share-facebook .count {
+            background: darken(#3B5998,06);
+        }
+        &.share-facebook a:before {
+            @extend .dnicon-facebook;
+            line-height: 1;
+        }
+        // Twitter
+        &.share-twitter a {
+            color: #fff;
+            background: #4099FF;
+            border: 1px solid darken(#4099FF,06);
+        }
+        &.share-twitter a:hover {
+            text-decoration: none;
+            background: darken(#4099FF,02);
+        }
+        &.share-twitter .count {
+            background: darken(#4099FF,06);
+        }
+        &.share-twitter a:before {
+            @extend .dnicon-twitter;
+            line-height: 1;
+        }
+        // Follow
+        &.share-follow a {
+            color: #2F2F2F;
+            background: #F2F2F2;
+            border: 1px solid #CCCCCC;
+        }
+        &.share-follow a:hover {
+            text-decoration: none;
+            background: darken(#F2F2F2,04);
+        }
+        &.share-follow .icon:before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top: 3px;
+            background: #fff;
+            border: 1px solid #000;
+            @include border-radius(50px);
+            @include transition(all 0.5s ease-in);
+        }
+        &.share-follow.following .icon:before {
+            @extend .ff-dnicon;
+            @extend .dnicon-check;
+            background: none;
+            border: 0;
+        }
+    }
+}

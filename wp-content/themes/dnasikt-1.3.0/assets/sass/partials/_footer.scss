@@ -1,0 +1,102 @@
+// Lists
+footer .widget {
+	@extend .clearfix;
+	h3 {
+		@include dnfont (GuardianSans Bold);
+		font-size: 14px;
+		border-bottom: 1px solid black;
+		margin: 0;
+		padding: 0 0 10px;
+	}
+	> div,
+	ul {
+		padding-left: 0;
+		list-style-type: none;
+		margin-bottom: 0;
+		float: left;
+		width: 100%;
+	}
+	li {
+		display: block;
+		height: 40px;
+	}
+	li > a {
+		display: block;
+		line-height: 20px;
+		padding: 10px 0 10px 0;
+		border-bottom: 1px solid rgba(black, 0.5);
+	}
+}
+footer .two-column-list .widget ul li {
+	width: 50%;
+	display: inline-block;
+	float:left;
+	zoom: 1;
+	*display: inline;
+	&:nth-child(odd) {
+		padding-right: 7.5px
+	}
+	&:nth-child(even) {
+		padding-left: 7.5px
+	}
+	@include breakpoint (xsmall){
+		width: 100%;
+		display: block;
+		padding: 0 !important;
+	}
+}
+
+
+//colors and fonts
+footer.container-footer {
+	background-color: #F4F4F4;
+	@include dnfont (GuardianSans Light);
+	font-size: 14px;
+}
+
+footer .footer-text-dot {
+	color: #444;
+}
+
+//margin, padding and sizes
+.container-footer-border {
+	border-top: 7px solid black;
+}
+footer.container-footer {
+	padding-top: 20px;
+	font-size: 14px;
+}
+footer .footer-text-dot {
+	img.alignright {
+		margin: 0;
+	}
+}
+
+footer .footer-text-copy {
+	margin-top: 50px;
+}
+
+footer .footer-text-copy-logo {
+	margin-top: 15px;
+	& img {
+		@extend .img-responsive;
+		width: 251px;
+	}
+	margin-bottom: 15px;
+}
+
+//breakpoint stuff
+@include breakpoint (medium-up){
+	footer .footer-col {
+		padding-right: 0;
+	}
+	footer div.row.last-footer-row {
+		margin-right: 0;
+	}
+}
+
+@include breakpoint (medium-down){
+	footer .footer-col {
+		padding-bottom: 30px;
+	}
+}

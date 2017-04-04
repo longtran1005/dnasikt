@@ -1,0 +1,69 @@
+// main = main-content
+// aside.sidebar = sidebar-content
+
+
+body, .navbar-default {
+	background-color: #fff;
+}
+
+.container-main, .container-nav, .container-footer {
+	background-color: white;
+}
+
+@include breakpoint (medium-up) {
+	main {
+		border-right: $dn-border;
+	}	
+}
+
+@include breakpoint (medium-up){
+	.section-content {
+		border-right: $dn-border;
+	}
+}
+
+.main-content,main,aside.sidebar { 
+	margin-top: 15px;
+}
+
+.section-content,.banner-content {
+	margin-top: 0px;
+	padding-top: 15px;
+}
+
+@include breakpoint (medium-up) {
+	 .container-main,.container-footer,.container-nav,.container-border,.container-footer-border  {
+		max-width: $screen-lg; 	
+	 }
+}
+
+@include breakpoint (large-up) {
+	 .container-main,.container-footer,.container-nav{
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+	}
+}
+
+.container-main {
+	padding-bottom: 40px;
+}
+
+
+//remove when done:
+.banner {
+	background-color: black;
+	color: white;
+	line-height: 20px;
+	padding: 190px 0 190px 0;
+}
+
+@include breakpoint (xsmall) {
+	.footer-col {
+		// padding-left: 0;
+		// padding-right: 0;
+		// & h3, li {
+		// 	margin-left: 15px;
+		// 	margin-right: 15px;
+		// }
+	}
+}

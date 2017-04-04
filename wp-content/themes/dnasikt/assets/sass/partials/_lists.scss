@@ -1,0 +1,92 @@
+//global lists
+ul.list {
+	list-style: none;
+	padding-left: 0;
+	width: 100%;
+	li {
+		border-bottom: $dn-border;
+		padding: 10px;
+	}
+
+	&.list-person li {
+		padding-left: 30px;
+	}
+
+	//list social in text
+	&.list-social {
+		@extend .margin-right-box;
+		float: right;
+		width: 200px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+
+	&.list-vote li {
+		padding-left: 50px;
+		position: relative;
+
+	}
+	.right {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+	}
+
+	li span {
+		display: block;
+	}
+
+	li .person,.more-header {
+		@include dnfont (GuardianSans Bold);
+	}
+
+	li .votes {
+		@include dnfont (PublicoBanner Light);
+		color: $dn-red;
+		font-size: 42px;
+	}
+	li .description {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	li .status {
+		color: $dn-turq;
+		&:before {
+			position: relative;
+			font-family: 'FontAwesome';
+			padding-right: 5px;
+		}
+		&.pending:before {
+			content: '\f017';
+		}
+		&.declined:before {
+			content: '\f00d';
+		}
+		&.unknown:before {
+			content: '\f059';
+		}
+		&.answered:before {
+			content: '\f055';
+		}
+	}
+
+	&.list-vote li:before {
+		position: absolute;
+		@extend .ff-dnicon;
+		@extend .dnicon-person;
+		margin: 10px 0 0 -34px;
+		font-size: 18px;
+	}
+	&.list-vote li.more:before {
+		position: absolute;
+		font-family: 'FontAwesome';
+		content: '\f234';
+		margin:0 0 0 -20px;
+	}
+	&.list-vote li.more .more-header:after {
+		position: absolute;
+		font-family: 'FontAwesome';
+		content: '\f078';
+		margin:0 20px 0 5px;
+	}
+}

@@ -1,0 +1,88 @@
+.label {
+	font-weight: 800;
+	padding: 2px 5px;
+	border-radius: 3px;
+	&.lightred {
+	  	background: #E76A7C;
+		color: #fff;
+	}
+	&.red {
+	  	background: #E90A2B;
+		color: #fff;
+	}
+	&.darkred {
+	  	background: #5C1A23;
+		color: #fff;
+	}
+	&.green {
+		background: #2AC02C;
+		color: #fff;
+	}
+	&.blue {
+		background: #3F58DA;
+		color: #fff;
+	}
+}
+
+h3 .label {
+	margin-right: 5px;
+}
+
+.subsubsub {
+	.publish .count,
+	.publish a.current .count {
+		@extend .label;
+		@extend .label.green;
+	}
+	.draft .count,
+	.draft a.current .count {
+		@extend .label;
+		@extend .label.blue;
+	}
+	.trash .count,
+	.trash a.current .count {
+		@extend .label;
+		@extend .label.darkred;
+	}
+}
+
+tr.status-publish .row-title:before {
+	content: 'Pub';
+	margin-right: 5px;
+	@extend .label.green;
+	@extend .label;
+}
+tr.status-draft .row-title:before {
+	content: 'Utkast';
+	margin-right: 5px;
+	@extend .label.blue;
+	@extend .label;
+}
+tr.status-draft .post-state {
+	display: none;
+}
+
+// Suggestions
+.dashboard-box {
+	margin-bottom: 15px;
+	.title {
+	    padding: 5px 10px;
+	    background: #00A0D2;
+	    color: #fff;
+	}
+	.title a {
+	    color: #fff;
+	    font-weight: 800;
+	}
+	.inner {
+	    padding: 5px 10px;
+	    background: #F4F4F4;
+	}
+}
+
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}

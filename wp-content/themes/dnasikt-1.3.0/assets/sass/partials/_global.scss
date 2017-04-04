@@ -1,0 +1,368 @@
+body {
+	padding-top: 52px; //Navbar height
+  	color: #222;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smooth: always;
+	font-smoothing: antialiased;
+	text-rendering: optimizeSpeed;
+}
+
+form {
+	@include dnfont (GuardianSans Regular);
+}
+
+// typgography
+
+aside.sidebar .widget,.author .author-bio,.conversation-vote .inner,.grey-box .inner,.vote-persons {
+	@include dnfont (GuardianSans Regular);
+	font-size: 15px;
+	.meta {
+		@include dnfont (GuardianSans Light);
+	}
+	.author-name {
+		@include dnfont (PublicoBanner Bold);
+		display: block;
+		font-size: 24px;
+		margin: 0;
+	}
+}
+
+.featured-image {
+	@include dnfont (GuardianSans Light);
+	line-height: 1.7;
+}
+
+.conversation-body .content {
+  	font-family: Georgia, serif;
+  	font-size: 17px;
+  	line-height: 1.6;
+}
+.date {
+	@include dnfont(GuardianSans Regular);
+	color: #999999;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+/* BUTTONS */
+.btn {
+	@include transition(all 0.2s ease);
+	@include border-radius(0);
+	@include dnfont (GuardianSans Bold);
+	border: 1px;
+	text-align: left;
+	white-space: normal;
+	position: relative;
+
+	&.btn-center {
+		text-align: center;
+	}
+
+	&.btn-danger {
+		border: 1px solid #d43f3a;
+	}
+
+	&.btn-xs {
+		@include dnfont (GuardianSans Regular);
+		padding: 2px 5px 0px;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&.btn-widget {
+		margin-top: 20px;
+		@extend .btn-block;
+	}
+
+	&.icon {
+		padding-left: 25px;
+		&:before {
+			@extend .ff-dnicon;
+			left: 5px;
+			top: 50%;
+			position: absolute;
+		}
+	}
+
+	&.icon-right {
+		padding-right: 25px;
+		&:before {
+			@extend .ff-dnicon;
+			right: 5px;
+			top: 50%;
+			position: absolute;
+		}
+	}
+}
+
+.btn-dn {
+	&:hover {
+		background: $dn-lightgrey;
+	}
+	border-radius: 0;
+	background-color: #fff;
+	border: 1px solid #444;
+
+	&.black {
+		color: #fff;
+		border-color: #000;
+		background: #000;
+		&:hover {
+			background-color: #222;
+		}
+	}
+
+	&.red {
+		border-color: $dn-red;
+		color: $dn-red;
+	}
+	&.turq {
+		border-color: $dn-turq;
+		color: $dn-turq;
+	}
+
+	&.opacity {
+		@include opacity(0.5);
+		&:hover,&.selected {
+			@include opacity(1);
+		}
+	}
+}
+
+// .btn-dn-add-more {
+// 	margin: 0 0 10px 0;
+// }
+
+/* OLD */
+.lead-link,
+.lead-link:focus {
+	font-weight: 200;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+.no-float {
+	float: none;
+}
+.no-padding {
+	padding: 0;
+}
+
+.no-padding-left {
+	padding-left: 0;
+}
+
+.no-padding-right {
+	padding-right: 0;
+}
+.full-width {
+	width: 100%;
+}
+.share-area {
+	.share {
+		display: inline-block;
+		height: 40px;
+		width: 40px;
+		background-size: 40px 40px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		margin: 0 5px 5px 0;
+		text-indent: -9999em;
+		@include border-radius(2px);
+		float: left;
+
+		&.share-facebook {
+			background-color: $facebook-color;
+			background-image: url(../images/icons/facebook-48.png);
+			&:hover {
+				background-color: darken($facebook-color,05);
+			}
+		}
+
+		&.share-twitter {
+			background-color: $twitter-color;
+			background-image: url(../images/icons/twitter-48.png);
+			&:hover {
+				background-color: darken($twitter-color,05);
+			}
+		}
+
+		&.share-googleplus {
+			background-color: $googleplus-color;
+			background-image: url(../images/icons/googleplus-48.png);
+			&:hover {
+				background-color: darken($googleplus-color,05);
+			}
+		}
+	}
+	.total-share {
+		position: relative;
+		display: inline-block;
+		background: #FFF;
+		font-size: 20px;
+		line-height: 40px;
+		height: 40px;
+		min-width: 40px;
+		float: left;
+		padding: 0 10px;
+		margin: 0 5px 5px 5px;
+		border: 1px solid #D3D3D3;
+		@include border-radius(2px);
+		color: $dn-darkgrey;
+		&:after
+		{
+			content: '';
+			position: absolute;
+			border-style: solid;
+			border-width: 5px 5px 5px 0;
+			border-color: transparent #FFFFFF;
+			display: block;
+			width: 0;
+			z-index: 1;
+			left: -5px;
+			top: 15px;
+		}
+
+		&:before
+		{
+			content: '';
+			position: absolute;
+			border-style: solid;
+			border-width: 5px 5px 5px 0;
+			border-color: transparent #D3D3D3;
+			display: block;
+			width: 0;
+			z-index: 0;
+			left: -6px;
+			top: 15px;
+		}
+	}
+
+	.input-group {
+		margin-top: 15px;
+		@include breakpoint(small-down) {
+			display: none;
+			visibility: hidden;
+		}
+	}
+	.input-group-addon {
+		background: #f9f9f9;
+		@include border-radius(2px);
+	}
+	.input-group-btn button {
+		background: #f9f9f9;
+		@include border-radius(2px);
+		padding: 9px 12px;
+		font-size: 14px;
+		font-weight: 800;
+		line-height: 1;
+		color: #555555;
+		border: 1px solid #ccc;
+		white-space: nowrap;
+	}
+}
+
+
+.loading-screen {
+	padding: 100px;
+	text-align: center;
+	p {
+		font-size: 16px;
+		font-weight: 800;
+		margin-top: 10px;
+	}
+}
+
+.tip {
+	background: rgba(255, 255, 100, 0.3);
+	padding: 15px;
+}
+
+/* global */
+hr {
+	border: none;
+	height: 1px;
+	color: #333;
+	background-color: #333;
+	margin: 20px 0;
+	width: 100%;
+}
+a,
+a:hover {
+	color: #000;
+}
+
+.btn .fa {
+	padding-top: 2px;
+}
+
+// ADS
+#fixed-ad, #not-fixed-ad {
+	margin: 0 -15px;
+}
+.affix {
+    top: 67px;
+}
+.affix-bottom {
+	position: absolute;
+}
+.ad-wrapper {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	// background: $dn-lightgrey;
+	overflow: hidden;
+
+	.ad-text {
+		background: #fff;
+		font-size: 10px;
+		font-family: Arial, sans-serif;
+		text-transform: uppercase;
+		border-bottom: 1px dotted;
+		margin-bottom: 4px;
+	}
+	[class^='dnasikt-ad-'] * {
+		max-height: 100% !important;
+		max-width: 100% !important;
+	}
+
+	[class^='dnasikt-ad-'] img,
+	[class^='dnasikt-ad-'] object,
+	[class^='dnasikt-ad-'] iframe {
+		width: 100% !important;
+	}
+
+	.dnasikt-autoheight
+	//[class^='dnasikt-ad-k4a1'] img
+	,[class^='dnasikt-ad-insider1'] object
+	//,[class^='dnasikt-ad-k5a1'] img
+	,[class^='dnasikt-ad-panorama1'] div[id^='Fusion'] //kia
+	,[class^='dnasikt-ad-panorama1'] div[class^='adform'] //kia
+	//,[class^='dnasikt-ad-Top2'] img
+	//, broke tele2/kia: [class^='dnasikt-ad-Top2'] div
+	//, broke nissan: [class^='dnasikt-ad-Top2'] object
+	{
+		height: auto !important;
+	}
+
+	@include breakpoint(xsmall) {
+		margin-left: -15px;
+		margin-right: -15px;
+
+		[class^='dnasikt-ad-'] img,
+		[class^='dnasikt-ad-'] object,
+		[class^='dnasikt-ad-'] iframe {
+			height: 100% !important;
+		}
+	}
+}
+
+.inline-link {
+	a {
+		color: $dn-blue-link;
+	}
+	margin-top: 20px;
+}

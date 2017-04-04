@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Symboler_asikt" sketch:type="MSLayerGroup" transform="translate(-83.000000, -1.000000)" fill="#343434">
+            <g id="search" transform="translate(83.000000, 1.000000)" sketch:type="MSShapeGroup">
+                <path d="M13.9,6.6 C13.9,2.95492065 10.9450793,0 7.3,0 C3.65492065,0 0.7,2.95492065 0.7,6.6 C0.7,10.2450793 3.65492065,13.2 7.3,13.2 C10.9450793,13.2 13.9,10.2450793 13.9,6.6 Z M1.7,6.6 C1.7,3.5072054 4.2072054,1 7.3,1 C10.3927946,1 12.9,3.5072054 12.9,6.6 C12.9,9.6927946 10.3927946,12.2 7.3,12.2 C4.2072054,12.2 1.7,9.6927946 1.7,6.6 Z" id="Oval"></path>
+                <path d="M16.0464466,16.0535534 L16.7535534,15.3464466 L11.9535534,10.5464466 L11.2464466,11.2535534 L16.0464466,16.0535534 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

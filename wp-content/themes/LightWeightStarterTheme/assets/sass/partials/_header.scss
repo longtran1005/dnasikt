@@ -1,0 +1,207 @@
+.navbar-fixed-top {
+	border-bottom: 0px;
+}
+
+.navbar {
+	@include dnfont (GuardianSans Regular);
+	background: #fff;
+	.container-fluid {
+		border-bottom: 1px solid #000;
+		position: relative;
+		padding-top: 3px;
+	}
+
+
+
+
+	.navbar-brand {
+		// background: url(../../images/dn-asikt@2X.png) no-repeat center left;
+		// background: -webkit-linear-gradient(transparent, transparent), url(../../images/dn-asikt.svg);
+		// background: -o-linear-gradient(transparent, transparent), url(../../images/dn-asikt.svg);
+		// background: linear-gradient(transparent, transparent),url(../../images/dn-asikt.svg);
+		// background: no-repeat center left;
+		background: url(../../images/dn-asikt.svg) no-repeat center left;
+		background-size: contain;
+		display: block;
+		width: 210px;
+		height: 30px;
+		margin-top: 9px;
+		margin-left: 0 !important;
+		@include breakpoint(small-down) {
+		// 	background: url(../../images/dn-asikt@2X.png) no-repeat center left;
+		// 	background-size: contain;
+			margin-left: 15px !important;
+		// 	width: 100px;
+		}
+		@include breakpoint(xsmall) {
+			width: 150px;
+		}
+	}
+	.navbar-header:before {
+		height: 5px;
+		width: 100%;
+		display: block;
+		position: absolute;
+		background: $dn-red;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		outline: 1px solid $dn-red;
+	}
+	.navbar-toggle {
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		vertical-align: middle;
+		margin: 0;
+		@include border-radius(0);
+		border-left: 1px solid #E5E5E5;
+		img {
+			height: 16px;
+			display: none;
+		}
+		&.collapsed {
+			i.dnicon-close {
+				display: none;
+			}
+			img {
+				display: inline-block;
+			}
+			i.dnicon-dn_user-red,i.dnicon-dn_user {
+				display: inline;
+			}
+
+		}
+		& i.dnicon-dn_user-red,i.dnicon-dn_user {
+			display: none;
+		}
+
+	}
+	@include breakpoint(small-down) {
+		.navbar-collapse {
+			border-top: 1px solid $dn-lightgrey;
+		}
+	}
+	@include breakpoint(medium-up) {
+		.navbar-right {
+			border-left: $dn-border;
+		}
+	}
+
+	.navbar-nav {
+		// Svg images
+		@include breakpoint(medium-up) {
+			> li {
+				border-left: $dn-border;
+			}
+		}
+		> li > a > img {
+			height: 16px;
+			position: relative;
+			top: -2px;
+			margin-left: 5px;
+		}
+		li.dropdown-notifications > a .text {
+			display: none;
+			margin-right: 5px;
+		}
+		li.dropdown-notifications > a .badge {
+			background: $dn-red;
+		}
+		li.dropdown-notifications .dropdown-menu {
+			max-width: 300px;
+		}
+		li.dropdown-notifications .dropdown-menu a {
+			white-space: normal;
+		}
+		// Medium down
+		@include breakpoint(small-down) {
+			> li > a > img {
+				float: left;
+				margin-right: 10px;
+			}
+
+			.dropdown-toggle {
+				display: none;
+			}
+
+			li .dropdown-menu {
+				display: block;
+			  	position: static;
+				float: none;
+				width: auto;
+				margin-top: 0;
+				background-color: transparent;
+				border: 0;
+				box-shadow: none;
+			}
+			li.dropdown-notifications > a {
+				display: block !important;
+				padding: 10px 20px;
+			}
+			li.dropdown-notifications > a .text {
+				display: inline-block !important;
+			}
+			li.dropdown-notifications .dropdown-menu {
+				max-width: 100%;
+				display: none;
+			}
+			li.dropdown-notifications.open .dropdown-menu {
+				display: block;
+			}
+		}
+	}
+	.navbar-form {
+		float: left;
+		position: relative;
+		min-width: 85px;
+		@include breakpoint(small-down) {
+			float: none;
+			background: #DFDFDF;
+			margin: 0 -15px;
+		}
+		.form-control {
+			position: relative;
+			z-index: 0;
+			width: 0;
+			visibility: hidden;
+			@include border-radius(0);
+  			border: 0;
+  			@include box-shadow(none);
+			@include opacity(0);
+			@include transition(all 0.5s ease-in);
+			@include breakpoint(small-down) {
+				width: 100% !important;
+				visibility: visible;
+				@include opacity(1);
+			}
+		}
+		.form-control.show {
+			width: 200px;
+			visibility: visible;
+			@include opacity(1);
+			padding-right: 50px;
+			border: 0;
+		}
+		.btn.btn-naked {
+			@include dnfont(GuardianSans Regular);
+			position: absolute;
+			top: 2px;
+			right: 15px;
+			z-index: 5;
+			border: 0;
+			background: transparent;
+			color: #222;
+			@include breakpoint(small-down) {
+				top: 12px;
+			}
+			&:active,&:focus {
+				outline: 0;
+				@include box-shadow(none);
+			}
+			span {
+				margin-right: 5px;
+			}
+		}
+	}
+}

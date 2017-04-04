@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="sv-SE" prefix="og: http://ogp.me/ns#" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script type="text/javascript">
+			window.burtApi = window.burtApi || [];
+			window.burtApi.push(function() {
+				window.burtApi.startTracking(function(api) {
+					api.startUnitTracking();
+					api.setTrackingKey('PROQ78NN5NBP', 'produkter.dn.se');
+					api.setDomain('dn.se');
+					api.addCloudKey('INS8GFMRVMI1');
+					api.setCategory('dnasikt.se', 'debatt');
+				});
+			});
+			window.byburt_onServicePlusIdSync = function(id) {
+			    window.burtApi.push(function() {
+			        id && window.burtApi.connect('burt.beacon', 'serviceplus-id', id);
+			        burtApi.annotate('burt.content', 'loggedinbeacon', true);
+			    });
+			};
+					</script>
+
+		<script type="text/javascript" src="http://fusion.dn.se/script.js?ads=dn"></script>
+		<script type="text/javascript" src="http://www.dn.se/oas/fusion_utils.js?v=11"></script>
+		<script>
+		    window.Fusion.adServer = "fusion.dn.se";
+
+		    window.Fusion.usepostscribe=true;
+		    window.Fusion.usecheckads=false;
+		    window.Fusion.parameters["byburt_segments"] = (!!window.byburt_segments.length) ? window.byburt_segments : 'none';
+		    window.Fusion.parameters["cookiesDomain"] = "fusion.dn.se";
+
+		    if( window.innerWidth < 767 ) {
+	    		window.Fusion.mediaZone = "dn.mobil_dn_se.debatt.asikt";
+	        	window.Fusion.layout = "m_asikt";
+	    	}
+	    	else {
+	    		window.Fusion.mediaZone = "dn.dn_se.debatt.asikt";
+	        	window.Fusion.layout = "asikt";
+	    	}
+
+    		/**
+		    if( window.innerWidth < 767 ) {
+		    			    		window.Fusion.mediaZone = "dnse.smallscreens.asikt.sektion.undersektion.artikel";
+		        	window.Fusion.layout = "Small_asikt_artikel";
+		        		    } else {
+		    			    		window.Fusion.mediaZone = "dnse.largescreens.asikt.sektion.undersektion.artikel";
+		        	window.Fusion.layout = "Large_asikt_artikel";
+		        		    }*/
+		    window.Fusion.loadAds();
+		</script>
+
+		
+<!-- This site is optimized with the Yoast WordPress SEO plugin v2.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Det borde handla om fetma, inte bara om socker - DN.Åsikt</title>
+<meta name="description" content="Problemet är epidemisk ökning av fetma, och socker är bara en av flera faktorer. Den &quot;australiska paradoxen&quot; som innebär tydligt minskad konsumtion av socker och samtidig kraftig ökad förekomst av fetma, borde ge en antydan om att en ensidig jakt på socker kan leda helt fel."/>
+<link rel="canonical" href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/det-borde-handla-om-fetma-inte-bara-om-socker/" />
+<meta property="og:locale" content="sv_SE" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Det borde handla om fetma, inte bara om socker - DN.Åsikt" />
+<meta property="og:description" content="Problemet är epidemisk ökning av fetma, och socker är bara en av flera faktorer. Den &quot;australiska paradoxen&quot; som innebär tydligt minskad konsumtion av socker och samtidig kraftig ökad förekomst av fetma, borde ge en antydan om att en ensidig jakt på socker kan leda helt fel." />
+<meta property="og:url" content="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/det-borde-handla-om-fetma-inte-bara-om-socker/" />
+<meta property="og:site_name" content="DN.Åsikt" />
+<meta property="article:publisher" content="https://www.facebook.com/dn.asikt" />
+<meta property="og:image" content="http://asikt.dn.se/wp-content/uploads/2015/09/dnasikt_black_200x200.jpg" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Problemet är epidemisk ökning av fetma, och socker är bara en av flera faktorer. Den &quot;australiska paradoxen&quot; som innebär tydligt minskad konsumtion av socker och samtidig kraftig ökad förekomst av fetma, borde ge en antydan om att en ensidig jakt på socker kan leda helt fel."/>
+<meta name="twitter:title" content="Det borde handla om fetma, inte bara om socker - DN.Åsikt"/>
+<meta name="twitter:site" content="@DNasikt"/>
+<meta name="twitter:domain" content="DN.Åsikt"/>
+<meta name="twitter:image:src" content="http://asikt.dn.se/wp-content/uploads/2015/09/dnasikt_black_200x200.jpg"/>
+<meta name="twitter:creator" content="@DNasikt"/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='q-a-plus-css'  href='http://asikt.dn.se/wp-content/plugins/q-and-a/css/q-a-plus.css?ver=1.0.6.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='lwst-application-style-css'  href='http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/build/css/main.css?ver=1.0' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://asikt.dn.se/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://asikt.dn.se/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3" />
+<link rel='shortlink' href='http://asikt.dn.se/asikt/?p=917' />
+<!-- Q & A -->
+		<noscript><link rel="stylesheet" type="text/css" href="http://asikt.dn.se/wp-content/plugins/q-and-a/css/q-a-plus-noscript.css?ver=1.0.6.2" /></noscript><!-- Q & A -->
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="57x57" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/manifest.json">
+		<link rel="shortcut icon" href="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/mstile-144x144.png">
+		<meta name="msapplication-config" content="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<!-- // FAVICONS -->
+
+	</head>
+	<body class="single single-asikt postid-917">
+
+<nav class="navbar navbar-fixed-top">
+	<div class="container-fluid container-nav">
+		<div class="navbar-alerts">
+			<div id="alerts"></div>
+		</div>
+		<div class="navbar-header">
+			<a class="navbar-brand" href="http://asikt.dn.se/asikt/"></a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<i class="dnicon-dn_user header-icon"></i>
+				<!--<img src="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/images/icon_user.svg" class="open" /> -->
+				<i class="dnicon-close"></i>
+			</button>
+			<button type="button" class="navbar-toggle">
+				<a href="http://asikt.dn.se/borja-skapa-ditt-inlagg/"><i class="fa fa-pencil-square-o header-icon"></i></a>
+			</button>
+			<button type="button" class="navbar-toggle">
+				<a href="http://asikt.dn.se/om-dn-asikt/"><i class="dnicon-question header-icon"></i></a>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="navbar-right">
+				<form class="navbar-form searchform" role="search" method="get" id="searchform" action="http://asikt.dn.se/asikt/">
+					<div class="form-group">
+						<input type="search" name="s" id="search" class="form-control" value="" placeholder="Sök"/>
+					    <button class="js--toggle-search-input btn btn-naked"><span>Sök</span><i class="dnicon-search header-icon"></i></button>
+					</div>
+	  			</form>
+	  			<ul class="nav navbar-nav">
+	  			
+									<li><a href="https://auth.dn.se?appId=dagensnyheter.se&lc=sv&callback=http%3A%2F%2Fasikt.dn.se%2Fasikt%2Fdebatt%2Finfor-laskforbud-pa-skolor-och-sockerskatt%2Fdet-borde-handla-om-fetma-inte-bara-om-socker%2F" onclick="dataLayer.push({event: 'customEvent',eventCategory:'Navbar',eventAction:'Login'});">Logga in <i class="dnicon-dn_user header-icon"></i><!-- <img src="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/images/icon_user.svg" class="icon-user" />--></a></li>
+								</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div class="container-fluid container-main">
+	<div class="row">
+		<section class="col-md-10 section-content">
+<div class="row">
+
+	
+
+		
+			<div class='col-sm-12'>
+				<div class='ad-wrapper'>
+					<div class='ad-text'>Annons:</div><div id="AD-Top2-wrapper" class="dnasikt-ad-Top2 hidden-xs">
+			<div id="AD-Top2" data-width="960" data-name="Top2" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-Top2", "Top2", false);
+				</script>
+			</div>
+		</div><div id="AD-m_Top1-wrapper" class="dnasikt-ad-m_Top1 visible-xs">
+			<div id="AD-m_Top1" data-width="320" data-name="m_Top1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-m_Top1", "m_Top1", false);
+				</script>
+			</div>
+		</div>
+				</div>
+			</div>
+	
+	<main class="col-sm-8 col-md-9">
+					
+<article class="conversation">
+
+		<div class="col-md-offset-2">
+		<div class="header double">
+			<span class="label-heading-red">Socker</span>
+			<h1 class="conversation-title article">Kent Berg: Det borde handla om fetma, inte bara om socker</h1>
+		</div>
+	</div>
+	
+
+	<div class="col-md-offset-2 conversation-body">
+		<div class="content clearfix">
+			<div>
+				<span class="date">Publicerad: 30 september, 2015</span>
+			</div>
+			<div class="excerpt ff-serif-headline-black">
+				<p>Problemet är epidemisk ökning av fetma, och socker är bara en av flera faktorer. Den &#8221;australiska paradoxen&#8221; som innebär tydligt minskad konsumtion av socker och samtidig kraftig ökad förekomst av fetma, borde ge en antydan om att en ensidig jakt på socker kan leda helt fel.</p>
+			</div>
+
+			
+				<div class="article-summary clearfix">
+									<div class="vote reply">
+						<h2>Svar till Anneli Önneby</h2>
+						<p>Detta är ett svar på huvudinlägget på debatten "Socker". <a href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/" class="line link">Till huvudinlägget</a></p>
+					</div>
+				
+					<div class="vote persons">
+						<a href="#vote-person" class="js--anchor_link span-link updown">
+							<span class="question updown text-center">
+								<i class="summary-icon dnicon-question background"></i>
+								<span class="link">Vilka ska svara?</span>
+							</span>
+							<span class="summary updown text-center">
+								<i class="summary-icon dnicon-person"></i>
+								<span class="summary-text">
+																			<span>Lägg till en person</span>
+																	</span>
+							</span>
+						</a>
+					</div>
+				</div>
+
+			
+
+			<div class="share-wrapper">
+				<div class="share-btn share-facebook">
+					<a class="js--share_this" href="http://www.facebook.com/sharer.php?u=http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/det-borde-handla-om-fetma-inte-bara-om-socker/" data-id="917" data-source="facebook" data-nonce="981da2ca95">
+						<span class="text">Facebook</span>
+						<span class="count">7</span>
+					</a>
+				</div>
+				<div class="share-btn share-twitter">
+					<a class="js--share_this" href="https://twitter.com/intent/tweet?text=Det borde handla om fetma, inte bara om socker&url=http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/det-borde-handla-om-fetma-inte-bara-om-socker/" data-id="917" data-source="twitter" data-nonce="981da2ca95">
+						<span class="text">Twitter</span>
+						<span class="count">4</span>
+					</a>
+				</div>
+				<div class="share-btn share-follow ">
+					<a href="#" class="js--follow_post" data-nonce="49df479091" data-id="820" data-text="Följer denna debatt">
+						<span class="text">Följ debatt</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+			</div>
+
+			<p>Att läskkonsumtionen minskar betyder inte alls att konsumenternas framtida hälsa förbättras – det vet man inte utan en ordentlig analys av fakta. Sådan analys avstår Anneli Önneby helt från utan förlitar sig på ganska enkla emotionella argument, som kan leda helt fel. I Australien har man varit mycket framgångsrika med att minska den totala konsumtionen av socker, ned 16% jämfört med 1980. Och hur har hälsan utvecklats? Inte så bra – prevalensen av fetma har ökat med en faktor tre under samma period. Det är alltså en grov och fullständigt missledande överförenkling att ensidigt fokusera på socker, när man har fått tydliga tecken på att fetma orsakas av fler faktorer än sockerintag. Problemet är bara att man inte vet hur människors kaloriintag påverkas i olika situationer och valmöjligheter. I en artikel i januari 2014 resonerar brittiska NHS kring det intressanta förhållandet att en studerad grupp amerikaner gick upp i vikt när de ersatte sockerhaltig läsk med artificiellt sötad läsk. Det finns också flera forskare som varnar för en ogenomtänkt införd sockerskatt eftersom man inte har en aning om hur människors konsumtionsvanor förändras.</p>  <div class="ad-wrapper"><div class="ad-text">Annons:</div><div id="AD-k2a1-wrapper" class="dnasikt-ad-k2a1 hidden-xs">
+			<div id="AD-k2a1" data-width="500" data-name="k2a1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-k2a1", "k2a1", false);
+				</script>
+			</div>
+		</div><div id="AD-m_Middle1-wrapper" class="dnasikt-ad-m_Middle1 visible-xs">
+			<div id="AD-m_Middle1" data-width="320" data-name="m_Middle1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-m_Middle1", "m_Middle1", false);
+				</script>
+			</div>
+		</div></div>
+<p>Konsumtionen av läsk minskar i flera länder, även utan skatt på socker, främst i USA. Där har de stora dryckesjättarna fått kännas vid sjunkande försäljning och övergång till sockerfria produkter sedan minst tio år (Wall Street Journal, mars 2015). Anledningen är tilltagande oro över överdriven sockerkonsumtion, inte skatt. Det finns alltså ett tilltagande intresse för sockerkonsumtionen i stora delar av västvärlden. Men det räcker inte. Vi måste veta mer om vad som är de viktigaste faktorerna för fetma förutom socker, och hur de samspelar. Därefter kan man förhoppningsvis selektivt attackera en del faktorer och få goda resultat. Tills dess får man lita till sunt förnuft och den kunskap som finns.</p>
+<p>Det är helt korrekt att barn från socioekonomiskt ansträngda familjer är svårare att nå med kunskap än barn från välbärgade familjer. Att lyfta dessa barn är en av skolans mest angelägna uppgifter och att ta till dåligt genomtänkta styrmedel är ett förfärande misslyckande. Om rektorer är för fega för att göra det som behövs för att eleverna ska bibringas kunskaper och ha en vettig livsstil åtminstone i skolan, så är det dags för kommunernas ansvariga politiker att sätta ner foten. Jag har svårt att förstå vad som stoppar beslut om att läskautomater ska slängas ut. Sockerskatt i stället för enkla beslut verkar helt bakvänt. Och att välskötta skolor som satsar på elevernas kunskaper och hälsa skulle ha dålig konkurrensförmåga är något som jag gärna skulle vilja se en undersökning om.</p>
+<p>Minskad konsumtion av läsk är alltså inte detsamma som framtida förbättrad hälsa. Minskad fetma är däremot starkt kopplat till förbättrad hälsa, och det borde vara målet. Att ensidigt fokusera på socker när man vet att det är bara en av flera komponenter i fetmaepidemin leder alldeles galet, och att stenhårt fortsätta argumentera för en ensidig jakt på socker är tyvärr inget annat än ett försök att stilla sin egen oro. En sockerskatt riskerar att ta bort uppmärksamheten från andra fetmafaktorer, som kan vara lika eller mer viktiga än socker.</p>
+		</div>
+
+		<div class="author">
+			<div class="header double">
+				<span class="sub-heading border">Om skribenten</span>
+			</div>
+							<img src="http://2.gravatar.com/avatar/8084aa8ad0aec3a5ae6f63e2bbdbe4f3?s=150&#038;d=mm&#038;r=g" alt="author" class="author-image"/>
+						<div class="author-bio">
+				<span class="author-name">Kent Berg</span>
+				Civilingenjör i kemiteknik som har arbetat med bioteknik och läkemedel i många år, och som tycker att förändring alltid ska föregås av ordentliga analyser.			</div>
+		</div>
+	</div>
+
+	
+	<div class="conversation-list-container">
+		<div class="header double">
+			<span class="sub-heading red">Summering</span>
+			<div class="h2">Socker</div>
+		</div>
+		<ul class="conversation-list">
+							<li >
+					<span class="conversation-date date">Publicerad: 22 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/"><span class="author">Anneli Önneby:</span> Inför läskförbud på skolor och sockerskatt!</a>
+					</h3>
+											<p>Förbjud läskförsäljning på våra skolor och inför sockerskatt!</p>
+						<div class="vote-bar-container  ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="83" style="width:83%;"></div>
+				<div class="negative" data-procent="17" style="width:17%;"></div>
+			</div>
+		</div>										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 23 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/sockerskatt-ar-mest-till-for-att-inbilla-sig-att-nagot-gors/"><span class="author">Kent Berg:</span> Sockerskatt är mest till för att inbilla sig att något görs</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 24 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/lat-sockret-betala-sina-egna-skadeverkningar/"><span class="author">Johan Tjäder:</span> Låt sockret betala sina egna skadeverkningar</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 25 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/sockerskatt-for-att-finansiera-atgarder-mot-socker-ar-cirkelresonemang/"><span class="author">Kent Berg:</span> Sockerskatt för att finansiera åtgärder mot socker är cirkelresonemang</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 28 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/det-skall-kosta-att-forstora-barns-halsa/"><span class="author">Anneli Önneby:</span> Det skall kosta att förstöra barns hälsa!</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 29 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/varfor-gomma-sig-bakom-en-skatt/"><span class="author">Fredrik Hellström:</span> Varför gömma sig bakom en skatt?</a>
+					</h3>
+										</li>
+							<li class="active">
+					<span class="conversation-date date">Publicerad: 30 september, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/det-borde-handla-om-fetma-inte-bara-om-socker/"><span class="author">Kent Berg:</span> Det borde handla om fetma, inte bara om socker</a>
+					</h3>
+										</li>
+							<li >
+					<span class="conversation-date date">Publicerad: 2 oktober, 2015</span>
+					<h3 class="conversation-title">
+						<a href="http://asikt.dn.se/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/extrem-overvikt-ar-storre-an-hogt-socker-och-fettintag/"><span class="author">Anneli Önneby:</span> Extrem övervikt är större än högt socker- och fettintag</a>
+					</h3>
+										</li>
+					</ul>
+
+		<div class="vote-persons" id="vote-person">
+			<div class="header">
+				<h3 class="has-dot">Rösta på vem som ska svara!</h3>
+				<div class="right-side">
+					<button class="js--toggle_information_box" data-rel="person-vote-information">
+						<i class="dnicon-question visible-xs"></i>
+						<span class="hidden-xs">Vad är detta?</span>
+						<i class="dnicon-chevron-down"></i>
+					</button>
+				</div>
+			</div>
+
+			<div class="information-box" id="person-vote-information">
+				<table>
+					<tr>
+						<td class="icon"><i class="fa fa-info-circle large turq"></i></td>
+						<td>Du som läsare kan rösta på vilka personer du tycker ska vara med och svara i denna debatt! Du kan endast rösta på en person men du kan flytta din röst hur många gånger du vill. Flera personer kan läggas till under debattens gång.</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="content">
+				<ul class="list list-person list-vote">
+									<li>
+						<span class="person_empty">Det finns ännu ingen person att rösta på, skicka gärna in förslag till redaktionen!</span>
+					</li>
+												</ul>
+				<div id="add-suggestion">
+											<a href="#" class="btn btn-large btn-dn icon dnicon-plus js--toggle_add_suggestion_form"><span>Föreslå fler personer</span></a>
+						<div class="eller">
+							<span class="text">eller</span>
+							<span class="border"></span>
+						</div>
+						<a href="http://asikt.dn.se/asikt/borja-skapa-ditt-inlagg/?pid=820" onclick="dataLayer.push({event: 'customEvent',eventCategory:'Add reply', eventAction:'Socker', eventLabel:'Det borde handla om fetma, inte bara om socker'});" class="btn icon dnicon-person btn-danger"><span>Jag vill svara själv!</span></a>
+
+				</div>
+				<!-- /add-suggestion -->
+
+
+
+
+
+			</div>
+		</div>
+
+	</div>
+</article>
+
+		
+	</main>
+
+	<aside class="col-sm-4 col-md-3 sidebar">
+			<div id="black-studio-tinymce-2" class="widget widget_black_studio_tinymce"><h4>Om DN.Åsikt</h4><div class="textwidget"><p>Har du ett ämne som du brinner för? Vill du vara med och debattera?</p>
+<p>På DN.Åsikt publiceras varje vecka aktuella, heta och intressanta debatter. I vårt debattforum kan läsare och inbjudna gäster göra sina röster hörda, och få svar på sina åsikter. Alla har dessutom chansen att påverka vem som ska in i debatten.</p>
+<p><a class="btn btn-dn black btn-widget icon-right dnicon-chevron-right" href="/om-dn-asikt/">Om DN.Åsikt</a></p>
+</div></div><div id="dn-ad-2" class="widget widget_dn-ad">            <div class="ad-wrapper">
+                <div class="ad-text">Annons:</div>
+                <div id="AD-k4a1-wrapper" class="dnasikt-ad-k4a1 hidden-xs">
+			<div id="AD-k4a1" data-width="300" data-name="k4a1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-k4a1", "k4a1", false);
+				</script>
+			</div>
+		</div>                <div id="AD-m_Middle2-wrapper" class="dnasikt-ad-m_Middle2 visible-xs">
+			<div id="AD-m_Middle2" data-width="320" data-name="m_Middle2" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-m_Middle2", "m_Middle2", false);
+				</script>
+			</div>
+		</div>            </div>
+        </div><div id="black-studio-tinymce-3" class="widget widget_black_studio_tinymce"><h4>Jag vill skriva på DN.Åsikt</h4><div class="textwidget"><p>Har du en åsikt som du vill publicera och få svar på? Skriv ett debattinlägg, föreslå vem som ska svara – och låt andra läsare vara med och tycka till.</p>
+<p><a class="btn btn-dn black btn-widget icon-right dnicon-chevron-right" href="/borja-skapa-ditt-inlagg/">Jag vill skriva</a></p>
+</div></div><div id="dn-hot-or-not-2" class="widget widget_dn-hot-or-not"><h4>Heta debatter</h4>            <ul class="list widget">
+
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/politikerna-for-ett-krig-mot-svenska-pensionarer/">Leif Södergren</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/politikerna-for-ett-krig-mot-svenska-pensionarer/"><p>Det har sedan länge pågått ett krig mot äldre svenskar. Politiker har liksom mobbare på skolgården luktat sig till en grupp försvarslösa och svaga individer där besparingar kan göras. Till skillnad från andra kulturer där äldre värderas och respekteras, har politiker i Sverige systematiskt odlat ett synsätt där äldre betraktas som en kostnadskrävande belastning för samhället.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="95" style="width:95%;"></div>
+				<div class="negative" data-procent="5" style="width:5%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">0</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">528</span></div>
+		</div>
+                            </li>
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/infor-arbetsklader-till-forskolans-personal/">Camilla Tjernberg</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/infor-arbetsklader-till-forskolans-personal/"><p>Förskolepersonalen är en stor del av våra barns uppväxt och det arbete som de utför är så otroligt värdefullt. De borde ha samma rätt till arbetskläder som övriga kommunala arbetare, till exempel parkförvaltare, badvakter och sophämtare.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="95" style="width:95%;"></div>
+				<div class="negative" data-procent="5" style="width:5%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">0</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">2771</span></div>
+		</div>
+                            </li>
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/havererad-skolskjuts-far-barnen-att-ma-daligt/">Hagberg Nilsson &#38; Christensson Österberg</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/havererad-skolskjuts-far-barnen-att-ma-daligt/"><p>Systemet med skolskjutsar för elever inom särskolan i Stockholm har havererat. Resultatet är barn som mår dåligt och utmattade föräldrar. Men skolskjutsentreprenören Samtrans slår ifrån sig sitt ansvar.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="89" style="width:89%;"></div>
+				<div class="negative" data-procent="11" style="width:11%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">0</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">174</span></div>
+		</div>
+                            </li>
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/stockholm-stad-tar-dod-pa-nattlivet/">Johan Murén</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/stockholm-stad-tar-dod-pa-nattlivet/"><p>Allt fler restauranger, barer, pubar och klubbar hotas att stängas ner, eller har redan tvingats stänga, då grannar ansett sig störda. Det är omöjligt att driva en seriös och långsiktig verksamhet ifall man ständigt riskerar att vräkas eller tvingas att stänga tidigt. Jag vill ha ett levande nöjesliv i Stockholm, ett nöjesliv som tillåts att låta och vara lite besvärligt ibland.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="84" style="width:84%;"></div>
+				<div class="negative" data-procent="16" style="width:16%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">0</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">4311</span></div>
+		</div>
+                            </li>
+                                    <li>
+                        <span class="sidebar-label"><a href="http://asikt.dn.se/asikt/debatt/sverige-maste-integrera-inte-bara-forvara-flyktingar/">Åsa Dufbäck</a></span>
+                        <span><a href="http://asikt.dn.se/asikt/debatt/sverige-maste-integrera-inte-bara-forvara-flyktingar/"><p>Flyktingarna som kommer till Sverige behöver inte bara tak över huvudet. De behöver flyktingförläggningar och en migrationsminister som jobbar aktivt med att få dem integrerade i samhället.</p>
+</a></span>
+                        <div class="vote-bar-container small ">
+			<div class="vote-bar">
+				<div class="positive" data-procent="94" style="width:94%;"></div>
+				<div class="negative" data-procent="6" style="width:6%;"></div>
+			</div>
+		</div><div class="vote-meta-container">
+			<div class="sidebar-replies">Repliker: <span class="vote-meta">1</span></div>
+			<div class="sidebar-votes">Röster: <span class="vote-meta">7341</span></div>
+		</div>
+                            </li>
+                                            </ul>
+        </div>		
+	
+</aside>
+</div>
+
+
+				</section>
+				<!-- /.section-content -->
+				<div class="col-md-2 visible-md visible-lg banner-content">
+					<div id="fixed-ad" data-spy="affix">
+						<div class="ad-wrapper">
+	<div class="ad-text">Annons:</div>
+	<div id="AD-k5a1-wrapper" class="dnasikt-ad-k5a1 hidden-xs">
+			<div id="AD-k5a1" data-width="250" data-name="k5a1" class="burt-unit">
+				<script type="text/javascript">
+				window.Fusion.initAd("AD-k5a1", "k5a1", false);
+				</script>
+			</div>
+		</div></div>
+					</div>
+
+				</div>
+				<!-- /.banner-content -->
+			</div>
+			<!-- /.row -->
+
+			<div class="mobile-sidebar"></div>
+
+		
+		</div> <!-- END CONTAINER MAIN -->
+		<footer class="footer container-fluid container-footer-border"></footer>
+		<footer class="footer container-fluid container-footer">
+			<div class="row">
+				<div class="col-md-10 col-sm-12">
+					<div class="row last-footer-row">
+						<div class="col-md-3 col-sm-3 footer-col">
+							<div id="nav_menu-3" class="widget widget_nav_menu"><h3>DN.Åsikt</h3><div class="menu-dn-asikt-container"><ul id="menu-dn-asikt" class="menu"><li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="http://asikt.dn.se/asikt/om-dn-asikt/">Om DN.Åsikt</a></li>
+<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="http://asikt.dn.se/asikt/borja-skapa-ditt-inlagg/">Skriv på DN.Åsikt</a></li>
+<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="http://asikt.dn.se/asikt/faq/">Vanliga frågor och svar</a></li>
+<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="http://asikt.dn.se/asikt/anvandarvillkor/">Användarvillkor</a></li>
+</ul></div></div>						</div>
+						<div class="col-md-3 col-sm-3 footer-col">
+							<div id="nav_menu-4" class="widget widget_nav_menu"><h3>Våra produkter</h3><div class="menu-vara-produkter-container"><ul id="menu-vara-produkter" class="menu"><li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6"><a href="http://www.dn.se/">DN.se</a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="http://prio.dn.se/prio">DN.Prio</a></li>
+<li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a href="http://dagens.dn.se">eDN.</a></li>
+<li id="menu-item-292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-292"><a href="http://arkivet.dn.se/arkivet">DN.Arkivet</a></li>
+<li id="menu-item-293" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-293"><a href="http://korsord.dn.se/korsord">DN.Korsord</a></li>
+</ul></div></div>						</div>
+						<div class="col-md-3 col-sm-3 footer-col">
+							<div id="nav_menu-5" class="widget widget_nav_menu"><h3>Prenumerera &#038; Annonsera</h3><div class="menu-prenumerera-annonsera-container"><ul id="menu-prenumerera-annonsera" class="menu"><li id="menu-item-294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-294"><a href="http://kund.dn.se/bli-prenumerant/">Prenumerera</a></li>
+<li id="menu-item-295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-295"><a href="http://info.dn.se/annonsera/annonslosningar/prislista-for-dn-se/">Annonsera på DN.se</a></li>
+<li id="menu-item-296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-296"><a href="http://info.dn.se/annonsera/">Annonsera i DN</a></li>
+<li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-297"><a href="http://info.dn.se/annonsera/">Advertise in DN</a></li>
+</ul></div></div>						</div>
+						<div class="col-md-3 col-sm-3 footer-col">
+							<div id="nav_menu-6" class="widget widget_nav_menu"><h3>Kundservice</h3><div class="menu-kundservice-container"><ul id="menu-kundservice" class="menu"><li id="menu-item-298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-298"><a title="Frågor &#038; svar" href="https://kundo.se/org/dagens-nyheter/">Frågor &#038; svar</a></li>
+<li id="menu-item-299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-299"><a title="Mitt konto" href="https://kund.dn.se/mitt-konto/">Mitt konto</a></li>
+<li id="menu-item-300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-300"><a title="Prenumerationsärenden" href="https://kund.dn.se/mitt-konto/">Prenumerationsärenden</a></li>
+<li id="menu-item-301" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-301"><a href="http://info.dn.se/info/">Om DN &#038; DN.se</a></li>
+<li id="menu-item-302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-302"><a href="http://www.dn.se/blogg/dnsebloggen/">Teknisk info</a></li>
+<li id="menu-item-303" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-303"><a href="http://www.dn.se/info/info-hem/cookies-pa-dnse/">Om cookies</a></li>
+</ul></div></div>						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-12 padding-50 footer-text-dot">
+					<div id="black-studio-tinymce-6" class="widget widget_black_studio_tinymce"><div class="textwidget"><p><img class=" size-full wp-image-128 alignright" src="/wp-content/uploads/2015/06/rudolf2.png" alt="rudolf" />Punkten efter Dagens Nyheter har funnits med allt sedan det första numret 23 december 1864. Grundaren Rudolf Wall lär ha satt dit den med tanken att Dagens Nyheter inte bara är ett namn. Det är också en avslutad mening, ett konstaterande av vad som hänt. Därför sätter vi punkt även i vår tid.</p>
+</div></div>				</div>
+				<div class="col-xs-12 padding-50 footer-text-copy">
+					<div id="black-studio-tinymce-7" class="widget widget_black_studio_tinymce"><div class="textwidget"><p>Chefredaktör och ansvarig utgivare: Peter Wolodarski. Vd: Gunilla Herlitz. Redaktionschef: Caspar Opitz. Chef DN.se: Anna Åberg. Administrativ redaktionschef: Fredrik Björnsson. Utrikeschef: Pia Skagermark. Kulturchef: Björn Wiman. Chef ledarre daktionen: Johannes Åman. E-post DN.se: www@dn.se © Dagens Nyheter AB 2014</p>
+</div></div>					<div class="footer-text-copy-logo">
+						<img src="http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/images/dagensnyheter.png"/>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Google Tag Manager -->
+		<script>
+		dataLayer=[{product:'DN.Asikt'}];
+		dataLayer.push({event:'pageview',url:"/asikt/debatt/infor-laskforbud-pa-skolor-och-sockerskatt/det-borde-handla-om-fetma-inte-bara-om-socker/"});
+		</script>
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P42PCB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-P42PCB');</script>
+		<!-- End Google Tag Manager -->
+		<script type="text/javascript" src="//m.burt.io/p/produkter-dn-se.js">
+		</script>
+
+		<script type='text/javascript' src='http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/jquery.js?ver=4.3'></script>
+<script type='text/javascript' src='http://asikt.dn.se/wp-content/plugins/q-and-a/js/q-a-plus.js?ver=1.0.6.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WordpressGlobalVariables = {"ajaxurl":"http:\/\/asikt.dn.se\/wp-admin\/admin-ajax.php","loginurl":"https:\/\/auth.dn.se?appId=dagensnyheter.se&lc=sv&callback=http%3A%2F%2Fasikt.dn.se%2Fasikt%2Fdebatt%2Finfor-laskforbud-pa-skolor-och-sockerskatt%2Fdet-borde-handla-om-fetma-inte-bara-om-socker%2F","createaccounturl":"https:\/\/auth.dn.se\/register?appId=dagensnyheter.se&lc=sv&callback=http%3A%2F%2Fasikt.dn.se%2Fasikt%2Fdebatt%2Finfor-laskforbud-pa-skolor-och-sockerskatt%2Fdet-borde-handla-om-fetma-inte-bara-om-socker%2F"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://asikt.dn.se/wp-content/themes/LightWeightStarterTheme/assets/build/js/app.min.js?ver=4.3'></script>
+
+	</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk: enhanced
+Database Caching 2/111 queries in 0.304 seconds using disk
+Object Caching 1480/1724 objects using disk
+
+ Served from: dn-asikt.jelastic.elastx.net @ 2015-10-14 12:15:57 by W3 Total Cache -->

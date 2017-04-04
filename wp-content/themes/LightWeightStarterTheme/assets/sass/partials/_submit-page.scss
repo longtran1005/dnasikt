@@ -1,0 +1,31 @@
+.form-group.has-error .wp-editor-wrap {
+	.wp-switch-editor {
+		border: 1px solid #A94442;
+	}
+	.wp-editor-container {
+		border: 1px solid #A94442;
+	}
+}
+
+.repeatable_field {
+	position: relative;
+}
+.repeatable_field  .remove {
+  	border-radius: 2px;
+	position: absolute;
+	right: 20px;
+	top: 4px;
+	line-height: 1;
+	background: $dn-red;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	cursor: pointer;
+	i.fa {
+		color: #fff;
+	}
+}
+
+.form-group {
+	// margin-bottom: 30px;
+}

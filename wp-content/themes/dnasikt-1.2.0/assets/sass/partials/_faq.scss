@@ -1,0 +1,18 @@
+.qa-faq {
+	h3.qa-faq-title {
+		@include dnfont(GuardianSans Light);
+	    background: #EDEDED;
+	    padding: 10px 15px 7px;
+	    margin: 0;
+	    border-bottom: 2px solid #E90A2B;
+	    color: #000;
+	}
+	h3.qa-faq-title a {
+	   color: #4C4C4C;
+	}
+	.qa-faq-answer {
+		@include dnfont(GuardianSans Light);
+		padding: 15px;
+		background: rgb(249, 249, 249);
+	}
+}

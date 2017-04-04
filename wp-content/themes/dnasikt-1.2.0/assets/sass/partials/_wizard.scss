@@ -1,0 +1,181 @@
+.wizard {
+	.steps, .actions {
+		padding: 20px 0;
+		margin-bottom: 20px;
+		// border-top: 1px solid #CCC;		REMOVE LINES
+		// border-bottom: 1px solid #CCC;	REMOVE LINES
+	}
+	.steps ul,
+	.actions ul {
+		padding: 0;
+		margin: 0;
+	}
+	.steps ul li,
+	.actions ul li {
+		padding: 0;
+		margin: 0 5px 5px 0;
+		display: inline-block;
+		float: left;
+	}
+	.steps ul li a,
+	.actions ul li a {
+		padding: 0;
+		margin: 0;
+		display: block;
+		float: left;
+		border: 1px solid #000;
+		padding: 6px 10px 4px;
+		@include dnfont(GuardianSans Bold);
+		&:focus {
+			background: #52CEC8;
+			border-color: #52CEC8;
+			color: #fff;
+			outline: 0;
+		}
+	}
+	.steps ul li a .number {
+		padding-right: 10px;
+	}
+	.actions ul li a:focus {
+		border: 1px solid #000;
+		color: #000;
+		background: #fff;
+	}
+	.steps ul li.current a {
+		background: #52CEC8;
+		border-color: #52CEC8;
+		color: #fff;
+	}
+	.steps ul li.done a {
+
+	}
+	.steps ul li.disabled a,
+	.actions ul li.disabled a {
+		@include opacity(0.5);
+		cursor: not-allowed;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.steps ul li.first a {
+
+	}
+	.steps ul li.last a {
+
+	}
+	.actions ul li.next,
+	.actions ul li.finish {
+		float: right;
+	}
+
+	.content {
+		display: block;
+		position: relative;
+		width: auto;
+		height: auto;
+		overflow: hidden;
+		.body {
+			display: none;
+			float: left;
+    		position: absolute;
+		 	width: 100%;
+		 	height: auto;
+		}
+		.body.current {
+			display: block;
+		}
+		h2 {
+			display: none;
+		}
+		h2.current {
+			display: block;
+			margin: 0 0 20px;
+		}
+	}
+}
+
+div#preview {
+    margin-bottom: 20px;
+
+	.preview-image {
+	    margin-bottom: 20px;
+	}
+
+	p.preview-summary {
+	    font-size: 18px;
+	    padding: 0 0 20px;
+	    margin: 0 0 20px;
+	    // border-bottom: 2px solid #000;
+	}
+
+	.preview-author {
+	    border-top: 1px solid #CBCBCB;
+	    padding: 20px 0 0;
+	    margin-top: 20px;
+	}
+	.preview-author-avatar {
+		@include border-radius (100px);
+		width: 100px;
+		height: 100px;
+		background-size: cover;
+		background-position: center center;
+		margin-right: 20px;
+		@include breakpoint (small-down){
+			width: 60px;
+			height: 60px;
+		}
+	}
+}
+
+form {
+	.form-section,.form-section-preview {
+		margin-bottom: 50px;
+	}
+	.form-section:last-child,.form-section-preview:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+h3.sub-header {
+	@include dnfont (GuardianSans Bold);
+
+}
+.help-block {
+	@include dnfont (GuardianSans Light);
+	font-size: 12px;
+}
+
+.preview-person-list .list {
+	.preview-person-name {
+		@include dnfont (GuardianSans Bold);
+	}
+	.preview-person-name:before {
+		position: absolute;
+		font-size: 22px;
+		@extend .ff-dnicon;
+		@extend .dnicon-person;
+		margin: 0 0 0 -30px;
+		line-height: 1;
+	}
+	.meta {
+		@include dnfont (GuardianSans Light);
+		font-size: 12px;
+	}
+
+	li {
+		padding-left: 60px;
+	}
+
+	li span:nth-child(2) {
+		margin: 5px 0 10px 0;
+	}
+}
+
+.login-reply-container {
+	h1 {
+		margin: 20px 0 20px;
+	}
+	span,.input-group,button {
+		margin-bottom: 20px;
+	}
+}

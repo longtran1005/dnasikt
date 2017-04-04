@@ -1,0 +1,92 @@
+.label, .subsubsub .publish .count,
+.subsubsub .publish a.current .count, .subsubsub .draft .count,
+.subsubsub .draft a.current .count, .subsubsub .trash .count,
+.subsubsub .trash a.current .count, tr.status-publish .row-title:before, tr.status-draft .row-title:before {
+  font-weight: 800;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+.label.lightred, .subsubsub .publish .lightred.count,
+.subsubsub .publish a.current .lightred.count, .subsubsub .draft .lightred.count,
+.subsubsub .draft a.current .lightred.count, .subsubsub .trash .lightred.count,
+.subsubsub .trash a.current .lightred.count, tr.status-publish .lightred.row-title:before, tr.status-draft .lightred.row-title:before {
+  background: #E76A7C;
+  color: #fff;
+}
+.label.red, .subsubsub .publish .red.count,
+.subsubsub .publish a.current .red.count, .subsubsub .draft .red.count,
+.subsubsub .draft a.current .red.count, .subsubsub .trash .red.count,
+.subsubsub .trash a.current .red.count, tr.status-publish .red.row-title:before, tr.status-draft .red.row-title:before {
+  background: #E90A2B;
+  color: #fff;
+}
+.label.darkred, .subsubsub .publish .darkred.count,
+.subsubsub .publish a.current .darkred.count, .subsubsub .draft .darkred.count,
+.subsubsub .draft a.current .darkred.count, .subsubsub .trash .count,
+.subsubsub .trash a.current .count, tr.status-publish .darkred.row-title:before, tr.status-draft .darkred.row-title:before {
+  background: #5C1A23;
+  color: #fff;
+}
+.label.green, .subsubsub .publish .count,
+.subsubsub .publish a.current .count, .subsubsub .draft .green.count,
+.subsubsub .draft a.current .green.count, .subsubsub .trash .green.count,
+.subsubsub .trash a.current .green.count, tr.status-publish .row-title:before, tr.status-draft .green.row-title:before {
+  background: #2AC02C;
+  color: #fff;
+}
+.label.blue, .subsubsub .publish .blue.count,
+.subsubsub .publish a.current .blue.count, .subsubsub .draft .count,
+.subsubsub .draft a.current .count, .subsubsub .trash .blue.count,
+.subsubsub .trash a.current .blue.count, tr.status-publish .blue.row-title:before, tr.status-draft .row-title:before {
+  background: #3F58DA;
+  color: #fff;
+}
+
+h3 .label, h3 .subsubsub .publish .count, .subsubsub .publish h3 .count,
+h3 .subsubsub .publish a.current .count,
+.subsubsub .publish a.current h3 .count, h3 .subsubsub .draft .count, .subsubsub .draft h3 .count,
+h3 .subsubsub .draft a.current .count,
+.subsubsub .draft a.current h3 .count, h3 .subsubsub .trash .count, .subsubsub .trash h3 .count,
+h3 .subsubsub .trash a.current .count,
+.subsubsub .trash a.current h3 .count, h3 tr.status-publish .row-title:before, tr.status-publish h3 .row-title:before, h3 tr.status-draft .row-title:before, tr.status-draft h3 .row-title:before {
+  margin-right: 5px;
+}
+
+tr.status-publish .row-title:before {
+  content: 'Pub';
+  margin-right: 5px;
+}
+
+tr.status-draft .row-title:before {
+  content: 'Utkast';
+  margin-right: 5px;
+}
+
+tr.status-draft .post-state {
+  display: none;
+}
+
+.dashboard-box {
+  margin-bottom: 15px;
+}
+.dashboard-box .title {
+  padding: 5px 10px;
+  background: #00A0D2;
+  color: #fff;
+}
+.dashboard-box .title a {
+  color: #fff;
+  font-weight: 800;
+}
+.dashboard-box .inner {
+  padding: 5px 10px;
+  background: #F4F4F4;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}

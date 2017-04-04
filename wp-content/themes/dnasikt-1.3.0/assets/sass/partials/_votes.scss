@@ -1,0 +1,144 @@
+.vote-question-container {
+    @extend .clearfix;
+    margin: 15px auto 0;
+    width: 70%;
+    text-align: center;
+
+    @include breakpoint(small-down) {
+        width: 100%;
+    }
+    .vote-agree,
+    .vote-disagree,
+    .vote-or {
+        margin: 0;
+        display: inline-block;
+    }
+    .vote-agree .btn,
+    .vote-disagree .btn {
+        margin: 0;
+        &.selected:before {
+            @extend .ff-dnicon;
+            @extend .dnicon-check;
+            line-height: 1;
+        }
+        @include breakpoint(xsmall) {
+            margin-bottom: 10px;
+        }
+        @include breakpoint(medium-down) {
+            margin-left: 5px;
+        }
+    }
+    .vote-or {
+        @include breakpoint(medium-down) {
+            margin: 10px;
+            display: none;
+        }
+        .text {
+            background: $dn-lightgrey;
+            position: relative;
+            padding: 0 10px;
+            z-index: 10;
+        }
+        .border {
+            margin: 0 10px;
+            width: 60px;
+            height: 1px;
+            display: block;
+            background: $dn-grey;
+            position: relative;
+            top: -10px;
+            z-index: 0;
+        }
+    }
+}
+
+.vote-bar-container {
+    @extend .clearfix;
+    padding: 5px 0 40px;
+    margin-top: 10px;
+    .question {
+        text-align: center;
+        padding-bottom: 10px;
+        @extend .ff-sans-light;
+    }
+    .vote-bar {
+        display: block;   float: left;
+        width: 100%;
+        position: relative;
+    }
+
+    .vote-bar:after,.vote-bar:before {
+        clear: both;
+        content: '';
+        display: block;
+    }
+    .positive,.negative {
+        float: left;
+        height: 6px;
+        width: 50%;
+    }
+    .positive {
+        background: #000;
+    }
+    .negative {
+        background: #E90A2B;
+    }
+    .positive:before,.negative:before {
+        content: attr(data-procent) '%';
+        position: absolute;
+        font-size: 25px;
+        background: #fff;
+        top: 10px;
+        @include dnfont(PublicoHeadline Black);
+    }
+    .negative:before {
+        right: 0;
+        color: #E90A2B;
+    }
+    .positive:after,.negative:after {
+        // font: normal normal normal 14px/1 FontAwesome;
+        @extend .ff-dnicon;
+        position: absolute;
+        background: #fff;
+        top: -5px;
+        font-size: 20px;
+        line-height: 1;
+    }
+    .positive:after {
+        // content: '\f087';
+        @extend .dnicon-vote-up;
+        padding-right: 5px;
+    }
+    .negative:after {
+        // content: '\f088';
+        @extend .dnicon-vote-down;
+        right: 0;
+        padding-left: 5px;
+        color: #E90A2B;
+    }
+}
+
+.small {
+    padding-bottom: 20px;
+}
+.small > .vote-bar > div:before {
+    display: none;
+}
+
+.vote-meta-container .vote-meta {
+    @include dnfont (GuardianSans Bold);
+    display: inline;
+}
+
+
+
+ul.conversation-list li.active, .grey-box .vote-bar-container{
+    .positive:before,.negative:before, .positive:after,.negative:after {
+        background: $dn-lightgrey;
+    }
+}
+
+.right-side button i:first-child {
+    float: left;
+    margin-right: 10px;
+}

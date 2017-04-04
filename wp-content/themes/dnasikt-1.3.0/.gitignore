@@ -1,0 +1,4 @@
+.DS_Store
+*~
+assets/.sass-cache/*
+npm-debug.log

@@ -1,0 +1,16 @@
+.profile {
+	.avatar-holder {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	ul.list {
+		border-top: $dn-border;
+	}
+	.media .pull-left img {
+		width: 90px;
+	}
+	.label-heading-red {
+		padding: 3px 6px;
+		font-size: 13px;
+	}
+}

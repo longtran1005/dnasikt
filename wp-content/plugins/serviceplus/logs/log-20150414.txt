@@ -1,0 +1,671 @@
+========================Date: 2015-04-14 07:24:03User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_check_login()$_SESSION["visitor"] = 1428996243defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cc0933b759========================
+
+========================Date: 2015-04-14 07:24:03User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2Flog-20150414.txt$ident = 552cc0933b759========================
+
+========================Date: 2015-04-14 07:24:03User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_api_login()$_SESSION["visitor"] = 1428996243return = http://dn-kort-stage.jelastic.elastx.net/log-20150414.txtresponse = {"@httpResponseCode":"200","@requestId":"7zRKHsbgmfYDAzZgKSSj6i","user":{"id":"75cG1ZFK8TeD5tFFlwkKdS","created":"1426586439994","updated":"1426603356078","location":"/75cG1ZFK8TeD5tFFlwkKdS","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"44nOdkOCP4Eq5OPhJXwbD8","type":"CUSTOMER","email":"carl-gerhard.lindesvard@netlight.com","firstName":"CG","lastName":"Lindesvärd","phoneNumber":"","active":"1426603356057"}}========================
+
+========================Date: 2015-04-14 07:25:04User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_check_login()$_SESSION["visitor"] = 1428996304defined("DOING_AJAX") = Trueis_bot() = False$ident = 552cc0d0cf9f4========================
+
+========================Date: 2015-04-14 07:25:16User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_check_login()$_SESSION["visitor"] = 1428996316defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cc0dcbba60========================
+
+========================Date: 2015-04-14 07:25:16User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_logout%3Dtrue%26token%3D%26id%3D%26remembered%3Dfalse$ident = 552cc0dcbba60========================
+
+========================Date: 2015-04-14 07:25:16User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_api_login()$_SESSION["visitor"] = 1428996316return = http://dn-kort-stage.jelastic.elastx.net/?dnkort_logout=truewhere = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 07:25:28User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_check_login()$_SESSION["visitor"] = 1428996328defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cc0e885030========================
+
+========================Date: 2015-04-14 07:25:28User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2Fwp-login.php$ident = 552cc0e885030========================
+
+========================Date: 2015-04-14 07:25:28User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36function = dnkort_api_login()$_SESSION["visitor"] = 1428996328return = http://dn-kort-stage.jelastic.elastx.net/wp-login.phpwhere = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 07:30:55User Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)function = dnkort_check_login()$_SESSION["visitor"] = 1428996655defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cc22f2702a========================
+
+========================Date: 2015-04-14 07:30:55User Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cc22f2702a========================
+
+========================Date: 2015-04-14 07:30:57User Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)function = dnkort_api_login()$_SESSION["visitor"] = 1428996655return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 07:31:57User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netfunction = dnkort_check_login()$_SESSION["visitor"] = 1428996717defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cc26d8b165========================
+
+========================Date: 2015-04-14 07:35:02User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1428996902defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cc32671e4c========================
+
+========================Date: 2015-04-14 07:35:02User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cc32671e4c========================
+
+========================Date: 2015-04-14 07:46:33User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1428997593defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cc5d911fbe========================
+
+========================Date: 2015-04-14 07:46:33User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cc5d911fbe========================
+
+========================Date: 2015-04-14 07:58:54User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1428998334defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cc8be417c2========================
+
+========================Date: 2015-04-14 07:58:54User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cc8be417c2========================
+
+========================Date: 2015-04-14 07:59:09User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netIP Address: 10.50.11.20function = dnkort_check_login()$_SESSION["visitor"] = 1428998349defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cc8cd3f7cb========================
+
+========================Date: 2015-04-14 07:59:13User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netIP Address: 10.50.11.20function = dnkort_check_login()$_SESSION["visitor"] = 1428998353defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cc8d10ee9c========================
+
+========================Date: 2015-04-14 07:59:18User Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)IP Address: 66.249.67.141function = dnkort_check_login()$_SESSION["visitor"] = 1428998358defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cc8d6846a8========================
+
+========================Date: 2015-04-14 07:59:24User Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)IP Address: 66.249.67.149function = dnkort_check_login()$_SESSION["visitor"] = 1428998364defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cc8dc57fb2========================
+
+========================Date: 2015-04-14 07:59:26User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netIP Address: 10.50.11.20function = dnkort_check_login()$_SESSION["visitor"] = 1428998366defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cc8de2970c========================
+
+========================Date: 2015-04-14 08:08:16User Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)IP Address: 117.151.245.109function = dnkort_check_login()$_SESSION["visitor"] = 1428998896defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ccaf00a6c9========================
+
+========================Date: 2015-04-14 08:08:16User Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)IP Address: 117.151.245.109function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ccaf00a6c9========================
+
+========================Date: 2015-04-14 08:09:46User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1428998986defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ccb4a5374c========================
+
+========================Date: 2015-04-14 08:09:46User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ccb4a5374c========================
+
+========================Date: 2015-04-14 08:09:46User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1428998986return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 08:09:57User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1428998997defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ccb556c1a1========================
+
+========================Date: 2015-04-14 08:09:57User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ccb556c1a1========================
+
+========================Date: 2015-04-14 08:09:57User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1428998997return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 08:10:17User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1428999017defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ccb690a521========================
+
+========================Date: 2015-04-14 08:10:17User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ccb690a521========================
+
+========================Date: 2015-04-14 08:10:39User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1428999039defined("DOING_AJAX") = Trueis_bot() = False$ident = 552ccb7f88288========================
+
+========================Date: 2015-04-14 08:12:38User Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)IP Address: 110.155.7.147function = dnkort_check_login()$_SESSION["visitor"] = 1428999158defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ccbf641fd6========================
+
+========================Date: 2015-04-14 08:12:38User Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)IP Address: 110.155.7.147function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ccbf641fd6========================
+
+========================Date: 2015-04-14 08:12:39User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1428999159defined("DOING_AJAX") = Trueis_bot() = False$ident = 552ccbf78a4dc========================
+
+========================Date: 2015-04-14 08:14:39User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1428999279defined("DOING_AJAX") = Trueis_bot() = False$ident = 552ccc6f8a374========================
+
+========================Date: 2015-04-14 08:22:34User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1428999754defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cce4a28531========================
+
+========================Date: 2015-04-14 08:22:34User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cce4a28531========================
+
+========================Date: 2015-04-14 08:32:59User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429000379defined("DOING_AJAX") = Trueis_bot() = False$ident = 552cd0bbec24a========================
+
+========================Date: 2015-04-14 08:33:55User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429000435defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd0f36c26a========================
+
+========================Date: 2015-04-14 08:33:55User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cd0f36c26a========================
+
+========================Date: 2015-04-14 08:37:02User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429000622defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd1ae0aa89========================
+
+========================Date: 2015-04-14 08:37:02User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cd1ae0aa89========================
+
+========================Date: 2015-04-14 08:37:02User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429000622return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 08:37:13User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429000633defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd1b9e628a========================
+
+========================Date: 2015-04-14 08:37:13User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F2015%2F04%2F07%2Fmina-chefredaktorer-av-clas-barkman%2F$ident = 552cd1b9e628a========================
+
+========================Date: 2015-04-14 08:37:14User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429000633return = http://dn-kort-stage.jelastic.elastx.net/2015/04/07/mina-chefredaktorer-av-clas-barkman/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 08:37:26User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429000646defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd1c66da28========================
+
+========================Date: 2015-04-14 08:37:26User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2Fwp-login.php$ident = 552cd1c66da28========================
+
+========================Date: 2015-04-14 08:37:26User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429000646return = http://dn-kort-stage.jelastic.elastx.net/wp-login.phpwhere = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 08:42:06User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429000926defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd2de6e52a========================
+
+========================Date: 2015-04-14 08:42:06User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2Fwp-login.php$ident = 552cd2de6e52a========================
+
+========================Date: 2015-04-14 08:42:06User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429000926return = http://dn-kort-stage.jelastic.elastx.net/wp-login.phpwhere = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 08:44:10User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netIP Address: 10.50.11.20function = dnkort_check_login()$_SESSION["visitor"] = 1429001050defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cd35aa0fe8========================
+
+========================Date: 2015-04-14 08:44:30User Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)IP Address: 66.249.67.149function = dnkort_check_login()$_SESSION["visitor"] = 1429001070defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cd36ed2916========================
+
+========================Date: 2015-04-14 08:46:11User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429001171defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd3d3e5ff1========================
+
+========================Date: 2015-04-14 08:46:11User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cd3d3e5ff1========================
+
+========================Date: 2015-04-14 08:46:27User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netIP Address: 10.50.11.20function = dnkort_check_login()$_SESSION["visitor"] = 1429001187defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cd3e30e1be========================
+
+========================Date: 2015-04-14 08:47:25User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netIP Address: 10.50.11.20function = dnkort_check_login()$_SESSION["visitor"] = 1429001245defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cd41dd4f2d========================
+
+========================Date: 2015-04-14 08:51:35User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netIP Address: 10.50.11.20function = dnkort_check_login()$_SESSION["visitor"] = 1429001495defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cd517116be========================
+
+========================Date: 2015-04-14 08:52:59User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netIP Address: 10.50.11.20function = dnkort_check_login()$_SESSION["visitor"] = 1429001579defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cd56b6f9da========================
+
+========================Date: 2015-04-14 08:57:29User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429001849defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd679b7cd8========================
+
+========================Date: 2015-04-14 08:57:29User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cd679b7cd8========================
+
+========================Date: 2015-04-14 09:04:50User Agent: WordPress/4.1.1; http://dn-kort-stage.jelastic.elastx.netIP Address: 10.50.11.20function = dnkort_check_login()$_SESSION["visitor"] = 1429002290defined("DOING_AJAX") = Falseis_bot() = True$ident = 552cd832b97a2========================
+
+========================Date: 2015-04-14 09:06:24User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36IP Address: 62.210.146.246function = dnkort_check_login()$_SESSION["visitor"] = 1429002384defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd890b4761========================
+
+========================Date: 2015-04-14 09:06:24User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36IP Address: 62.210.146.246function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cd890b4761========================
+
+========================Date: 2015-04-14 09:06:25User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36IP Address: 62.210.146.246function = dnkort_api_login()$_SESSION["visitor"] = 1429002384return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 09:06:40User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36IP Address: 62.210.146.246function = dnkort_check_login()$_SESSION["visitor"] = 1429002400defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd8a06ea36========================
+
+========================Date: 2015-04-14 09:06:40User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36IP Address: 62.210.146.246function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cd8a06ea36========================
+
+========================Date: 2015-04-14 09:06:41User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36IP Address: 62.210.146.246function = dnkort_api_login()$_SESSION["visitor"] = 1429002400return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 09:09:44User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429002584defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cd95823dd7========================
+
+========================Date: 2015-04-14 09:09:44User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cd95823dd7========================
+
+========================Date: 2015-04-14 09:21:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429003266defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdc02ceaea========================
+
+========================Date: 2015-04-14 09:21:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cdc02ceaea========================
+
+========================Date: 2015-04-14 09:30:44User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429003844defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cde445674b========================
+
+========================Date: 2015-04-14 09:30:44User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2Fwp-login.php%3Floggedout%3Dtrue$ident = 552cde445674b========================
+
+========================Date: 2015-04-14 09:30:44User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429003844return = http://dn-kort-stage.jelastic.elastx.net/wp-login.php?loggedout=truewhere = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 09:30:57User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429003857defined("DOING_AJAX") = Trueis_bot() = False$ident = 552cde51ec929========================
+
+========================Date: 2015-04-14 09:33:41User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429004021defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdef56d54f========================
+
+========================Date: 2015-04-14 09:33:41User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cdef56d54f========================
+
+========================Date: 2015-04-14 09:33:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004025defined("DOING_AJAX") = Trueis_bot() = False$ident = 552cdef9a3095========================
+
+========================Date: 2015-04-14 09:33:58User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004038defined("DOING_AJAX") = Trueis_bot() = False$ident = 552cdf06ec850========================
+
+========================Date: 2015-04-14 09:34:09User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004049defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdf11229db========================
+
+========================Date: 2015-04-14 09:34:09User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cdf11229db========================
+
+========================Date: 2015-04-14 09:34:09User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004049return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 09:34:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004085defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdf3553764========================
+
+========================Date: 2015-04-14 09:34:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F2015%2F04%2F07%2Fyoga-och-livskraft-med-blossom-tainton-pa-sri-lanka%2F%26token%3D4n8UjiRgR1U1vptYjuO06K%26id%3D75cG1ZFK8TeD5tFFlwkKdS%26remembered%3Dtrue$ident = 552cdf3553764========================
+
+========================Date: 2015-04-14 09:34:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004085return = http://dn-kort-stage.jelastic.elastx.net/2015/04/07/yoga-och-livskraft-med-blossom-tainton-pa-sri-lanka/response = {"@httpResponseCode":"200","@requestId":"408eu6pXcN1RTcjr7il5AT","user":{"id":"75cG1ZFK8TeD5tFFlwkKdS","created":"1426586439994","updated":"1426603356078","location":"/75cG1ZFK8TeD5tFFlwkKdS","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"44nOdkOCP4Eq5OPhJXwbD8","type":"CUSTOMER","email":"carl-gerhard.lindesvard@netlight.com","firstName":"CG","lastName":"Lindesvärd","phoneNumber":"","active":"1426603356057"}}========================
+
+========================Date: 2015-04-14 09:35:25User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004125defined("DOING_AJAX") = Trueis_bot() = False$ident = 552cdf5de75cc========================
+
+========================Date: 2015-04-14 09:35:29User Agent: IP Address: 202.166.195.105function = dnkort_check_login()$_SESSION["visitor"] = 1429004129defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdf6174f1c========================
+
+========================Date: 2015-04-14 09:35:29User Agent: IP Address: 202.166.195.105function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F88.80.175.148%2Fmuieblackcat$ident = 552cdf6174f1c========================
+
+========================Date: 2015-04-14 09:35:33User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004133defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdf656c579========================
+
+========================Date: 2015-04-14 09:35:33User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cdf656c579========================
+
+========================Date: 2015-04-14 09:35:33User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004133return = http://dn-kort-stage.jelastic.elastx.net/response = {"@httpResponseCode":"200","@requestId":"1KBurLATnINJSMDNDI8Lkm","user":{"id":"75cG1ZFK8TeD5tFFlwkKdS","created":"1426586439994","updated":"1426603356078","location":"/75cG1ZFK8TeD5tFFlwkKdS","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"44nOdkOCP4Eq5OPhJXwbD8","type":"CUSTOMER","email":"carl-gerhard.lindesvard@netlight.com","firstName":"CG","lastName":"Lindesvärd","phoneNumber":"","active":"1426603356057"}}========================
+
+========================Date: 2015-04-14 09:35:34User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004134defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdf6628822========================
+
+========================Date: 2015-04-14 09:35:34User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cdf6628822========================
+
+========================Date: 2015-04-14 09:35:36User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004134return = /response = {"@httpResponseCode":"200","@requestId":"5ZbTp1KY6Dp63TYwABkVsa","user":{"id":"75cG1ZFK8TeD5tFFlwkKdS","created":"1426586439994","updated":"1426603356078","location":"/75cG1ZFK8TeD5tFFlwkKdS","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"44nOdkOCP4Eq5OPhJXwbD8","type":"CUSTOMER","email":"carl-gerhard.lindesvard@netlight.com","firstName":"CG","lastName":"Lindesvärd","phoneNumber":"","active":"1426603356057"}}========================
+
+========================Date: 2015-04-14 09:35:40User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004140defined("DOING_AJAX") = Trueis_bot() = False$ident = 552cdf6ce5f21========================
+
+========================Date: 2015-04-14 09:36:36User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004196defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdfa42340f========================
+
+========================Date: 2015-04-14 09:36:36User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F2015%2F04%2F07%2Fmina-chefredaktorer-av-clas-barkman%2F$ident = 552cdfa42340f========================
+
+========================Date: 2015-04-14 09:36:36User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004196return = http://dn-kort-stage.jelastic.elastx.net/2015/04/07/mina-chefredaktorer-av-clas-barkman/response = {"@httpResponseCode":"200","@requestId":"4OV7JKrFsKYUlDyJIMP61H","user":{"id":"75cG1ZFK8TeD5tFFlwkKdS","created":"1426586439994","updated":"1429004192947","location":"/75cG1ZFK8TeD5tFFlwkKdS","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"44nOdkOCP4Eq5OPhJXwbD8","type":"CUSTOMER","email":"carl-gerhard.lindesvard@netlight.com","firstName":"CG","lastName":"Lindesvärd","phoneNumber":"0723541033","active":"1426603356057","defaultPaymentMethod":"INVOICE"}}========================
+
+========================Date: 2015-04-14 09:36:51User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004211defined("DOING_AJAX") = Trueis_bot() = False$ident = 552cdfb3bb9d7========================
+
+========================Date: 2015-04-14 09:37:03User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004223defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdfbf6e8b5========================
+
+========================Date: 2015-04-14 09:37:03User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F2015%2F04%2F07%2Fmina-chefredaktorer-av-clas-barkman%2F$ident = 552cdfbf6e8b5========================
+
+========================Date: 2015-04-14 09:37:04User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004223return = http://dn-kort-stage.jelastic.elastx.net/2015/04/07/mina-chefredaktorer-av-clas-barkman/response = {"@httpResponseCode":"200","@requestId":"0N7ZEM5XWngNexWgmGXuKT","user":{"id":"75cG1ZFK8TeD5tFFlwkKdS","created":"1426586439994","updated":"1429004192947","location":"/75cG1ZFK8TeD5tFFlwkKdS","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"44nOdkOCP4Eq5OPhJXwbD8","type":"CUSTOMER","email":"carl-gerhard.lindesvard@netlight.com","firstName":"CG","lastName":"Lindesvärd","phoneNumber":"0723541033","active":"1426603356057","defaultPaymentMethod":"INVOICE"}}========================
+
+========================Date: 2015-04-14 09:37:35User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004255defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cdfdf3b6d4========================
+
+========================Date: 2015-04-14 09:37:35User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_logout%3Dtrue%26token%3D%26id%3D%26remembered%3Dfalse$ident = 552cdfdf3b6d4========================
+
+========================Date: 2015-04-14 09:37:35User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004255return = http://dn-kort-stage.jelastic.elastx.net/?dnkort_logout=truewhere = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 09:37:40User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004260defined("DOING_AJAX") = Trueis_bot() = False$ident = 552cdfe4e744a========================
+
+========================Date: 2015-04-14 09:38:21User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004301defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce00db502e========================
+
+========================Date: 2015-04-14 09:38:21User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F2015%2F04%2F07%2Fmina-chefredaktorer-av-clas-barkman%2F$ident = 552ce00db502e========================
+
+========================Date: 2015-04-14 09:38:21User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004301return = http://dn-kort-stage.jelastic.elastx.net/2015/04/07/mina-chefredaktorer-av-clas-barkman/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 09:38:33User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004313defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce019c4ab3========================
+
+========================Date: 2015-04-14 09:38:33User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F2015%2F04%2F07%2Fmina-chefredaktorer-av-clas-barkman%2F$ident = 552ce019c4ab3========================
+
+========================Date: 2015-04-14 09:38:33User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004313return = http://dn-kort-stage.jelastic.elastx.net/2015/04/07/mina-chefredaktorer-av-clas-barkman/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 09:39:40User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004380defined("DOING_AJAX") = Trueis_bot() = False$ident = 552ce05cece40========================
+
+========================Date: 2015-04-14 09:41:40User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004500defined("DOING_AJAX") = Trueis_bot() = False$ident = 552ce0d4ed67b========================
+
+========================Date: 2015-04-14 09:41:45User Agent: IP Address: 202.166.195.105function = dnkort_check_login()$_SESSION["visitor"] = 1429004505defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce0d954ace========================
+
+========================Date: 2015-04-14 09:41:45User Agent: IP Address: 202.166.195.105function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F88.80.175.148%2Fmuieblackcat$ident = 552ce0d954ace========================
+
+========================Date: 2015-04-14 09:42:11User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004531defined("DOING_AJAX") = Trueis_bot() = False$ident = 552ce0f3a49e1========================
+
+========================Date: 2015-04-14 09:42:24User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004544defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce10057dac========================
+
+========================Date: 2015-04-14 09:42:24User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ce10057dac========================
+
+========================Date: 2015-04-14 09:42:25User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004544return = http://dn-kort-stage.jelastic.elastx.net/response = {"@httpResponseCode":"200","@requestId":"7laersqrdGWdAdeKaO3MfX","user":{"id":"75cG1ZFK8TeD5tFFlwkKdS","created":"1426586439994","updated":"1429004192947","location":"/75cG1ZFK8TeD5tFFlwkKdS","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"44nOdkOCP4Eq5OPhJXwbD8","type":"CUSTOMER","email":"carl-gerhard.lindesvard@netlight.com","firstName":"CG","lastName":"Lindesvärd","phoneNumber":"0723541033","active":"1426603356057","defaultPaymentMethod":"INVOICE"}}========================
+
+========================Date: 2015-04-14 09:42:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429004565defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce11589431========================
+
+========================Date: 2015-04-14 09:42:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F2015%2F04%2F07%2Fyoga-och-livskraft-med-blossom-tainton-pa-sri-lanka%2F%3Fmessage%3D1$ident = 552ce11589431========================
+
+========================Date: 2015-04-14 09:42:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429004565return = http://dn-kort-stage.jelastic.elastx.net/2015/04/07/yoga-och-livskraft-med-blossom-tainton-pa-sri-lanka/?message=1where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 09:44:33User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429004673defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce181b550a========================
+
+========================Date: 2015-04-14 09:44:33User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ce181b550a========================
+
+========================Date: 2015-04-14 09:46:22User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429004782defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce1ee872fa========================
+
+========================Date: 2015-04-14 09:46:22User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ce1ee872fa========================
+
+========================Date: 2015-04-14 09:50:48User Agent: IP Address: 188.138.17.205function = dnkort_check_login()$_SESSION["visitor"] = 1429005048defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce2f8e6961========================
+
+========================Date: 2015-04-14 09:50:48User Agent: IP Address: 188.138.17.205function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F88.80.175.148%2F$ident = 552ce2f8e6961========================
+
+========================Date: 2015-04-14 09:57:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429005426defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce47284a03========================
+
+========================Date: 2015-04-14 09:57:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ce47284a03========================
+
+========================Date: 2015-04-14 09:58:41User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429005521defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce4d1e6380========================
+
+========================Date: 2015-04-14 09:58:41User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ce4d1e6380========================
+
+========================Date: 2015-04-14 10:09:46User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429006186defined("DOING_AJAX") = Falseis_bot() = False$ident = 552ce76a23378========================
+
+========================Date: 2015-04-14 10:09:46User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552ce76a23378========================
+
+========================Date: 2015-04-14 10:22:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429006926defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cea4e8a2ab========================
+
+========================Date: 2015-04-14 10:22:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cea4e8a2ab========================
+
+========================Date: 2015-04-14 10:33:34User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429007614defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cecfe5aeb3========================
+
+========================Date: 2015-04-14 10:33:34User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cecfe5aeb3========================
+
+========================Date: 2015-04-14 10:45:37User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429008337defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cefd10ed71========================
+
+========================Date: 2015-04-14 10:45:37User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cefd10ed71========================
+
+========================Date: 2015-04-14 10:49:51User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36IP Address: 62.210.146.244function = dnkort_check_login()$_SESSION["visitor"] = 1429008591defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cf0cfceb9a========================
+
+========================Date: 2015-04-14 10:49:51User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36IP Address: 62.210.146.244function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cf0cfceb9a========================
+
+========================Date: 2015-04-14 10:49:52User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36IP Address: 62.210.146.244function = dnkort_api_login()$_SESSION["visitor"] = 1429008591return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 10:57:02User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429009022defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cf27eb61d0========================
+
+========================Date: 2015-04-14 10:57:02User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cf27eb61d0========================
+
+========================Date: 2015-04-14 11:09:24User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429009764defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cf564b550a========================
+
+========================Date: 2015-04-14 11:09:24User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cf564b550a========================
+
+========================Date: 2015-04-14 11:21:16User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429010476defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cf82c3b483========================
+
+========================Date: 2015-04-14 11:21:16User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cf82c3b483========================
+
+========================Date: 2015-04-14 11:33:42User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429011222defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cfb16e7a05========================
+
+========================Date: 2015-04-14 11:33:42User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cfb16e7a05========================
+
+========================Date: 2015-04-14 11:44:56User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429011896defined("DOING_AJAX") = Falseis_bot() = False$ident = 552cfdb86fc68========================
+
+========================Date: 2015-04-14 11:44:56User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552cfdb86fc68========================
+
+========================Date: 2015-04-14 11:57:12User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429012632defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d00980b734========================
+
+========================Date: 2015-04-14 11:57:12User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d00980b734========================
+
+========================Date: 2015-04-14 12:08:34User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429013314defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d0342d3c0b========================
+
+========================Date: 2015-04-14 12:08:34User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d0342d3c0b========================
+
+========================Date: 2015-04-14 12:20:47User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429014047defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d061fea3a8========================
+
+========================Date: 2015-04-14 12:20:47User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d061fea3a8========================
+
+========================Date: 2015-04-14 12:32:08User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429014728defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d08c870933========================
+
+========================Date: 2015-04-14 12:32:08User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d08c870933========================
+
+========================Date: 2015-04-14 12:33:14User Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)IP Address: 222.186.21.70function = dnkort_check_login()$_SESSION["visitor"] = 1429014794defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d090a6fa1d========================
+
+========================Date: 2015-04-14 12:33:14User Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)IP Address: 222.186.21.70function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F1111.ip138.com%2Fic.asp$ident = 552d090a6fa1d========================
+
+========================Date: 2015-04-14 12:39:31User Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)IP Address: 91.217.90.49function = dnkort_check_login()$_SESSION["visitor"] = 1429015171defined("DOING_AJAX") = Falseis_bot() = True$ident = 552d0a83e828f========================
+
+========================Date: 2015-04-14 12:44:13User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429015453defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d0b9d6e726========================
+
+========================Date: 2015-04-14 12:44:13User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d0b9d6e726========================
+
+========================Date: 2015-04-14 12:55:45User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429016145defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d0e5127e09========================
+
+========================Date: 2015-04-14 12:55:45User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d0e5127e09========================
+
+========================Date: 2015-04-14 13:08:11User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429016891defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d113b84435========================
+
+========================Date: 2015-04-14 13:08:11User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d113b84435========================
+
+========================Date: 2015-04-14 13:19:20User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429017560defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d13d83b5cb========================
+
+========================Date: 2015-04-14 13:19:20User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d13d83b5cb========================
+
+========================Date: 2015-04-14 13:23:32User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429017812defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d14d4ecfae========================
+
+========================Date: 2015-04-14 13:23:32User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d14d4ecfae========================
+
+========================Date: 2015-04-14 13:23:33User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429017812return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 13:23:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429017825defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d14e1a7f26========================
+
+========================Date: 2015-04-14 13:23:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d14e1a7f26========================
+
+========================Date: 2015-04-14 13:23:45User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429017825return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 13:23:59User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429017839defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d14efa147b========================
+
+========================Date: 2015-04-14 13:23:59User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d14efa147b========================
+
+========================Date: 2015-04-14 13:23:59User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429017839return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 13:24:29User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429017869defined("DOING_AJAX") = Trueis_bot() = False$ident = 552d150da4a77========================
+
+========================Date: 2015-04-14 13:24:36User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429017869return = http://dn-kort-stage.jelastic.elastx.net/2015/04/07/varpremiar-hos-cirkus-brazil-jack/response = {"@httpResponseCode":"200","@requestId":"7dNzXJCQUjFYvLV8XSpiEo","user":{"id":"75cG1ZFK8TeD5tFFlwkKdS","created":"1426586439994","updated":"1429004192947","location":"/75cG1ZFK8TeD5tFFlwkKdS","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"44nOdkOCP4Eq5OPhJXwbD8","type":"CUSTOMER","email":"carl-gerhard.lindesvard@netlight.com","firstName":"CG","lastName":"Lindesvärd","phoneNumber":"0723541033","active":"1426603356057","defaultPaymentMethod":"INVOICE"}}========================
+
+========================Date: 2015-04-14 13:24:40User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429017880defined("DOING_AJAX") = Trueis_bot() = False$ident = 552d1518bbf71========================
+
+========================Date: 2015-04-14 13:24:53User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429017893defined("DOING_AJAX") = Trueis_bot() = False$ident = 552d152543de0========================
+
+========================Date: 2015-04-14 13:25:24User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429017924defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d1544e893a========================
+
+========================Date: 2015-04-14 13:25:24User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_logout%3Dtrue%26token%3D%26id%3D%26remembered%3Dfalse$ident = 552d1544e893a========================
+
+========================Date: 2015-04-14 13:25:25User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429017924return = http://dn-kort-stage.jelastic.elastx.net/?dnkort_logout=truewhere = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 13:31:45User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429018305defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d16c122f7b========================
+
+========================Date: 2015-04-14 13:31:45User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d16c122f7b========================
+
+========================Date: 2015-04-14 13:42:57User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429018977defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d19613b062========================
+
+========================Date: 2015-04-14 13:42:57User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d19613b062========================
+
+========================Date: 2015-04-14 13:55:25User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429019725defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d1c4d6c541========================
+
+========================Date: 2015-04-14 13:55:25User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d1c4d6c541========================
+
+========================Date: 2015-04-14 14:06:35User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429020395defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d1eebe5fb0========================
+
+========================Date: 2015-04-14 14:06:35User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d1eebe5fb0========================
+
+========================Date: 2015-04-14 14:12:48User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36IP Address: 31.208.67.53function = dnkort_check_login()$_SESSION["visitor"] = 1429020768defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d20602d68d========================
+
+========================Date: 2015-04-14 14:12:48User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36IP Address: 31.208.67.53function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d20602d68d========================
+
+========================Date: 2015-04-14 14:12:48User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36IP Address: 31.208.67.53function = dnkort_api_login()$_SESSION["visitor"] = 1429020768return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 14:13:15User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36IP Address: 31.208.67.53function = dnkort_check_login()$_SESSION["visitor"] = 1429020795defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d207be8e56========================
+
+========================Date: 2015-04-14 14:13:15User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36IP Address: 31.208.67.53function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d207be8e56========================
+
+========================Date: 2015-04-14 14:13:16User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36IP Address: 31.208.67.53function = dnkort_api_login()$_SESSION["visitor"] = 1429020795return = http://dn-kort-stage.jelastic.elastx.net/where = if(  == '' ||  == '' )========================
+
+========================Date: 2015-04-14 14:19:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429021146defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d21da27ef0========================
+
+========================Date: 2015-04-14 14:19:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d21da27ef0========================
+
+========================Date: 2015-04-14 14:28:30User Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429021710defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d240ebcb04========================
+
+========================Date: 2015-04-14 14:28:30User Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2Fwp-content%2Fcache%2Fminify%2F000000%2FyygpKSi20tdPzEqs0EvPz0_PSU0syCzWS87PBYvp52QmFetnFZamFlXqG-kZ6hlDOXq5mXl6WcUA.js$ident = 552d240ebcb04========================
+
+========================Date: 2015-04-14 14:28:30User Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429021710defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d240ecfbee========================
+
+========================Date: 2015-04-14 14:28:30User Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2Fwp-content%2Fcache%2Fminify%2F000000%2FM9B38fPOLypJLdHPyUwqSiyq1E8uLtbPTczMAwA.css$ident = 552d240ecfbee========================
+
+========================Date: 2015-04-14 14:28:30User Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()$_SESSION["visitor"] = 1429021710defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d240eeb90b========================
+
+========================Date: 2015-04-14 14:28:30User Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36IP Address: 217.151.198.24function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2Fwp-content%2Fcache%2Fminify%2F000000%2FjczBDYMwDEbhhVDCDuWG1AF6-9NE4DaJLdtCyvaVGKBw_96b4_JcWb14rJQUOuIHB-ytJG4xMbu5QkKjPs3_cYNx1xHku-U7nhq2YpWRS74d8W4dcqVeRflRSRJDz-0P.js$ident = 552d240eeb90b========================
+
+========================Date: 2015-04-14 14:28:32User Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429021710return = http://dn-kort-stage.jelastic.elastx.net/wp-content/cache/minify/000000/M9B38fPOLypJLdHPyUwqSiyq1E8uLtbPTczMAwA.cssresponse = {"@httpResponseCode":"200","@requestId":"6sesrW84Z3AwyfvWgJbGrx","user":{"id":"7431dzqy34xlz4jhTVFvjs","created":"1351519659927","updated":"1397774437435","location":"/7431dzqy34xlz4jhTVFvjs","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"7zmWcZ9ezXVIcq8mNOoTct","type":"CUSTOMER","email":"oskar.hedberg@dn.se","firstName":"oskar","lastName":"hedberg","phoneNumber":"","active":"1377675755630"}}========================
+
+========================Date: 2015-04-14 14:28:32User Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429021710return = http://dn-kort-stage.jelastic.elastx.net/wp-content/cache/minify/000000/yygpKSi20tdPzEqs0EvPz0_PSU0syCzWS87PBYvp52QmFetnFZamFlXqG-kZ6hlDOXq5mXl6WcUA.jsresponse = {"@httpResponseCode":"200","@requestId":"0lKUbbED2MhBGggpXwfV2P","user":{"id":"7431dzqy34xlz4jhTVFvjs","created":"1351519659927","updated":"1397774437435","location":"/7431dzqy34xlz4jhTVFvjs","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"7zmWcZ9ezXVIcq8mNOoTct","type":"CUSTOMER","email":"oskar.hedberg@dn.se","firstName":"oskar","lastName":"hedberg","phoneNumber":"","active":"1377675755630"}}========================
+
+========================Date: 2015-04-14 14:28:32User Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Safari/537.36IP Address: 217.151.198.24function = dnkort_api_login()$_SESSION["visitor"] = 1429021710return = http://dn-kort-stage.jelastic.elastx.net/wp-content/cache/minify/000000/jczBDYMwDEbhhVDCDuWG1AF6-9NE4DaJLdtCyvaVGKBw_96b4_JcWb14rJQUOuIHB-ytJG4xMbu5QkKjPs3_cYNx1xHku-U7nhq2YpWRS74d8W4dcqVeRflRSRJDz-0P.jsresponse = {"@httpResponseCode":"200","@requestId":"1N4XQOg0vytqzm4KJHh5IK","user":{"id":"7431dzqy34xlz4jhTVFvjs","created":"1351519659927","updated":"1397774437435","location":"/7431dzqy34xlz4jhTVFvjs","brandId":"0uAK7wv28CxMk2lSBitm9Y","accountId":"7zmWcZ9ezXVIcq8mNOoTct","type":"CUSTOMER","email":"oskar.hedberg@dn.se","firstName":"oskar","lastName":"hedberg","phoneNumber":"","active":"1377675755630"}}========================
+
+========================Date: 2015-04-14 14:30:31User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429021831defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d248725c12========================
+
+========================Date: 2015-04-14 14:30:31User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d248725c12========================
+
+========================Date: 2015-04-14 14:42:42User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429022562defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d276253cdb========================
+
+========================Date: 2015-04-14 14:42:42User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d276253cdb========================
+
+========================Date: 2015-04-14 14:54:04User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429023244defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d2a0c8c4cc========================
+
+========================Date: 2015-04-14 14:54:04User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d2a0c8c4cc========================
+
+========================Date: 2015-04-14 15:06:18User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429023978defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d2ceaa4d9e========================
+
+========================Date: 2015-04-14 15:06:18User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d2ceaa4d9e========================
+
+========================Date: 2015-04-14 15:17:33User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429024653defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d2f8d6beba========================
+
+========================Date: 2015-04-14 15:17:33User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d2f8d6beba========================
+
+========================Date: 2015-04-14 15:30:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429025406defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d327e0dac3========================
+
+========================Date: 2015-04-14 15:30:06User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d327e0dac3========================
+
+========================Date: 2015-04-14 15:41:02User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429026062defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d350e22e27========================
+
+========================Date: 2015-04-14 15:41:02User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d350e22e27========================
+
+========================Date: 2015-04-14 15:42:43User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429026163defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d3573ec909========================
+
+========================Date: 2015-04-14 15:42:43User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d3573ec909========================
+
+========================Date: 2015-04-14 15:53:52User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429026832defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d38109d570========================
+
+========================Date: 2015-04-14 15:53:52User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d38109d570========================
+
+========================Date: 2015-04-14 16:06:09User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429027569defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d3af1a675a========================
+
+========================Date: 2015-04-14 16:06:09User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d3af1a675a========================
+
+========================Date: 2015-04-14 16:17:28User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429028248defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d3d9823279========================
+
+========================Date: 2015-04-14 16:17:28User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d3d9823279========================
+
+========================Date: 2015-04-14 16:30:21User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429029021defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d409d59382========================
+
+========================Date: 2015-04-14 16:30:21User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d409d59382========================
+
+========================Date: 2015-04-14 16:41:08User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429029668defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d4324b65fc========================
+
+========================Date: 2015-04-14 16:41:08User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d4324b65fc========================
+
+========================Date: 2015-04-14 16:42:45User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429029765defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d4385cdd07========================
+
+========================Date: 2015-04-14 16:42:45User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d4385cdd07========================
+
+========================Date: 2015-04-14 16:53:48User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429030428defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d461c3c96a========================
+
+========================Date: 2015-04-14 16:53:48User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d461c3c96a========================
+
+========================Date: 2015-04-14 17:06:14User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429031174defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d490685ee5========================
+
+========================Date: 2015-04-14 17:06:14User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d490685ee5========================
+
+========================Date: 2015-04-14 17:17:30User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429031850defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d4baa25703========================
+
+========================Date: 2015-04-14 17:17:30User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d4baa25703========================
+
+========================Date: 2015-04-14 17:29:48User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429032588defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d4e8c3e438========================
+
+========================Date: 2015-04-14 17:29:48User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d4e8c3e438========================
+
+========================Date: 2015-04-14 17:41:07User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429033267defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d5133b8973========================
+
+========================Date: 2015-04-14 17:41:07User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d5133b8973========================
+
+========================Date: 2015-04-14 17:53:29User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429034009defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d54190a3ab========================
+
+========================Date: 2015-04-14 17:53:29User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d54190a3ab========================
+
+========================Date: 2015-04-14 18:04:47User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429034687defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d56bfcdc8d========================
+
+========================Date: 2015-04-14 18:04:47User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d56bfcdc8d========================
+
+========================Date: 2015-04-14 18:17:14User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429035434defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d59aad2ee7========================
+
+========================Date: 2015-04-14 18:17:14User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d59aad2ee7========================
+
+========================Date: 2015-04-14 18:28:30User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429036110defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d5c4eb583a========================
+
+========================Date: 2015-04-14 18:28:30User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d5c4eb583a========================
+
+========================Date: 2015-04-14 18:40:49User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429036849defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d5f319e04f========================
+
+========================Date: 2015-04-14 18:40:49User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d5f319e04f========================
+
+========================Date: 2015-04-14 18:52:18User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429037538defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d61e20a2f8========================
+
+========================Date: 2015-04-14 18:52:18User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d61e20a2f8========================
+
+========================Date: 2015-04-14 19:04:32User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429038272defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d64c09e233========================
+
+========================Date: 2015-04-14 19:04:32User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d64c09e233========================
+
+========================Date: 2015-04-14 19:16:03User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429038963defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d6773ea79d========================
+
+========================Date: 2015-04-14 19:16:03User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d6773ea79d========================
+
+========================Date: 2015-04-14 19:28:17User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429039697defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d6a51289fa========================
+
+========================Date: 2015-04-14 19:28:17User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d6a51289fa========================
+
+========================Date: 2015-04-14 19:39:42User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429040382defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d6cfe22d31========================
+
+========================Date: 2015-04-14 19:39:42User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d6cfe22d31========================
+
+========================Date: 2015-04-14 19:51:52User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429041112defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d6fd89caa9========================
+
+========================Date: 2015-04-14 19:51:52User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d6fd89caa9========================
+
+========================Date: 2015-04-14 20:03:17User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429041797defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d7285716fe========================
+
+========================Date: 2015-04-14 20:03:17User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d7285716fe========================
+
+========================Date: 2015-04-14 20:15:36User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429042536defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d7568bbdcd========================
+
+========================Date: 2015-04-14 20:15:36User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d7568bbdcd========================
+
+========================Date: 2015-04-14 20:26:53User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429043213defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d780d0fb23========================
+
+========================Date: 2015-04-14 20:26:53User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d780d0fb23========================
+
+========================Date: 2015-04-14 20:39:14User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429043954defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d7af2d5a0e========================
+
+========================Date: 2015-04-14 20:39:14User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d7af2d5a0e========================
+
+========================Date: 2015-04-14 20:50:27User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429044627defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d7d93cddb0========================
+
+========================Date: 2015-04-14 20:50:27User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d7d93cddb0========================
+
+========================Date: 2015-04-14 21:02:47User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429045367defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d80779e0d6========================
+
+========================Date: 2015-04-14 21:02:47User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d80779e0d6========================
+
+========================Date: 2015-04-14 21:14:00User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429046040defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d8318b82a6========================
+
+========================Date: 2015-04-14 21:14:00User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d8318b82a6========================
+
+========================Date: 2015-04-14 21:26:29User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429046789defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d860523223========================
+
+========================Date: 2015-04-14 21:26:29User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d860523223========================
+
+========================Date: 2015-04-14 21:37:43User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429047463defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d88a784437========================
+
+========================Date: 2015-04-14 21:37:43User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d88a784437========================
+
+========================Date: 2015-04-14 21:48:31User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2251.0 Safari/537.36IP Address: 182.118.53.252function = dnkort_check_login()$_SESSION["visitor"] = 1429048111defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d8b2f84c96========================
+
+========================Date: 2015-04-14 21:48:31User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2251.0 Safari/537.36IP Address: 182.118.53.252function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F88.80.175.148%2F$ident = 552d8b2f84c96========================
+
+========================Date: 2015-04-14 21:48:35User Agent: Go 1.1 package httpIP Address: 182.118.53.252function = dnkort_check_login()$_SESSION["visitor"] = 1429048115defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d8b3373cd1========================
+
+========================Date: 2015-04-14 21:48:35User Agent: Go 1.1 package httpIP Address: 182.118.53.252function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F88.80.175.148%2F%26token%3D%26id%3D%26remembered%3Dfalse$ident = 552d8b3373cd1========================
+
+========================Date: 2015-04-14 21:48:36User Agent: Go 1.1 package httpIP Address: 182.118.53.252function = dnkort_check_login()$_SESSION["visitor"] = 1429048116defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d8b343fad1========================
+
+========================Date: 2015-04-14 21:48:36User Agent: Go 1.1 package httpIP Address: 182.118.53.252function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F88.80.175.148%2F%26token%3D%26id%3D%26remembered%3Dfalse%26token%3D%26id%3D%26remembered%3Dfalse$ident = 552d8b343fad1========================
+
+========================Date: 2015-04-14 21:48:37User Agent: Go 1.1 package httpIP Address: 182.118.53.252function = dnkort_check_login()$_SESSION["visitor"] = 1429048117defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d8b3509a33========================
+
+========================Date: 2015-04-14 21:48:37User Agent: Go 1.1 package httpIP Address: 182.118.53.252function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F88.80.175.148%2F%26token%3D%26id%3D%26remembered%3Dfalse%26token%3D%26id%3D%26remembered%3Dfalse%26token%3D%26id%3D%26remembered%3Dfalse$ident = 552d8b3509a33========================
+
+========================Date: 2015-04-14 21:48:37User Agent: Go 1.1 package httpIP Address: 182.118.53.252function = dnkort_check_login()$_SESSION["visitor"] = 1429048117defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d8b35cda8c========================
+
+========================Date: 2015-04-14 21:48:37User Agent: Go 1.1 package httpIP Address: 182.118.53.252function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F88.80.175.148%2F%26token%3D%26id%3D%26remembered%3Dfalse%26token%3D%26id%3D%26remembered%3Dfalse%26token%3D%26id%3D%26remembered%3Dfalse%26token%3D%26id%3D%26remembered%3Dfalse$ident = 552d8b35cda8c========================
+
+========================Date: 2015-04-14 21:50:20User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429048220defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d8b9ca1d0f========================
+
+========================Date: 2015-04-14 21:50:20User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d8b9ca1d0f========================
+
+========================Date: 2015-04-14 22:01:21User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429048881defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d8e3153cdb========================
+
+========================Date: 2015-04-14 22:01:21User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d8e3153cdb========================
+
+========================Date: 2015-04-14 22:13:57User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429049637defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d912522e90========================
+
+========================Date: 2015-04-14 22:13:57User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d912522e90========================
+
+========================Date: 2015-04-14 22:25:00User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429050300defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d93bc0f3bf========================
+
+========================Date: 2015-04-14 22:25:00User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d93bc0f3bf========================
+
+========================Date: 2015-04-14 22:37:33User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429051053defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d96ad22b6d========================
+
+========================Date: 2015-04-14 22:37:33User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d96ad22b6d========================
+
+========================Date: 2015-04-14 22:48:31User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429051711defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d993f88fce========================
+
+========================Date: 2015-04-14 22:48:31User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d993f88fce========================
+
+========================Date: 2015-04-14 23:01:04User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429052464defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d9c30e7073========================
+
+========================Date: 2015-04-14 23:01:04User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d9c30e7073========================
+
+========================Date: 2015-04-14 23:12:17User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429053137defined("DOING_AJAX") = Falseis_bot() = False$ident = 552d9ed10a356========================
+
+========================Date: 2015-04-14 23:12:17User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552d9ed10a356========================
+
+========================Date: 2015-04-14 23:24:58User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429053898defined("DOING_AJAX") = Falseis_bot() = False$ident = 552da1ca57591========================
+
+========================Date: 2015-04-14 23:24:58User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552da1ca57591========================
+
+========================Date: 2015-04-14 23:35:47User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429054547defined("DOING_AJAX") = Falseis_bot() = False$ident = 552da4533bc3f========================
+
+========================Date: 2015-04-14 23:35:47User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552da4533bc3f========================
+
+========================Date: 2015-04-14 23:37:30User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429054650defined("DOING_AJAX") = Falseis_bot() = False$ident = 552da4bacd7d4========================
+
+========================Date: 2015-04-14 23:37:30User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552da4bacd7d4========================
+
+========================Date: 2015-04-14 23:48:23User Agent: IP Address: 10.50.1.10function = dnkort_check_login()$_SESSION["visitor"] = 1429055303defined("DOING_AJAX") = Falseis_bot() = False$ident = 552da74779155========================
+
+========================Date: 2015-04-14 23:48:23User Agent: IP Address: 10.50.1.10function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F$ident = 552da74779155========================
+
+========================Date: 2015-04-14 23:52:28User Agent: IP Address: 188.138.17.205function = dnkort_check_login()$_SESSION["visitor"] = 1429055548defined("DOING_AJAX") = Falseis_bot() = False$ident = 552da83c25728========================
+
+========================Date: 2015-04-14 23:52:28User Agent: IP Address: 188.138.17.205function = dnkort_check_login()redirect = http://account.qa.newsplus.se/check-logged-in?appId=dagensnyheter.se&callback=http%3A%2F%2Fdn-kort-stage.jelastic.elastx.net%2F%3Fdnkort_login%3Dtrue%26return%3Dhttp%3A%2F%2F88.80.175.148%2F$ident = 552da83c25728========================
+
+

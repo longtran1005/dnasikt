@@ -1,0 +1,31 @@
+$dn-red: 		#E90A2B;
+$dn-turq: 		#52CEC8;
+$dn-blue: 		#84BDE4;
+$dn-lightgrey: 	#F4F4F4;
+$dn-grey: 		#c4c4c4;
+$dn-darkgrey: 	#343434;
+
+$facebook-color: 	#3B5998;
+$twitter-color: 	#00ACED;
+$googleplus-color: 	#D14836;
+
+$dn-blue-link:		#017dfc;
+
+//border on divs and dividers
+$dn-border: 	1px solid rgba(0,0,0,0.2); //black 20%
+$dn-border-big:	6px solid black;
+
+// Override bootstrap colors
+$brand-primary:         $dn-red;
+$brand-success:         $dn-blue;
+$brand-info:            $dn-turq;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+$grid-gutter-width:		30px;
+$container-large-desktop:	(1260px + $grid-gutter-width) !default;//1260 + 15 + 15 = 1290 !default = 1140
+$screen-lg:					1290px !default; //has to be >= container-large-desktop
+
+//Override bootstrap default font base and size
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-base:        $font-family-serif !default;
+$font-size-base:          15px !default;
