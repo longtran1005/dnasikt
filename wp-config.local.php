@@ -2,8 +2,8 @@
 //define('WP_HOME','http://reservdn.local/');
 //define('WP_SITEURL','http://reservdn.local/');
 
-define('WP_HOME','http://dnasikt.local/');
-define('WP_SITEURL','http://dnasikt.local/');
+define('WP_HOME','http://dnasikt2.local/');
+define('WP_SITEURL','http://dnasikt2.local/');
 
 /** MySQL database username */
 //define('DB_USER', 'wp');
@@ -16,7 +16,7 @@ define('WP_SITEURL','http://dnasikt.local/');
 
 /** The name of the database for WordPress */
 	// define('DB_NAME', 'dnfokus_v1');
-	define('DB_NAME', 'dnasikt');
+	define('DB_NAME', 'dnasikt2');
 
     /** MySQL database username */
     define('DB_USER', 'root');
