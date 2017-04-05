@@ -1,9 +1,9 @@
 === Better Plugin Compatibility Control ===
 Contributors: Alphawolf
-Donate link: http://www.schloebe.de/donate/
+Donate link: https://www.schloebe.de/donate/
 Tags: admin, management, plugin, plugins, version, control, compatibility, compatible
 Requires at least: 2.9
-Tested up to: 4.5.9999
+Tested up to: 4.7.9999
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,7 +30,7 @@ Adds version compatibility info to the plugins page to inform the admin at a gla
 
 [Developer on Google+](https://plus.google.com/118074611982254715031 "Developer on Google+") | [Developer on Twitter](http://twitter.com/wpseek "Developer on Twitter")
 
-**Looking for more WordPress plugins? Visit [www.schloebe.de/portfolio/](http://www.schloebe.de/portfolio/)**
+**Looking for more WordPress plugins? Visit [www.schloebe.de/portfolio/](https://www.schloebe.de/portfolio/)**
 
 == Frequently Asked Questions ==
 
@@ -44,7 +44,7 @@ Please visit [the official website](http://www.schloebe.de/wordpress/better-plug
 
 = Where can I get more information? =
 
-Please visit [the official website](http://www.schloebe.de/wordpress/better-plugin-compatibility-control-plugin/#english "Better Plugin Compatibility Control") for the latest information on this plugin.
+Please visit [the official website](https://www.schloebe.de/wordpress/better-plugin-compatibility-control-plugin/#english "Better Plugin Compatibility Control") for the latest information on this plugin.
 
 == Installation ==
 
@@ -54,6 +54,19 @@ Please visit [the official website](http://www.schloebe.de/wordpress/better-plug
 4. Installation finished.
 
 == Changelog ==
+
+= 4.7.0.1 =
+* Fixed an `Undefined property: stdClass::$tested` issue
+
+= 4.7.0 =
+* WordPress 4.7 compatibility
+* PHP 7 compatibility
+
+= 4.6.1 =
+* Fixed a small bug in version coloring
+
+= 4.6.0 =
+* Version bump
 
 = 4.5.0 =
 * Added italian localization (Thanks to venerdi!)
