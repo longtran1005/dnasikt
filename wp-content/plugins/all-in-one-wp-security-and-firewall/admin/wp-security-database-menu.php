@@ -37,7 +37,7 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
     function get_current_tab() 
     {
         $tab_keys = array_keys($this->menu_tabs);
-        $tab = isset( $_GET['tab'] ) ? $_GET['tab'] : $tab_keys[0];
+        $tab = isset( $_GET['tab'] ) ? sanitize_text_field($_GET['tab']) : $tab_keys[0];
         return $tab;
     }
 
@@ -84,7 +84,7 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
         $old_db_prefix = $wpdb->prefix;
         $new_db_prefix = '';
         $perform_db_change = false;
-
+        
         if (isset($_POST['aiowps_db_prefix_change']))//Do form submission tasks
         {
             $nonce=$_REQUEST['_wpnonce'];
@@ -118,11 +118,12 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
                     {
                         //User has chosen their own DB prefix value
                         $new_db_prefix = wp_strip_all_tags( trim( $_POST['aiowps_new_manual_db_prefix'] ) );
-                        $error = $wpdb->set_prefix( $new_db_prefix );
+                        $error = $wpdb->set_prefix( $new_db_prefix ); //validate the user chosen prefix
                         if(is_wp_error($error))
                         {
                             wp_die( __('<strong>ERROR</strong>: The table prefix can only contain numbers, letters, and underscores.', 'all-in-one-wp-security-and-firewall') );
                         }
+                        $wpdb->set_prefix( $old_db_prefix );
                         $perform_db_change = true;
                     }
                 }
@@ -149,10 +150,10 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
         $aiowps_feature_mgr->output_feature_details_badge("db-security-db-prefix");
         ?>
 
-        <div class="aio_yellow_box">
+        <div class="aio_red_box">
             <?php
             $backup_tab_link = '<a href="admin.php?page='.AIOWPSEC_DB_SEC_MENU_SLUG.'&tab=tab2">DB Backup</a>';
-            $info_msg = '<p>'.sprintf( __('It is recommended that you perform a %s before using this feature', 'all-in-one-wp-security-and-firewall'), $backup_tab_link).'</p>';
+            $info_msg = '<p><strong>'.sprintf( __('It is recommended that you perform a %s before using this feature', 'all-in-one-wp-security-and-firewall'), $backup_tab_link).'</strong></p>';
             echo $info_msg;
             ?>
         </div>
@@ -223,10 +224,9 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
                 }
                 echo '<div id="message" class="updated fade"><p>';
                 _e('DB Backup was successfully completed! You will receive the backup file via email if you have enabled "Send Backup File Via Email", otherwise you can retrieve it via FTP from the following directory:','all-in-one-wp-security-and-firewall');
-                echo '<p>';
+                echo '</p><p>';
                 _e('Your DB Backup File location: ');
                 echo '<strong>'.$aiowps_backup_file_path.'</strong>';
-                echo '</p>';
                 echo '</p></div>';
             } 
             else
@@ -300,11 +300,9 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
         <div class="inside">
         <form action="" method="POST">
         <?php wp_nonce_field('aiowpsec-db-manual-change-nonce'); ?>
-        <table class="form-table">
-            <tr valign="top">
+        <p>
             <span class="description"><?php _e('To create a new DB backup just click on the button below.', 'all-in-one-wp-security-and-firewall'); ?></span>
-            </tr>            
-        </table>
+        </p>
         <input type="submit" name="aiowps_manual_db_backup" value="<?php _e('Create DB Backup Now', 'all-in-one-wp-security-and-firewall')?>" class="button-primary" />
         </form>
         </div></div>
@@ -441,7 +439,10 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
         {
             echo '<p class="aio_success_with_icon">'.sprintf( __('%s tables had their prefix updated successfully!', 'all-in-one-wp-security-and-firewall'), '<strong>'.$table_count.'</strong>').'</p>';
         }
-        
+
+        //Let's check for mysql tables of type "view"
+        $this->alter_table_views($table_old_prefix, $table_new_prefix);
+
         //Get wp-config.php file contents and modify it with new info
         $config_contents = file($config_file);
         $prefix_match_string = '$table_prefix='; //this is our search string for the wp-config.php file
@@ -464,10 +465,9 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
         }
         
         //Now let's update the options table
-        $update_option_table_query = "UPDATE " . $table_new_prefix . "options 
+        $update_option_table_query = $wpdb->prepare("UPDATE " . $table_new_prefix . "options
                                                                   SET option_name = '".$table_new_prefix ."user_roles' 
-                                                                  WHERE option_name = '".$table_old_prefix."user_roles' 
-                                                                  LIMIT 1";
+                                                                  WHERE option_name = %s LIMIT 1", $table_old_prefix."user_roles");
 
         if ( false === $wpdb->query($update_option_table_query) ) 
         {
@@ -485,10 +485,9 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
                     if ($blog_id == 1){continue;} //skip main site
                     $new_pref_and_site_id = $table_new_prefix.$blog_id.'_';
                     $old_pref_and_site_id = $table_old_prefix.$blog_id.'_';
-                    $update_ms_option_table_query = "UPDATE " . $new_pref_and_site_id . "options
+                    $update_ms_option_table_query = $wpdb->prepare("UPDATE " . $new_pref_and_site_id . "options
                                                                             SET option_name = '".$new_pref_and_site_id."user_roles'
-                                                                            WHERE option_name = '".$old_pref_and_site_id."user_roles'
-                                                                            LIMIT 1";
+                                                                            WHERE option_name = %s LIMIT 1", $old_pref_and_site_id."user_roles");
                     if ( false === $wpdb->query($update_ms_option_table_query) ) 
                     {
                         echo '<p class="aio_error_with_icon">'.sprintf( __('Update of table %s failed: unable to change %s to %s', 'all-in-one-wp-security-and-firewall'),$new_pref_and_site_id.'options', $old_pref_and_site_id.'user_roles', $new_pref_and_site_id.'user_roles').'</p>';
@@ -517,10 +516,9 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
             //Create new meta key
             $new_meta_key = $table_new_prefix . substr( $meta_key->meta_key, $old_prefix_length );
 
-            $update_user_meta_sql = "UPDATE " . $table_new_prefix . "usermeta 
+            $update_user_meta_sql = $wpdb->prepare("UPDATE " . $table_new_prefix . "usermeta
                                                             SET meta_key='" . $new_meta_key . "' 
-                                                            WHERE meta_key='" . $meta_key->meta_key . "'
-                                                            AND user_id='" . $meta_key->user_id."'";
+                                                            WHERE meta_key=%s AND user_id=%s", $meta_key->meta_key, $meta_key->user_id);
 
             if (false === $wpdb->query($update_user_meta_sql))
             {
@@ -562,6 +560,46 @@ class AIOWPSecurity_Database_Menu extends AIOWPSecurity_Admin_Menu
         }
         $mysqli->close();        
         return $tables;
+    }
+    
+    /**
+     * Will modify existing table view definitions to reflect the new DB prefix change
+     * 
+     * @param type $old_prefix
+     * @param type $new_prefix
+     */
+    function alter_table_views($old_db_prefix, $new_db_prefix)
+    {
+        global $wpdb;
+        $table_count = 0;
+        $info_msg_string = '<p class="aio_info_with_icon">'.__('Checking for MySQL tables of type "view".....', 'all-in-one-wp-security-and-firewall').'</p>';
+        echo ($info_msg_string);
+        
+        //get tables which are views
+        $query = "SELECT * FROM INFORMATION_SCHEMA.VIEWS";
+        $res = $wpdb->get_results($query);
+        if(empty($res)) return;
+        $view_count = 0;
+        foreach ($res as $item){
+            $old_def = $item->VIEW_DEFINITION;
+            $new_def = str_replace($old_db_prefix, $new_db_prefix, $old_def);
+            $new_def_no_bt = str_replace("`", "", $new_def); //remove any backticks because these will cause the "ALTER" command used later to fail
+
+            $view_name = $item->TABLE_NAME;
+            $chg_view_sql = "ALTER VIEW $view_name AS $new_def_no_bt"; //Note: cannot use $wpdb->prepare because it adds single quotes which cause the ALTER query to fail
+            $view_res = $wpdb->query($chg_view_sql);
+            if($view_res === false){
+                echo '<p class="aio_error_with_icon">'.sprintf( __('Update of the following MySQL view definition failed: %s', 'all-in-one-wp-security-and-firewall'),$old_def).'</p>';
+                $aio_wp_security->debug_logger->log_debug("Update of the following MySQL view definition failed: ".$old_def,4);//Log the highly unlikely event of DB error
+            }else{
+                $view_count++;
+            }
+        }
+        if($view_count > 0){
+            echo '<p class="aio_success_with_icon">'.sprintf( __('%s view definitions were updated successfully!', 'all-in-one-wp-security-and-firewall'), '<strong>'.$view_count.'</strong>').'</p>';
+        }
+        
+        return;
     }
     
 } //end class

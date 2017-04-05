@@ -7,6 +7,21 @@ class AIOWPSecurity_Utility
         //NOP
     }
 
+    /**
+     * Explode $string with $delimiter, trim all lines and filter out empty ones.
+     * @param string $string
+     * @param string $delimiter
+     * @return array
+     */
+    static function explode_trim_filter_empty($string, $delimiter = PHP_EOL) {
+        return array_filter(array_map('trim', explode($delimiter, $string)), 'strlen');
+    }
+
+    /**
+     * Returns the current URL
+     * 
+     * @return string
+     */
     static function get_current_page_url()
     {
         $pageURL = 'http';
@@ -22,6 +37,13 @@ class AIOWPSecurity_Utility
         return $pageURL;
     }
 
+    /**
+     * Redirects to specified URL
+     * 
+     * @param type $url
+     * @param type $delay
+     * @param type $exit
+     */
     static function redirect_to_url($url, $delay = '0', $exit = '1')
     {
         if (empty($url)) {
@@ -38,13 +60,22 @@ class AIOWPSecurity_Utility
         }
     }
 
+    /**
+     * Returns logout URL with "after logout URL" query params
+     * 
+     * @param type $after_logout_url
+     * @return type
+     */
     static function get_logout_url_with_after_logout_url_value($after_logout_url)
     {
         return AIOWPSEC_WP_URL . '?aiowpsec_do_log_out=1&after_logout=' . $after_logout_url;
     }
 
-    /*
+    /**
      * Checks if a particular username exists in the WP Users table
+     * @global type $wpdb
+     * @param type $username
+     * @return boolean
      */
     static function check_user_exists($username)
     {
@@ -58,15 +89,13 @@ class AIOWPSecurity_Utility
         //If multisite 
         if (AIOWPSecurity_Utility::is_multisite_install()) {
             $blog_id = get_current_blog_id();
-            $admin_users = get_users('blog_id=' . $blog_id . 'orderby=login&role=administrator');
-            $acct_name_exists = false;
+            $admin_users = get_users('blog_id=' . $blog_id . '&orderby=login&role=administrator');
             foreach ($admin_users as $user) {
                 if ($user->user_login == $username) {
-                    $acct_name_exists = true;
-                    break;
+                    return true;
                 }
             }
-            return $acct_name_exists;
+            return false;
         }
 
         //check users table
@@ -74,24 +103,24 @@ class AIOWPSecurity_Utility
         $sql_1 = $wpdb->prepare("SELECT user_login FROM $wpdb->users WHERE user_login=%s", $sanitized_username);
         $user_login = $wpdb->get_var($sql_1);
         if ($user_login == $sanitized_username) {
-            $users_table_value_exists = true;
+            return true;
         } else {
             //make sure that the sanitized username is an integer before comparing it to the users table's ID column
-            $sanitized_username_is_an_integer = (1 === preg_match('/^\d+$/', $sanitized_username)) ? true : false;
+            $sanitized_username_is_an_integer = (1 === preg_match('/^\d+$/', $sanitized_username));
             if ($sanitized_username_is_an_integer) {
                 $sql_2 = $wpdb->prepare("SELECT ID FROM $wpdb->users WHERE ID=%d", intval($sanitized_username));
                 $userid = $wpdb->get_var($sql_2);
-                $users_table_value_exists = ($userid == $sanitized_username) ? true : false;
+                return ($userid == $sanitized_username);
             } else {
-                $users_table_value_exists = false;
+                return false;
             }
         }
-        return $users_table_value_exists;
-
     }
 
-    /*
+    /**
      * This function will return a list of user accounts which have login and nick names which are identical
+     * @global type $wpdb
+     * @return type
      */
     static function check_identical_login_and_nick_names()
     {
@@ -113,8 +142,10 @@ class AIOWPSecurity_Utility
     }
 
 
-    /*
+    /**
      * Generates a random alpha-numeric number
+     * @param type $string_length
+     * @return string
      */
     static function generate_alpha_numeric_random_string($string_length)
     {
@@ -129,8 +160,10 @@ class AIOWPSecurity_Utility
     }
 
 
-    /*
-     * Generates a random number using a-z characters
+    /**
+     * Generates a random string using a-z characters
+     * @param type $string_length
+     * @return string
      */
     static function generate_alpha_random_string($string_length)
     {
@@ -144,6 +177,14 @@ class AIOWPSecurity_Utility
         return $string;
     }
 
+    /**
+     * Sets cookie
+     * @param type $cookie_name
+     * @param type $cookie_value
+     * @param type $expiry_seconds
+     * @param type $path
+     * @param string $cookie_domain
+     */
     static function set_cookie_value($cookie_name, $cookie_value, $expiry_seconds = 86400, $path = '/', $cookie_domain = '')
     {
         $expiry_time = time() + intval($expiry_seconds);
@@ -152,7 +193,12 @@ class AIOWPSecurity_Utility
         }
         setcookie($cookie_name, $cookie_value, $expiry_time, $path, $cookie_domain);
     }
-
+    
+    /**
+     * Gets cookie
+     * @param type $cookie_name
+     * @return string
+     */
     static function get_cookie_value($cookie_name)
     {
         if (isset($_COOKIE[$cookie_name])) {
@@ -161,16 +207,18 @@ class AIOWPSecurity_Utility
         return "";
     }
 
+    /**
+     * Checks if installation is multisite
+     * @return type
+     */
     static function is_multisite_install()
     {
-        if (function_exists('is_multisite') && is_multisite()) {
-            return true;
-        } else {
-            return false;
-        }
+        return function_exists('is_multisite') && is_multisite();
     }
 
-    //This is a general yellow box message for when we want to suppress a feature's config items because site is subsite of multi-site
+    /**
+     * This is a general yellow box message for when we want to suppress a feature's config items because site is subsite of multi-site
+     */
     static function display_multisite_message()
     {
         echo '<div class="aio_yellow_box">';
@@ -179,12 +227,16 @@ class AIOWPSecurity_Utility
         echo '</div>';
     }
 
-    /*
+    /**
      * Modifies the wp-config.php file to disable PHP file editing from the admin panel
-     * This func will add the following code:
+     * This function will add the following code:
      * define('DISALLOW_FILE_EDIT', false);
      * 
-     * NOTE: This function will firstly check if the above code already exists and it will modify the bool value, otherwise it will insert the code mentioned above
+     * NOTE: This function will firstly check if the above code already exists 
+     * and it will modify the bool value, otherwise it will insert the code mentioned above
+     * 
+     * @global type $aio_wp_security
+     * @return boolean
      */
     static function disable_file_edits()
     {
@@ -242,12 +294,14 @@ class AIOWPSecurity_Utility
         }
     }
 
-    /*
+    /**
      * Modifies the wp-config.php file to allow PHP file editing from the admin panel
      * This func will modify the following code by replacing "true" with "false":
      * define('DISALLOW_FILE_EDIT', true);
+     * 
+     * @global type $aio_wp_security
+     * @return boolean
      */
-
     static function enable_file_edits()
     {
         global $aio_wp_security;
@@ -305,9 +359,7 @@ class AIOWPSecurity_Utility
 
         //Some initialising
         $url = '';
-        $ip_or_host = '';
         $referer_info = '';
-        $event_data = '';
 
         $events_table_name = AIOWPSEC_TBL_EVENTS;
 
@@ -328,11 +380,12 @@ class AIOWPSecurity_Utility
             $referer_info = isset($_SERVER['HTTP_REFERER']) ? esc_attr($_SERVER['HTTP_REFERER']) : '';
         }
 
+        $current_time = current_time( 'mysql' );
         $data = array(
             'event_type' => $event_type,
             'username' => $username,
             'user_id' => $user_id,
-            'event_date' => current_time('mysql'),
+            'event_date' => $current_time,
             'ip_or_host' => $ip_or_host,
             'referer_info' => $referer_info,
             'url' => $url,
@@ -372,10 +425,9 @@ class AIOWPSecurity_Utility
 
     /**
      * Returns list of IP addresses locked out
-     *
-     * * @returns array of addresses or FALSE otherwise
-     *
-     **/
+     * @global type $wpdb
+     * @return array of addresses found or FALSE otherwise
+     */
     static function get_locked_ips()
     {
         global $wpdb;
@@ -390,8 +442,13 @@ class AIOWPSecurity_Utility
     }
 
 
-    /*
+    /**
      * Locks an IP address - Adds an entry to the aiowps_lockdowns table
+     * @global type $wpdb
+     * @global type $aio_wp_security
+     * @param type $ip
+     * @param type $lock_reason
+     * @param type $username
      */
     static function lock_IP($ip, $lock_reason = '', $username = '')
     {
@@ -422,13 +479,16 @@ class AIOWPSecurity_Utility
         }
     }
 
-    /*
+    /**
      * Returns an array of blog_ids for a multisite install
-     * If site is not multisite returns empty array
+     * 
+     * @global type $wpdb
+     * @global type $wpdb
+     * @return array or empty array if not multisite
      */
     static function get_blog_ids()
     {
-        global $wpdb, $aio_wp_security;
+        global $wpdb;
         if (AIOWPSecurity_Utility::is_multisite_install()) {
             global $wpdb;
             $blog_ids = $wpdb->get_col("SELECT blog_id FROM " . $wpdb->prefix . "blogs");
@@ -439,7 +499,14 @@ class AIOWPSecurity_Utility
     }
 
 
-    //This function will delete the oldest rows from a table which are over the max amount of rows specified 
+    /**
+     * This function will delete the oldest rows from a table which are over the max amount of rows specified
+     * @global type $wpdb
+     * @global type $aio_wp_security
+     * @param type $table_name
+     * @param type $max_rows
+     * @return bool
+     */
     static function cleanup_table($table_name, $max_rows = '10000')
     {
         global $wpdb, $aio_wp_security;
@@ -467,8 +534,35 @@ class AIOWPSecurity_Utility
         }
         return ($result === false) ? false : true;
     }
+    
+    /**
+     * Delete expired captcha info transients
+     * 
+     * Note: A unique instance these transients is created everytime the login page is loaded with captcha enabled
+     * This function will help prune the options table of old expired entries.
+     * 
+     * @global wpdb $wpdb
+     */
+    static function delete_expired_captcha_transients(){
+        global $wpdb;
 
-    //Gets server type. Returns -1 if server is not supported
+        $current_unix_time = current_time( 'timestamp', true );
+        $tbl = $wpdb->prefix . 'options';
+        $query = "SELECT * FROM ".$tbl." WHERE `option_name` LIKE '%\_transient\_timeout\_aiowps\_captcha\_string\_info%' AND `option_value` < ".$current_unix_time;
+        $res = $wpdb->get_results( $query, ARRAY_A );
+        if(!empty($res)){
+            foreach($res as $item){
+                $transient_name = str_replace('_transient_timeout_', '', $item['option_name']); //extract transient name
+                AIOWPSecurity_Utility::is_multisite_install()?delete_site_transient($transient_name):delete_transient($transient_name);
+            }
+        }
+    }
+
+    /**
+     * Gets server type. 
+     *  
+     * @return string or -1 if server is not supported
+     */
     static function get_server_type()
     {
         //figure out what server they're using
@@ -478,23 +572,29 @@ class AIOWPSecurity_Utility
             return 'nginx';
         } else if (strstr(strtolower(filter_var($_SERVER['SERVER_SOFTWARE'], FILTER_SANITIZE_STRING)), 'litespeed')) {
             return 'litespeed';
+        } else if (strstr(strtolower(filter_var($_SERVER['SERVER_SOFTWARE'], FILTER_SANITIZE_STRING)), 'iis')) {
+            return 'iis';
         } else { //unsupported server
             return -1;
         }
 
     }
 
-    /*
-     * Checks if the string exists in the array key value of the provided array. If it doesn't exist, it returns the first key element from the valid values.
+    /**
+     * Checks if the string exists in the array key value of the provided array. 
+     * If it doesn't exist, it returns the first key element from the valid values.
+     * @param type $to_check
+     * @param type $valid_values
+     * @return type
      */
     static function sanitize_value_by_array($to_check, $valid_values)
     {
         $keys = array_keys($valid_values);
         $keys = array_map('strtolower', $keys);
-        if (in_array($to_check, $keys)) {
+        if (in_array(strtolower($to_check), $keys)) {
             return $to_check;
         }
-        return reset($keys);//Return he first element from the valid values
+        return reset($keys); //Return the first element from the valid values
     }
 
 }

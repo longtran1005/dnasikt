@@ -146,6 +146,7 @@ class AIOWPSecurity_List_404 extends AIOWPSecurity_List_Table {
         $events_table = AIOWPSEC_TBL_LOGIN_LOCKDOWN;
         if (is_array($entries)) {
             //lock multiple records
+            $entries = array_filter($entries, 'is_numeric'); //discard non-numeric ID values
             $id_list = "(" .implode(",",$entries) .")"; //Create comma separate list for DB operation
             $events_table = AIOWPSEC_TBL_EVENTS;
             $query = "SELECT ip_or_host FROM $events_table WHERE ID IN ".$id_list;
@@ -183,6 +184,7 @@ class AIOWPSecurity_List_404 extends AIOWPSecurity_List_Table {
         
         if (is_array($entries)) {
             //Get the selected IP addresses
+            $entries = array_filter($entries, 'is_numeric'); //discard non-numeric ID values
             $id_list = "(" .implode(",",$entries) .")"; //Create comma separate list for DB operation
             $events_table = AIOWPSEC_TBL_EVENTS;
             $query = "SELECT ip_or_host FROM $events_table WHERE ID IN ".$id_list;
@@ -210,12 +212,11 @@ class AIOWPSecurity_List_404 extends AIOWPSecurity_List_Table {
             $aio_wp_security->configs->save_config(); //Save the configuration
 
             $write_result = AIOWPSecurity_Utility_Htaccess::write_to_htaccess(); //now let's write to the .htaccess file
-            if ($write_result == -1)
-            {
+            if ( $write_result ) {
+                AIOWPSecurity_Admin_Menu::show_msg_updated_st(__('The selected IP addresses have been added to the blacklist and will be permanently blocked!', 'WPS'));
+            } else {
                 AIOWPSecurity_Admin_Menu::show_msg_error_st(__('The plugin was unable to write to the .htaccess file. Please edit file manually.','all-in-one-wp-security-and-firewall'));
                 $aio_wp_security->debug_logger->log_debug("AIOWPSecurity_Blacklist_Menu - The plugin was unable to write to the .htaccess file.");
-            }else{
-                AIOWPSecurity_Admin_Menu::show_msg_updated_st(__('The selected IP addresses have been added to the blacklist and will be permanently blocked!', 'WPS'));
             }
         }
         else{
@@ -238,6 +239,7 @@ class AIOWPSecurity_List_404 extends AIOWPSecurity_List_Table {
             {
                 //Delete multiple records
                 $entries = array_map( 'esc_sql', $entries); //escape every array element
+                $entries = array_filter($entries, 'is_numeric'); //discard non-numeric ID values
                 $id_list = "(" . implode(",", $entries) . ")"; //Create comma separate list for DB operation
                 $delete_command = "DELETE FROM " . $events_table . " WHERE id IN " . $id_list;
                 $result = $wpdb->query($delete_command);
@@ -264,7 +266,7 @@ class AIOWPSecurity_List_404 extends AIOWPSecurity_List_Table {
         }
     }
 
-    function prepare_items() {
+    function prepare_items($ignore_pagination=false) {
         /**
          * First, lets decide how many records per page to show
          */
@@ -303,15 +305,17 @@ class AIOWPSecurity_List_404 extends AIOWPSecurity_List_Table {
             $row['status'] = '';
             $new_data[] = $row;
         }
-        $current_page = $this->get_pagenum();
-        $total_items = count($new_data);
-        $new_data = array_slice($new_data, (($current_page - 1) * $per_page), $per_page);
+        if (!$ignore_pagination) {
+            $current_page = $this->get_pagenum();
+            $total_items = count($new_data);
+            $new_data = array_slice($new_data, (($current_page - 1) * $per_page), $per_page);
+            $this->set_pagination_args(array(
+                'total_items' => $total_items, //WE have to calculate the total number of items
+                'per_page' => $per_page, //WE have to determine how many items to show on a page
+                'total_pages' => ceil($total_items / $per_page)   //WE have to calculate the total number of pages
+            ));
+        }
         $this->items = $new_data;
-        $this->set_pagination_args(array(
-            'total_items' => $total_items, //WE have to calculate the total number of items
-            'per_page' => $per_page, //WE have to determine how many items to show on a page
-            'total_pages' => ceil($total_items / $per_page)   //WE have to calculate the total number of pages
-        ));
     }
 
 }

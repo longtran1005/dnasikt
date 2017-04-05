@@ -102,12 +102,8 @@ class AIOWPSecurity_Process_Renamed_Login_Page
         
         //case where someone attempting to reach wp-admin 
         if (is_admin() && !is_user_logged_in() && !defined('DOING_AJAX')){
-            //Check if the maintenance (lockout) mode is active - if so prevent access to site by not displaying 404 page!
-            if($aio_wp_security->configs->get_value('aiowps_site_lockout') == '1'){
-                AIOWPSecurity_WP_Loaded_Tasks::site_lockout_tasks();
-            }else{
-                AIOWPSecurity_Process_Renamed_Login_Page::aiowps_set_404();
-            }
+            //Fix to prevent fatal error caused by some themes and Yoast SEO
+            wp_die( __( 'Not available.', 'all-in-one-wp-security-and-firewall' ), 403 );
         }
 
         //case where someone attempting to reach wp-login
@@ -135,6 +131,15 @@ class AIOWPSecurity_Process_Renamed_Login_Page
 
         $login_slug = $aio_wp_security->configs->get_value('aiowps_login_page_slug');
         $home_url_with_slug = home_url($login_slug, 'relative');
+        
+        /*
+         * Compatibility fix for WPML plugin
+         */
+        if (function_exists('icl_object_id') && strpos($home_url_with_slug,$login_slug)){
+            $home_url_with_slug = home_url($login_slug);
+            function qtranxf_init_language() {}
+        }
+
         /*
          * *** Compatibility fix for qTranslate-X plugin ***
          * qTranslate-X plugin modifies the result for the following command by adding the protocol and host to the url path:
@@ -149,9 +154,14 @@ class AIOWPSecurity_Process_Renamed_Login_Page
 
         if(untrailingslashit($parsed_url['path']) === $home_url_with_slug
                 || (!get_option('permalink_structure') && isset($_GET[$login_slug]))){
-            status_header( 200 );
-            require_once(AIO_WP_SECURITY_PATH . '/other-includes/wp-security-rename-login-feature.php' );
-            die;
+            if(empty($action) && is_user_logged_in()){
+                //if user is already logged in but tries to access the renamed login page, send them to the dashboard
+                AIOWPSecurity_Utility::redirect_to_url(AIOWPSEC_WP_URL."/wp-admin");
+            }else{
+                status_header( 200 );
+                require_once(AIO_WP_SECURITY_PATH . '/other-includes/wp-security-rename-login-feature.php' );
+                die;
+            }
         }        
     }
     
@@ -169,6 +179,8 @@ class AIOWPSecurity_Process_Renamed_Login_Page
     static function aiowps_set_404() 
     {
         global $wp_query;
+        do_action('aiopws_before_set_404'); //This hook is for themes which produce a fatal error when the rename login feature is enabled and someone visits "wp-admin" slug directly
+
         status_header(404);
         $wp_query->set_404();
         if ((($template = get_404_template()) || ($template = get_index_template()))

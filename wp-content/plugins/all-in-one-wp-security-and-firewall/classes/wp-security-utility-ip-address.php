@@ -27,11 +27,12 @@ class AIOWPSecurity_Utility_IP
     static function get_sanitized_ip_range($ip)
     {
         global $aio_wp_security;
-        //$ip = AIOWPSecurity_Utility_IP::get_user_ip_address(); //Get the IP address of user
         $ip_range = '';
         $valid_ip = filter_var($ip, FILTER_VALIDATE_IP); //Sanitize the IP address
         if ($valid_ip)
         {
+            $ip_type = WP_Http::is_ip_address($ip); //returns 4 or 6 if ipv4 or ipv6 or false if invalid
+            if($ip_type == 6 || $ip_type === false) return ''; // for now return empty if ipv6 or invalid IP
             $ip_range = substr($valid_ip, 0 , strrpos ($valid_ip, ".")); //strip last portion of address to leave an IP range
         }
         else
@@ -173,5 +174,43 @@ class AIOWPSecurity_Utility_IP
 
         $return_payload = array(1, array());
         return $return_payload;
-    }    
+    }
+    
+    
+    /**
+     * Checks if IP address matches against the specified whitelist of IP addresses or IP ranges
+     * @global type $aio_wp_security
+     * @param type $ip_address
+     * @param type $whitelisted_ips (newline separated string of IPs)
+     * @return boolean
+     */
+    static function is_ip_whitelisted($ip_address, $whitelisted_ips){
+        global $aio_wp_security;
+        if(empty($ip_address) || empty($whitelisted_ips)) return false;
+        
+        $ip_list_array = AIOWPSecurity_Utility_IP::create_ip_list_array_from_string_with_newline($whitelisted_ips);
+        
+        $visitor_ipParts = explode('.', $ip_address);
+        foreach ($ip_list_array as $white_ip){
+            $ipParts = explode('.', $white_ip);
+            $found = array_search('*', $ipParts);
+            if($found !== false){
+                //Means we have a whitelisted IP range so do some checks
+                if($found == 1){
+                    //means last 3 octets are wildcards - check if visitor IP falls inside this range
+                    if($visitor_ipParts[0] == $ipParts[0]){return true;}
+                }elseif($found == 2){
+                    //means last 2 octets are wildcards - check if visitor IP falls inside this range
+                    if($visitor_ipParts[0] == $ipParts[0] && $visitor_ipParts[1] == $ipParts[1]){return true;}
+                }elseif($found == 3){
+                    //means last octet is wildcard - check if visitor IP falls inside this range
+                    if($visitor_ipParts[0] == $ipParts[0] && $visitor_ipParts[1] == $ipParts[1] && $visitor_ipParts[2] == $ipParts[2]){return true;}
+                }
+            }elseif($white_ip == $ip_address){
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

@@ -33,7 +33,7 @@ class AIOWPSecurity_Filesystem_Menu extends AIOWPSecurity_Admin_Menu
     function get_current_tab() 
     {
         $tab_keys = array_keys($this->menu_tabs);
-        $tab = isset( $_GET['tab'] ) ? $_GET['tab'] : $tab_keys[0];
+        $tab = isset( $_GET['tab'] ) ? sanitize_text_field($_GET['tab']) : $tab_keys[0];
         return $tab;
     }
 
@@ -198,6 +198,13 @@ class AIOWPSecurity_Filesystem_Menu extends AIOWPSecurity_Admin_Menu
             //$this->show_msg_settings_updated();
 
         }
+        else {
+                // Make sure the setting value is up-to-date with current value in WP config
+                $aio_wp_security->configs->set_value('aiowps_disable_file_editing', defined('DISALLOW_FILE_EDIT') && DISALLOW_FILE_EDIT ? '1' : '');
+                $aio_wp_security->configs->save_config();
+                //Recalculate points after the feature status/options have been altered
+                $aiowps_feature_mgr->check_feature_status_and_recalculate_points();
+        }
         ?>
         <h2><?php _e('File Editing', 'all-in-one-wp-security-and-firewall')?></h2>
         <div class="aio_blue_box">
@@ -271,7 +278,7 @@ class AIOWPSecurity_Filesystem_Menu extends AIOWPSecurity_Admin_Menu
             {
                 $this->show_msg_updated(__('You have successfully saved the Prevent Access to Default WP Files configuration.', 'all-in-one-wp-security-and-firewall'));
             }
-            else if($res == -1)
+            else
             {
                 $this->show_msg_error(__('Could not write to the .htaccess file. Please check the file permissions.', 'all-in-one-wp-security-and-firewall'));
             }
