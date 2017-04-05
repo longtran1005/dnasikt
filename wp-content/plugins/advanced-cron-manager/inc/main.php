@@ -80,6 +80,16 @@ class ACMmain {
 	    wp_enqueue_script( 'acm_ajax_scripts', ACM_URL.'assets/js/ajax.js', array('jquery'), 1, true );
 	    wp_enqueue_style( 'acm_style', ACM_URL.'assets/css/style.css' );
 
+	    $task_ex_error = __( 'Task has been executed with errors', 'acm' );
+
+	    if ( ! class_exists( 'ACMPRO' ) ) {
+	    	$task_ex_error .= '. ' . sprintf( __( 'Log them with %s', 'acm' ), '<a href="https://www.wpart.co/downloads/advanced-cron-manager-pro/" target="_blank">' . __( 'Advanced Cron Manager PRO', 'acm' ) . '</a>' );
+	    }
+
+	    wp_localize_script( 'acm_ajax_scripts', 'acm_i18n', array(
+	    	'task_ex_error' => $task_ex_error,
+    	) );
+
 	}
 
 	public function add_menu_page() {
@@ -161,8 +171,8 @@ class ACMmain {
 			echo '<div id="acm-pro" class="postbox ">
 					<h3>'.__('Logs', 'acm').'</h3>
 					<div class="inside placeholder-div">';
-						echo '<h3><a href="http://underdev.it/downloads/advanced-cron-manager-pro/" target="_blank">' . __( 'Log cron executions with Advanced Cron Manager PRO', 'acm' ) . '</a></h3>';
-						echo '<p>' . __( 'Until 1st June 2015 only <strong><strike>$19.99</strike></strong> $14.99!', 'acm' ) . '</p>';
+						echo '<h3><a href="https://www.wpart.co/downloads/advanced-cron-manager-pro/" target="_blank">' . __( 'Log cron executions with Advanced Cron Manager PRO', 'acm' ) . '</a></h3>';
+						echo '<p>' . __( 'Now also with fatal errors catcher', 'acm' ) . '</p>';
 			echo	'</div>
 				</div>';
 
@@ -277,10 +287,10 @@ class ACMmain {
 	public function display_popslide_widget() {
 
 		echo '<p>';
-			_e('Did you ever searched for beautiful minimalistic and non aggressive popup?', 'acm');
+			_e('Did you ever needed email system?', 'acm');
 		echo '</p>';
 
-		echo '<a href=/wp-admin/plugin-install.php?tab=plugin-information&amp;plugin=popslide&amp;TB_iframe=true&amp;width=800&amp;height=600" class="thickbox button-primary" aria-label="'.__('Install Popslide', 'acm').'" data-title="Popslide">'.__('Try Popslide!', 'acm').'</a>';
+		echo '<a href=/wp-admin/plugin-install.php?tab=plugin-information&amp;plugin=notification&amp;TB_iframe=true&amp;width=800&amp;height=600" class="thickbox button-primary" aria-label="'.__('Install Notification', 'acm').'" data-title="Popslide">'.__('Try Notification!', 'acm').'</a>';
 
 	}
 

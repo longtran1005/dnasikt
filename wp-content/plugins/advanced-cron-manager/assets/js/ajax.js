@@ -296,9 +296,7 @@ jQuery(document).ready(function($) {
 			noonce: $(this).data('noonce')
 		};
 
-		console.log(data);
-
-		$.post(ajaxurl, data, function(response) {
+		$.post(ajaxurl, data ).done( function(response) {
 			
 			var ret = $.parseJSON(response);  
 
@@ -315,7 +313,12 @@ jQuery(document).ready(function($) {
 
 			}
 
-		});
+		} ).fail( function(xhr, status, error) {
+	        
+			$("#notif-flex > p >strong").html( acm_i18n.task_ex_error );
+			$("#notif-flex").slideDown('slow').delay(3000).slideUp('slow');
+
+	    } );
 
 	});
 

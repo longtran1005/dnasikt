@@ -184,7 +184,13 @@ class ACMajax {
 		ob_start();
 
 		if ( isset( $params['args'] ) && ! empty( $params['args'] ) ) {
-			do_action_ref_array( $params['task'], $params['args'] );
+
+			if ( is_string( $params['args'] ) ) {
+				$args = explode( ',', $params['args'] );
+			}
+
+			do_action_ref_array( $params['task'], $args );
+			
 		} else {
 			do_action( $params['task'] );
 		}

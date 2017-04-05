@@ -3,8 +3,8 @@ Contributors: Kubitomakita
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=contact%40jmikita%2ecom&lc=US&item_name=Advanced%20Cron%20Manager&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
 Tags: cron, wp cron, manager, cron manager
 Requires at least: 3.6
-Tested up to: 4.2
-Stable tag: 1.4
+Tested up to: 4.7
+Stable tag: 1.5
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,9 +24,10 @@ Plugin use AJAX request so you'll need enabled Javascript in order to use it.
 
 PRO version includes
 
-* Cron Logger - log cron executions easly
+* Cron Logger - log cron's execution times easly
+* Error catcher - catch cron task's fatal errors and get them displayed in the log
 
-[Buy now](http://underdev.it/downloads/advanced-cron-manager-pro/ "Advanced Cron Manager PRO")
+[Buy now](https://www.wpart.co/downloads/advanced-cron-manager-pro/ "Advanced Cron Manager PRO")
 
 **Informations about WP Cron**
 
@@ -61,6 +62,19 @@ It's used for action. For example if your hook is hook_name you'll need to add i
 1. Plugin control panel
 
 == Changelog ==
+
+= 1.5 =
+* [Fixed] Manual execution of task which is giving an errors
+
+= 1.4.4 =
+* [Added] French translation thanks to Laurent Naudier
+* [Changed] Promo box from Popslide plugin to Notification
+
+= 1.4.3 =
+* Metabox promo update
+
+= 1.4.1 =
+* Fixed executing when args are provided
 
 = 1.4 =
 * Added hooks for PRO version
