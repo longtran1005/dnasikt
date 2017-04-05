@@ -1,10 +1,10 @@
 === Black Studio TinyMCE Widget ===
-Contributors: marcochiesi, thedarkmist
+Contributors: black-studio, marcochiesi, thedarkmist
 Donate link: http://www.blackstudio.it/en/wordpress-plugins/black-studio-tinymce-widget/
 Tags: wysiwyg, widget, tinymce, editor, image, media, rich text, rich text editor, visual editor, wysiwyg editor, tinymce editor, widget editor, html editor, wysiwyg widget, html widget, editor widget, text widget, rich text widget, enhanced text widget, tinymce widget, visual widget, image widget, media widget
 Requires at least: 3.1
-Tested up to: 4.2
-Stable tag: 2.2.4
+Tested up to: 4.7
+Stable tag: 2.3.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -29,10 +29,11 @@ This plugin adds a new `Visual Editor` widget type that allows you to insert ric
 
 = Links =
 
-* [Plugin's web page](http://www.blackstudio.it/en/wordpress-plugins/black-studio-tinymce-widget/)
+* [Author's web site](http://www.blackstudio.it/en/)
+* [Plugin's page](http://www.blackstudio.it/en/wordpress-plugins/black-studio-tinymce-widget/)
 * [FAQ](https://wordpress.org/plugins/black-studio-tinymce-widget/faq/)
 * [Support forum](https://wordpress.org/support/plugin/black-studio-tinymce-widget)
-* [Follow us on Twitter](https://twitter.com/blackstudioita)
+* Follow us on [Twitter](https://twitter.com/blackstudioita), [Facebook](https://www.facebook.com/blackstudiocomunicazione) and [LinkedIn](https://www.linkedin.com/company/black-studio)
 
 = Get involved =
 
@@ -92,8 +93,9 @@ When dealing with a WordPress site URL change it is necessary to face the serial
 
 = How to translate widgets using WPML =
 
-The current version of `Black Studio TinyMCE Widget` plugin works together with the `WPML String translation` plugin. To translate a widget created with `Black Studio TinyMCE Widget` plugin you have to create it on the widgets panel and then go to `WPML` => `String translation` and translate the title and text from there (unfortunately the translation textarea has not the visual editor).
-Note: If you installed WPML after the creation of the widgets, just re-save them and they will appear on the String translation list.
+[WPML](https://wpml.org) is the leading commercial plugin for WordPress multi-language sites.
+If you're using WPML, we recommend to install also the 3rd party [WPML Widgets](https://wordpress.org/plugins/wpml-widgets/) plugin, which will allow you to create widgets and assign them to specific languages, keeping the ability to work with the visual editor.
+Alternatively you may use the WPML String Translation plugin, provided by the WPML team. In this case, you'll have to create the widgets in the widgets admin panel, using the Visual Editor provided by the Black Studio TinyMCE Widget plugin, and then go to WPML => String Translation and translate title and body of widgets. If you installed WPML after the creation of the widgets, just re-save them and they will appear on the String Translation list. Unfortunately the WPML String Translation interface has no Visual Editor, that's why we no longer recommend this method. If you were using WPML String Translation, we recommend to switch to WPML Widgets and remove the entries in WPML String Translation list after you moved them to be real widgets.
 
 = How to embed video and other contents =
 
@@ -109,22 +111,22 @@ The appearance of widgets in the frontend depends on both CSS and HTML. This plu
 As for the HTML, most of the markup is controlled by WordPress and by the theme.
 The HTML output of a widget includes the following parts:
 `
-[before_widget]
-	[before_title]
-		[title]
-	[after_title]
-	[before_text]
-		[text]
-	[after_text]
-[after_widget]
+{before_widget}
+	{before_title}
+		{title}
+	{after_title}
+	{before_text}
+		{text}
+	{after_text}
+{after_widget}
 `
 which can be customized as following:
 
-* The `[title]` and `[text]` are the values that you insert in Widgets administration panel.
-* The markup  of `[before_widget]`, `[after_widget]`, `[before_title]`, `[after_title]` is usually defined by your theme when registering a sidebar with the [`register_sidebar`](http://codex.wordpress.org/Function_Reference/register_sidebar) function. 
-* The `[before_text]` and `[after_text]` are the only piece of HTML markup added by the plugin. The default markup is the same as native WordPress text widgets to ensure visual compatibility with styles created for text widgets: `<div class="textwidget"> [text] </div>`. You may customize the markup using the `black_studio_tinymce_before_text` and `black_studio_tinymce_after_text` filter hooks. They both take two parameters, the first is the default text and the second is the widget instance. See examples below.
+* The `{title}` and `{text}` are the values that you insert in Widgets administration panel.
+* The markup  of `{before_widget}`, `{after_widget}`, `{before_title}`, `{after_title}` is usually defined by your theme when registering a sidebar with the [`register_sidebar`](http://codex.wordpress.org/Function_Reference/register_sidebar) function. 
+* The `{before_text}` and `{after_text}` are the only piece of HTML markup added by the plugin. The default markup is the same as native WordPress text widgets to ensure visual compatibility with styles created for text widgets: `<div class="textwidget"> {text} </div>`. You may customize the markup using the `black_studio_tinymce_before_text` and `black_studio_tinymce_after_text` filter hooks. They both take two parameters, the first is the default text and the second is the widget instance. See examples below.
 
-Example 1: Custom markup for `[before_text]` and `[after_text]`
+Example 1: Custom markup for `{before_text}` and `{after_text}`
 `
 add_filter( 'black_studio_tinymce_before_text', 'my_widget_before_text', 10, 2 );
 function my_widget_before_text( $before_text, $instance ) {
@@ -178,6 +180,41 @@ function remove_bstw_widget_text_filters() {
 Plugin's data is stored in serialized format inside a record in the `wp_options` table having `option_name` = `'widget_black-studio-tinymce'`. Data storage is handled by WordPress and not directly by the plugin itslef. The widgets data is intentionally kept in the datatbase upon plugin deactivation / deletion to avoid content loss. If you want to totally remove the plugin including its data, just remove that record after plugin removal.
 
 == Changelog ==
+
+= 2.3.1 (2016-11-18) =
+* Fix: Prevent unwanted translations for widget titles when WPML Widgets plugin is active
+
+= 2.3.0 (2016-11-17) =
+* Enhanced integration with WPML and Page Builder
+* Added new action hooks (black_studio_tinymce_before_widget and black_studio_tinymce_after_widget)
+
+= 2.2.12 (2016-09-23) =
+* Fixed issue with Page Builder's Live Editor
+
+= 2.2.11 (2016-08-19) =
+* Fixed compatibility issue with Polylang in Customizer
+
+= 2.2.10 (2016-06-08) =
+* Fixed menubar transparency issue with Page Builder + TinyMCE Advanced
+
+= 2.2.9 (2016-04-22) =
+* Fixed compatibility issue with Page Builder + WPML String Translation
+* Fixed minor z-index issue with new inline link dialog (WordPress 4.5)
+
+= 2.2.8 (2015-09-16) =
+* Fixed link dialog z-index issue in Customizer
+
+= 2.2.7 (2015-09-03) =
+* Fixed issue with Customizer when clicking on the widget title arrow (courtesy of Syhlver)
+
+= 2.2.6 (2015-08-25) =
+* Fixed content duplication issue with Page Builder + WPML String Translation
+
+= 2.2.5 (2015-07-11) =
+* Fixed z-index issue on Styles dropdown in Customizer
+* Added workaround to avoid glitches in Customizer
+* Fixed extra slashes in inclusions using plugin_dir_path
+* Added Persian translation (courtesy of WP-Translation.org team on Transifex)
 
 = 2.2.4 (2015-05-14) =
 * Fixed issue with WordPress Theme Customizer
@@ -419,5 +456,5 @@ Plugin's data is stored in serialized format inside a record in the `wp_options`
 
 == Upgrade Notice ==
 
-= 2.2.4 =
+= 2.3.1 =
 Version 2.x is a major update. If you are upgrading from version 1.x please ensure to backup your database before upgrading.
