@@ -201,6 +201,18 @@ EOT;
 
 		$logged_in = is_user_logged_in();
 
+		//Check cookie was enabled
+		if($logged_in)
+		{
+			$already_voted = (bool) $_POST['already_voted'];
+		} else {
+			if(count($_COOKIE) == 0 || (count($_COOKIE) == 1 && isset($_COOKIE['PHPSESSID']))){
+				$already_voted = 1;
+			} else {
+				$already_voted = (bool) $_POST['already_voted'];
+			}
+		}
+
 		$reply_id 	= $_POST['reply_id'];
 		$prev_reply_id 	= ($_POST['prev_reply_id'] != 0) ? $_POST['prev_reply_id'] : $reply_id  ;
 
@@ -323,20 +335,16 @@ EOT;
 		// }
 
 		$logged_in = is_user_logged_in();
-
+		//Check cookie was enabled
 		//Check cookie was enabled
 		if($logged_in)
 		{
 			$already_voted = (bool) $_POST['already_voted'];
 		} else {
-			if(count($_COOKIE) != 0 ){
-				if(!isset($_COOKIE['xoss_p_simple'])) {
-					$already_voted = 1;
-				} else {
-					$already_voted = (bool) $_POST['already_voted'];
-				}
-			} else {
+			if(count($_COOKIE) == 0 || (count($_COOKIE) == 1 && isset($_COOKIE['PHPSESSID']))){
 				$already_voted = 1;
+			} else {
+				$already_voted = (bool) $_POST['already_voted'];
 			}
 		}
 
