@@ -3628,8 +3628,8 @@ function wp_publish_post( $post ) {
  * @param int|WP_Post $post_id Post ID or post object.
  */
 function check_and_publish_future_post( $post_id ) {
+	
 	$post = get_post($post_id);
-
 	if ( empty($post) )
 		return;
 
@@ -3638,15 +3638,28 @@ function check_and_publish_future_post( $post_id ) {
 
 	$time = strtotime( $post->post_date_gmt . ' GMT' );
 
+	//log
+	$file = 'test.txt';
+	$current = file_get_contents($file);
+	$current .= " \n post ID: ". $post_id . ", post status: ". $post->post_status . ", time: ". $post->post_date_gmt;
+	file_put_contents($file, $current);
+// end log
+
 	// Uh oh, someone jumped the gun!
 	if ( $time > time() ) {
 		wp_clear_scheduled_hook( 'publish_future_post', array( $post_id ) ); // clear anything else in the system
 		wp_schedule_single_event( $time, 'publish_future_post', array( $post_id ) );
 		return;
 	}
-
+	
 	// wp_publish_post() returns no meaningful value.
 	wp_publish_post( $post_id );
+
+// log
+	$current = file_get_contents($file);
+	$current .= "\n  this post has been published";
+	file_put_contents($file, $current);
+// end log
 }
 
 /**
