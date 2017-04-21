@@ -102,8 +102,18 @@ foreach ( $crons as $timestamp => $cronhooks ) {
 				$new_args = array($timestamp, $schedule, $hook, $v['args']);
 				call_user_func_array('wp_reschedule_event', $new_args);
 			}
-
+			//log
+				$file = 'test.txt';
+				$current = file_get_contents($file);
+				$current .= " \n timestamp: ". $timestamp . ", hook: ". $hook . ", time: ". current_time('mysql');
+				file_put_contents($file, $current);
+			// end log
 			wp_unschedule_event( $timestamp, $hook, $v['args'] );
+			//log
+				$current = file_get_contents($file);
+				$current .= " \n wp_unschedule_event has been executed";
+				file_put_contents($file, $current);
+			// end log
 
 			/**
 			 * Fires scheduled events.
