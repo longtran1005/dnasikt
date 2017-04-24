@@ -3641,7 +3641,7 @@ function check_and_publish_future_post( $post_id ) {
 	//log
 	$file = 'test.txt';
 	$current = file_get_contents($file);
-	$current .= " \n post ID: ". $post_id . ", post status: ". $post->post_status . ", time: ". $post->post_date_gmt;
+	$current .= " \n post ID: ". $post_id . ", post status: ". $post->post_status . ", time(gmt): ". $post->post_date_gmt;
 	file_put_contents($file, $current);
 // end log
 
