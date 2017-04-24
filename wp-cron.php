@@ -110,7 +110,10 @@ foreach ( $crons as $timestamp => $cronhooks ) {
 				if ($postID !=='') {
 					$current.= ", post ID :" . $postID;
 				}
-				file_put_contents($file, $current);
+				if($hook !== 'send_notifications') {
+					file_put_contents($file, $current);
+				}
+
 			// end log
 			wp_unschedule_event( $timestamp, $hook, $v['args'] );
 			//log
