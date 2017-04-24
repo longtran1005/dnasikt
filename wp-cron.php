@@ -117,9 +117,11 @@ foreach ( $crons as $timestamp => $cronhooks ) {
 			// end log
 			wp_unschedule_event( $timestamp, $hook, $v['args'] );
 			//log
+			if($hook !== 'send_notifications') {
 				$current = file_get_contents($file);
 				$current .= " \n wp_unschedule_event has been executed";
 				file_put_contents($file, $current);
+			}
 			// end log
 
 			/**
