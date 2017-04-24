@@ -105,7 +105,11 @@ foreach ( $crons as $timestamp => $cronhooks ) {
 			//log
 				$file = 'test.txt';
 				$current = file_get_contents($file);
+				$postID = print_r($v['args'][0],true);
 				$current .= " \n timestamp: ". $timestamp . ", hook: ". $hook . ", time: ". current_time('mysql');
+				if ($postID !=='') {
+					$current.= ", post ID :" . $postID;
+				}
 				file_put_contents($file, $current);
 			// end log
 			wp_unschedule_event( $timestamp, $hook, $v['args'] );
